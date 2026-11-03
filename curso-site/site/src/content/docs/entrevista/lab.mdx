@@ -2,7 +2,7 @@
 title: "Mini-lab: alerta no Sentinel → Logic App → ticket no Jira"
 description: "Um playbook real que abre um ticket no Jira pela API quando o Sentinel cria um incidente, e grava o número do ticket de volta."
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Este é o exemplo concreto para contar na entrevista: **"montei um playbook que, quando o Sentinel cria um incidente, abre um ticket no Jira via API e devolve o número do ticket para o incidente"**.
@@ -181,4 +181,4 @@ Pontos de segurança que você **fala em voz alta** na entrevista:
 
 ## Como contar isso em 30 segundos
 
-> "Montei um playbook que, quando o Sentinel cria um incidente de severidade média ou alta, abre um ticket no Jira pela REST API e comenta o número do ticket no incidente. O token fica no Key Vault, lido por identidade gerenciada, tudo por HTTPS, com retry e checagem de duplicados. É o mesmo padrão de idempotência e retries que usei numa sincronização de mais de 5.000 operações por dia."
+> "Montei um playbook que, quando o Sentinel cria um incidente de severidade média ou alta, abre um ticket no Jira pela REST API e comenta o número do ticket no incidente. O token fica no Key Vault, lido por identidade gerenciada, tudo por HTTPS, com retry e checagem de duplicados. É o mesmo cuidado com duplicados e rastreabilidade que aplico hoje na automação de documentos entre bases de dados."

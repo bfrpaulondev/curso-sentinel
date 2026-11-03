@@ -1,0 +1,128 @@
+---
+title: "IA soberana e LLMs"
+description: "O que é IA soberana, como se cria e opera um LLM próprio, segurança de LLM e IA no SOC — com perguntas e respostas para entrevista."
+sidebar:
+  order: 4
+---
+
+Empresas que estão criando **a própria IA** vão perguntar se você entende o básico: por que ter um modelo próprio, como ele é construído, como se protege e como se opera. Você não precisa ter treinado um modelo — precisa mostrar **raciocínio certo e honestidade** sobre onde está a sua experiência.
+
+## 1. O que é IA soberana
+
+**Em uma frase:** IA soberana é ter **os dados, o modelo e a infraestrutura sob controle próprio** (da empresa ou do país), em vez de depender de um serviço de terceiros fora da sua jurisdição.
+
+| Peça | O que significa "soberano" |
+|---|---|
+| **Dados** | Ficam em servidores na UE/Portugal (**residência de dados**), não são usados para treinar modelos de terceiros. |
+| **Modelo** | Pesos (o "cérebro" do modelo, um arquivo enorme de números) que a empresa possui e pode auditar e adaptar. |
+| **Infraestrutura** | **On-prem** (servidores e GPUs próprios) ou **cloud soberana** (nuvem operada sob lei europeia, com controle de acesso e chaves de criptografia da empresa). |
+| **Operação** | Quem pode acessar, logs, auditoria e atualizações decididos internamente. |
+
+**Termos simples:**
+- **LLM** (Large Language Model) — modelo de linguagem grande; prevê a próxima palavra e, com isso, conversa, resume, classifica.
+- **Open-weight** — modelo cujos pesos podem ser baixados e rodados por você: famílias **Llama** (Meta), **Mistral** (francesa), **Qwen** (Alibaba). Cada um tem a sua licença; ler a licença faz parte do trabalho.
+- **RGPD** — lei europeia de proteção de dados pessoais: base legal, minimização, direito ao apagamento. Se dados pessoais entram no treino, é difícil "tirá-los" depois.
+- **AI Act** — regulamento europeu de IA (UE 2024/1689). Classifica sistemas por **risco** (proibido, alto, limitado, mínimo), cria obrigações para modelos de uso geral e entra em aplicação por fases entre 2025 e 2027 — confira o calendário atualizado antes da entrevista.
+
+**Por que uma empresa de segurança quer IA própria?** Logs de clientes são confidenciais: mandar isso para uma API externa pode violar contrato e RGPD. Com um modelo próprio, o dado **não sai de casa**.
+
+## 2. Ciclo de criar um LLM próprio
+
+Quase ninguém treina do zero (custa milhões). O normal é **partir de um modelo open-weight e adaptar**.
+
+1. **Definir o caso de uso e a métrica** — "resumir incidentes com 95% dos campos corretos", não "ter uma IA".
+2. **Escolher o modelo base** — tamanho (7B, 14B, 70B parâmetros), licença, idioma (português!), janela de contexto, custo de rodar.
+3. **RAG ou fine-tuning?**
+   - **RAG** (Retrieval-Augmented Generation): o modelo **consulta** os seus documentos na hora de responder (busca num banco vetorial e cola os trechos no prompt). Bom para conhecimento que muda: procedimentos, base de incidentes. **Comece por aqui.**
+   - **Fine-tuning**: **retreinar** um pouco o modelo com exemplos seus, para mudar estilo ou formato. **LoRA** é o jeito barato: treina só pequenas "camadas extras" em vez do modelo todo.
+4. **Dados e curadoria** — limpar, tirar dados pessoais (anonimizar), remover duplicados, rotular, versionar. Lixo entra, lixo sai.
+5. **Avaliação (evals)** — um conjunto fixo de perguntas com respostas esperadas, rodado a cada versão: precisão, alucinação (inventar coisas), segurança, tempo de resposta. É o "teste automatizado" do modelo.
+6. **Serving** (colocar no ar) — **vLLM** para produção com muitos usuários (alto desempenho em GPU); **Ollama** para rodar localmente e prototipar. Expor por uma API interna, com autenticação.
+7. **Quantização** — guardar os números do modelo com menos precisão (ex.: 16 → 4 bits). O modelo fica ~4× menor e cabe em GPUs mais baratas, com pequena perda de qualidade.
+8. **GPUs e custos** — a memória da GPU (VRAM) define que modelo cabe. Custo = GPU (compra ou hora de nuvem) + energia + equipe. Regra prática: o menor modelo que passa nos evals é o certo.
+
+## 3. Segurança de LLM — OWASP Top 10 para LLM (2025)
+
+| # | Risco | Em palavras simples | Defesa |
+|---|---|---|---|
+| LLM01 | **Prompt injection** | Texto malicioso (direto ou escondido num documento/log) que faz o modelo desobedecer às regras. | Separar instrução de dado, filtros, menor privilégio das ferramentas, humano nas ações de risco. |
+| LLM02 | **Divulgação de informação sensível** | O modelo vaza dados de clientes ou segredos. | Não treinar com dados sensíveis, filtrar saída, controle de acesso no RAG. |
+| LLM03 | Cadeia de fornecimento | Modelo ou biblioteca baixados com problema. | Fontes confiáveis, verificar hash/licença. |
+| LLM04 | Envenenamento de dados/modelo | Dados de treino manipulados. | Curadoria e proveniência dos dados. |
+| LLM05 | Tratamento inadequado da saída | Usar a resposta do modelo sem validar (ex.: executar SQL gerado). | Tratar a saída como entrada não confiável. |
+| LLM06 | Agência excessiva | Agente com permissões demais. | Ferramentas mínimas, aprovação humana. |
+| LLM07 | Vazamento do system prompt | Expor as instruções internas. | Não colocar segredos no prompt. |
+| LLM08 | Fraquezas em vetores/embeddings | RAG devolve documento que o usuário não podia ver. | Permissões aplicadas na busca. |
+| LLM09 | Desinformação | Alucinação tratada como verdade. | Evals, citar fontes, revisão humana. |
+| LLM10 | Consumo ilimitado | Abuso que derruba ou encarece o serviço. | Rate limit, cotas, limites de tokens. |
+
+- **Guardrails** — "grades de proteção": regras e filtros antes e depois do modelo (bloquear temas, mascarar dados pessoais, validar formato).
+- **Red teaming de LLM** — atacar o próprio modelo de propósito (injeções, pedidos proibidos, tentativas de vazamento) antes que alguém de fora o faça.
+- **Logs dos prompts para o SIEM** — registrar quem perguntou, quando, que ferramentas o modelo usou e se um guardrail disparou, **mascarando dados sensíveis**, e enviar ao SIEM por canal seguro (HTTPS/TLS). Assim dá para criar regras do tipo "10 tentativas de injection do mesmo usuário em 5 minutos".
+
+## 4. LLMOps — operar o modelo no dia a dia
+
+LLMOps é o "DevOps dos modelos": versionar modelo, prompts e dados; rodar os evals no **CI** antes de publicar; publicar aos poucos; e **monitorar** latência, custo por pedido, taxa de erro, guardrails disparados, notas de feedback dos usuários e **drift** (a qualidade caindo porque os dados mudaram).
+
+## 5. IA no SOC
+
+- **Triagem de alertas** — o modelo resume o alerta, junta contexto e sugere prioridade; o analista decide.
+- **Relatórios validados** — o modelo redige; regras automáticas conferem números e campos; um humano aprova antes de ir para o cliente (**humano no ciclo**).
+- **Consultas** — sugerir KQL a partir de uma pergunta em português, sempre revisada antes de rodar.
+
+## Perguntas prováveis
+
+### 1. O que é IA soberana?
+*EN: What is sovereign AI?*
+
+> É ter dados, modelo e infraestrutura sob o nosso controle: dados residentes na UE, modelo open-weight que podemos auditar e adaptar, rodando on-prem ou numa cloud soberana. Para uma empresa de segurança isso é essencial, porque logs de clientes não podem sair para serviços de terceiros — por RGPD, por contrato e agora também pelo AI Act.
+
+*EN: "Keeping data, model and infrastructure under our own control — EU data residency, an open-weight model we can audit and adapt, on-prem or on a sovereign cloud — so client data never leaves our boundary."*
+
+### 2. Você já criou um LLM?
+*EN: Have you ever built an LLM?*
+
+> Não treinei um modelo do zero, e quase nenhuma empresa faz isso. A minha experiência é **usar e integrar** modelos: no dia a dia uso ChatGPT, Codex e Claude Code com prompts com contexto, regras de negócio e critérios de aceitação, e valido tudo antes de integrar. No projeto pessoal Antonella exploro agentes de programação e a colaboração entre ferramentas de IA, organizado com pull requests, revisão de código e CI. Sei o caminho para um modelo próprio — base open-weight, RAG primeiro, fine-tuning com LoRA se precisar, evals, serving com vLLM — e é exatamente isso que quero aprender a fundo com vocês.
+
+*EN: "I haven't trained a model from scratch. My hands-on experience is using and integrating LLMs and coding agents with strong context and human review — like in my personal project, Antonella. I know the path: open-weight base, RAG first, LoRA fine-tuning if needed, evals and vLLM serving."*
+
+### 3. RAG ou fine-tuning?
+*EN: RAG or fine-tuning?*
+
+> Começo por RAG: é mais barato, o conhecimento atualiza sem retreinar e dá para citar a fonte. Fine-tuning (de preferência LoRA) uso quando preciso mudar o **comportamento** — formato fixo de relatório, jargão da empresa. Muitas vezes o melhor é os dois juntos. A decisão vem dos evals, não do gosto.
+
+### 4. Como você garantiria que o modelo não inventa coisas?
+*EN: How do you deal with hallucinations?*
+
+> Com evals antes de cada versão, RAG com fontes citadas, validação automática da saída (campos e números conferidos contra os dados) e humano aprovando o que vai para o cliente. É o que já faço com código gerado por IA: nada entra sem revisão e teste.
+
+### 5. Quais os principais riscos de segurança de um LLM?
+*EN: What are the main security risks of an LLM?*
+
+> Uso o OWASP Top 10 para LLM como mapa. Os que mais me preocupam numa IA interna de segurança: **prompt injection** — um log malicioso pode conter instruções para o modelo —, **vazamento de dados sensíveis** e **agência excessiva**, quando o agente tem permissão para agir sozinho. Defesa: tratar todo dado como não confiável, guardrails na entrada e na saída, menor privilégio nas ferramentas, aprovação humana em ações de risco e red teaming do próprio modelo.
+
+### 6. Como você monitoraria esse modelo?
+*EN: How would you monitor the model in production?*
+
+> Logs de cada pedido — usuário, horário, ferramentas usadas, guardrails disparados, com dados sensíveis mascarados — enviados ao SIEM por HTTPS/TLS, com regras de detecção para abuso e injection. E métricas de LLMOps: latência, custo, erros, feedback e drift. Já implementei logs de erros e validação controlada de mudanças em produção num sistema legado; aqui é a mesma disciplina.
+
+### 7. Como colocaria um modelo para rodar internamente?
+*EN: How would you serve a model internally?*
+
+> Para protótipo, Ollama numa máquina com GPU. Para produção, vLLM atrás de uma API interna com autenticação, rate limit e logs — eu crio APIs REST com Node.js no dia a dia, então a camada de integração é terreno conhecido. Se a GPU for pequena, um modelo quantizado em 4 bits, desde que passe nos evals. Empacoto com Docker e publico com pipeline no GitHub Actions.
+
+### 8. Como a IA ajudaria um SOC?
+*EN: How can AI help a SOC?*
+
+> Triagem: resumir o alerta e sugerir prioridade. Relatórios: redigir, validar automaticamente e um humano aprovar. Consultas: sugerir KQL revisado. A regra é a que já uso no desenvolvimento assistido por IA: a IA acelera, a pessoa decide e valida.
+
+## Armadilhas
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "Mandamos os logs dos clientes para o ChatGPT resumir." | "Dados de clientes ficam dentro do perímetro: modelo próprio ou cloud soberana, com dados mascarados." |
+| "Vamos treinar o nosso modelo do zero." | "Partimos de um open-weight e adaptamos com RAG e, se preciso, LoRA." |
+| "O agente fecha incidentes e bloqueia IPs sozinho." | "Ações de risco têm aprovação humana; o agente só tem as permissões mínimas." |
+| "Já criei vários LLMs." (sem ter criado) | "Integro e uso LLMs e agentes com revisão; conheço o ciclo e quero aprofundar." |
+| "Open source, então a licença não importa." | "Cada modelo open-weight tem a sua licença; reviso antes de usar." |
+| "Se a resposta parece boa, está certa." | "Evals e validação automática; o modelo pode alucinar." |

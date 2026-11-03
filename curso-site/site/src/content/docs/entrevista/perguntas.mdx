@@ -34,7 +34,7 @@ Cada pergunta tem a versão em inglês (caso a entrevista mude de língua) e uma
 ### 5. Como você integraria o SIEM com uma ferramenta de tickets (ITSM)?
 *EN: How would you integrate the SIEM with an ITSM tool?*
 
-> Uso um playbook acionado pela criação do incidente. Ele lê título, severidade e entidades (IP, usuário, host), chama a **API REST** do ITSM via HTTPS, autenticado com um token guardado num **cofre de segredos** (Key Vault), e grava o número do ticket de volta no incidente como comentário. Assim os dois lados ficam ligados. Cuido de **idempotência** (não abrir ticket duplicado se o playbook rodar duas vezes) e de **retries** se a API falhar — é exatamente o que fiz num projeto de sincronização entre sistemas com mais de 5.000 operações por dia.
+> Uso um playbook acionado pela criação do incidente. Ele lê título, severidade e entidades (IP, usuário, host), chama a **API REST** do ITSM via HTTPS, autenticado com um token guardado num **cofre de segredos** (Key Vault), e grava o número do ticket de volta no incidente como comentário. Assim os dois lados ficam ligados. Cuido de **idempotência** (não abrir ticket duplicado se o playbook rodar duas vezes) e de **retries** se a API falhar — o mesmo cuidado que tenho hoje na automação de documentos entre bases de dados, com controle de duplicados e rastreabilidade.
 
 ### 6. O que são workbooks, workflows e playbooks?
 *EN: What are workbooks, workflows and playbooks?*
@@ -44,7 +44,7 @@ Cada pergunta tem a versão em inglês (caso a entrevista mude de língua) e uma
 ### 7. Como você automatizaria um relatório e garantiria que os dados estão certos?
 *EN: How would you automate a report and make sure the data is correct?*
 
-> Separo em três passos: **coletar** (uma consulta agendada que extrai os números), **validar** (regras automáticas: totais batem? Há dias sem dados? Algum valor fora do normal?) e **entregar** (PDF ou painel enviado automaticamente). Uma IA pode ajudar a resumir e a apontar anomalias, mas com **supervisão humana** e regras claras — é como trabalho com automação e IA aplicada nos meus projetos. Com SQL faço esse tipo de conferência no dia a dia, inclusive em bases de ERP como o PHC.
+> Separo em três passos: **coletar** (uma consulta agendada que extrai os números), **validar** (regras automáticas: totais batem? Há dias sem dados? Algum valor fora do normal?) e **entregar** (PDF ou painel enviado automaticamente). Uma IA pode ajudar a resumir e a apontar anomalias, mas com **supervisão humana** e regras claras — é como uso IA no desenvolvimento: gero com ela, mas reviso e valido antes de integrar. Com T-SQL faço esse tipo de conferência no dia a dia, em bases do PHC CS Enterprise.
 
 ### 8. Como você receberia logs de um sistema externo via API?
 *EN: How would you ingest logs from an external system through an API?*
@@ -57,9 +57,11 @@ Cada pergunta tem a versão em inglês (caso a entrevista mude de língua) e uma
 > O red team simula o atacante. As ferramentas dele (scanners, frameworks de teste de intrusão) geram relatórios e, principalmente, **provam se as detecções funcionam**. Se o red team fez um ataque e o SIEM não alertou, encontramos uma lacuna antes do atacante real. Integrar esses resultados ao SIEM e automatizar o relatório fecha o ciclo.
 
 ### 10. Qual a sua base de IA?
-*EN: What do you know about AI?*
+*EN: What's your background in AI?*
 
-> Uso IA de forma aplicada: extração e classificação de informação, automação de tarefas repetitivas e decisões assistidas, sempre com regras claras e uma pessoa validando. Na segurança, vejo usos como triagem de alertas, resumo de incidentes e validação de relatórios. Também sei os riscos: dados sensíveis não podem vazar para o modelo, e a resposta precisa ser conferida.
+> Uso IA generativa no dia a dia de desenvolvimento: ChatGPT, Codex e Claude Code para analisar código, implementar, diagnosticar erros e documentar. O que faz diferença é o **contexto**: escrevo prompts com regras de negócio, restrições do legado e critérios de aceitação, e **reviso e valido** tudo antes de integrar. No projeto pessoal Antonella exploro agentes de programação e a colaboração entre ferramentas de IA, com PR, revisão e CI. Na segurança vejo a IA em triagem de alertas e validação de relatórios — sempre com humano no ciclo. Para a parte de IA soberana e LLMs, veja a [página dedicada](/curso-sentinel/entrevista/ia-soberana/).
+
+*EN: "I use generative AI daily for software work — ChatGPT, Codex, Claude Code — with context-rich prompts and I always review and validate the output before merging. In my personal project, Antonella, I explore coding agents with PRs, code review and CI."*
 
 ## Parte B — Perguntas pessoais
 
@@ -71,7 +73,7 @@ Cada pergunta tem a versão em inglês (caso a entrevista mude de língua) e uma
 ### 12. Por que você quer sair da empresa atual?
 *EN: Why do you want to leave your current company?*
 
-> Não é por estar fugindo de algo — gosto do que faço lá: dashboards, APIs, automação e sistemas internos. É porque quero **me especializar em segurança**, e esta vaga junta exatamente o que já sei fazer (integrações, APIs, automação, dados) com a área onde quero crescer.
+> Não é por estar fugindo de algo — gosto do que faço lá: aplicações integradas com o PHC, APIs, workflows e automação. É porque quero **me especializar em segurança**, e esta vaga junta exatamente o que já sei fazer (integrações, APIs, automação, dados) com a área onde quero crescer.
 
 :::caution
 Nunca fale mal da empresa atual. Fale do que você **busca**, não do que está **evitando**.
@@ -85,9 +87,9 @@ Nunca fale mal da empresa atual. Fale do que você **busca**, não do que está 
 ### 14. Como está o seu inglês?
 *EN: How is your English?*
 
-> Entre 2020 e 2024 entreguei mais de 20 produtos para clientes internacionais, e a documentação técnica que uso no dia a dia é em inglês. Na conversa técnica me sinto seguro e continuo melhorando. *(Ajuste ao seu nível real — honestidade aqui vale mais que exagero.)*
+> Comunico em inglês em contexto profissional: entre 2020 e 2024 trabalhei com clientes de vários países, incluindo os EUA. No técnico me sinto seguro e continuo melhorando. *(É o mesmo nível que está no CV: "comunicação em contexto profissional" — não exagere.)*
 
 ### 15. Por que segurança?
 *EN: Why security?*
 
-> Passei anos construindo integrações e sistemas onde um erro custa caro — idempotência, logs, alertas, trilha de auditoria. Percebi que a parte de que mais gosto é justamente essa: garantir que os dados chegam certos e protegidos. Segurança é o próximo passo natural, e tenho **fome de aprender**: estou montando laboratórios próprios com Sentinel, KQL, syslog com TLS e VPN IPsec.
+> Há mais de seis anos construo integrações onde erro custa caro: permissões de acesso, controle de duplicados, rastreabilidade, logs de erros e validação antes de ir para produção. A parte de que mais gosto é justamente essa — garantir que a informação chega certa, protegida e auditável. Segurança é o próximo passo natural, e tenho **fome de aprender**: estou montando laboratórios próprios com Sentinel, KQL, syslog com TLS e VPN IPsec.
