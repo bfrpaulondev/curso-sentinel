@@ -1,0 +1,47 @@
+---
+title: "Pitch de 1 minuto e a sua história"
+description: "O que é SIEM em 1 minuto e a trajetória de desenvolvedor web até DevSecOps."
+sidebar:
+  order: 3
+---
+
+## Pitch: "O que é um SIEM?" (≈ 1 minuto)
+
+> Um SIEM é o cérebro de monitoração de um SOC. Ele recebe os logs de tudo — servidores, firewalls, VPN, aplicações, nuvem — e guarda num só lugar.
+>
+> Com isso ele faz três coisas. **Primeiro, correlaciona**: dez falhas de login num servidor podem não dizer nada, mas dez falhas seguidas de um login bem-sucedido, vindo de um país estranho, é um alerta. **Segundo, alerta e organiza**: agrupa alertas em incidentes, com as entidades envolvidas — IP, usuário, máquina. **Terceiro, dispara a resposta**: com SOAR, um playbook abre o ticket, enriquece o incidente e, se for o caso, contém o ataque.
+>
+> E tudo isso só funciona se a ingestão for **confiável e segura**: logs viajando por TLS, VPN ou HTTPS, com alerta se uma fonte parar. É nessa parte de integração que eu entro.
+
+*EN: "A SIEM is the SOC's central brain. It collects logs from servers, firewalls, VPNs, apps and cloud into one place, correlates events into meaningful alerts, groups them into incidents with entities like IPs and users, and triggers automated response through SOAR playbooks. None of it works without reliable, secure ingestion — TLS, VPN or HTTPS — and that integration layer is where I add value."*
+
+## A sua história (≈ 2 minutos)
+
+Estrutura: **de onde vim → o que construí → por que segurança → por que esta vaga**.
+
+> Sou engenheiro de software, baseado em Portugal, com mais de cinco anos construindo aplicações web e mobile, APIs, integrações e automações.
+>
+> Entre 2020 e 2024 trabalhei como full stack para clientes internacionais e entreguei mais de 20 produtos — SaaS, dashboards e plataformas web. Entre 2023 e 2024 também trabalhei com React, React Native e Angular integrando com backend Java/Spring Boot. Num dos meus projetos, uma migração gradual de um Angular legado para TypeScript com contratos REST tipados e testes reduziu pela metade os bugs críticos.
+>
+> Desde 2025 trabalho como Software Developer fazendo dashboards analíticos, APIs, automação e sistemas internos, com muito SQL e também com o ERP PHC.
+>
+> O projeto que mais me aproximou de segurança foi uma **sincronização entre sistemas críticos**: mais de 5.000 operações por dia com 99,9% de precisão. Para chegar lá precisei de eventos explícitos, retries seguros, idempotência, logs e alertas operacionais — que é, no fundo, o mesmo raciocínio de ingestão e resposta de um SIEM.
+>
+> Percebi que gosto justamente dessa camada: garantir que a informação chega certa, protegida e auditável. Por isso estou migrando para DevSecOps e segurança. Venho estudando Microsoft Sentinel, KQL, regras de detecção, syslog com TLS e VPN IPsec em laboratórios próprios.
+>
+> Esta vaga junta o que já sei — integrações, APIs, automação, dados — com a área onde quero crescer. E eu tenho muita fome de aprender ferramentas novas.
+
+### Pontes entre a sua experiência e a vaga
+
+| O que você já fez | Como isso vira segurança |
+|---|---|
+| Integrações REST, webhooks, sincronização resiliente | Integração SIEM ↔ ITSM, ingestão via API |
+| Idempotência, retries, trilho auditável | Playbooks que não duplicam tickets, auditoria |
+| Dashboards analíticos e indicadores | Workbooks e relatórios do SOC |
+| SQL (inclusive PHC) | KQL é a "prima" do SQL: `where`, `summarize`, `join` |
+| Automação e IA aplicada com supervisão humana | SOAR e triagem de alertas assistida por IA |
+| Modernização com testes e segurança | DevSecOps: segurança no pipeline |
+
+:::tip
+Feche a história com uma pergunta para eles: *"Como é hoje o fluxo de um alerta até virar ticket na equipe de vocês?"* Mostra interesse e dá assunto para você brilhar.
+:::

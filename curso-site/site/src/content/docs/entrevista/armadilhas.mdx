@@ -1,0 +1,58 @@
+---
+title: "Armadilhas: a resposta que reprova × a correta"
+description: "Respostas comuns que eliminam o candidato e como dizer a mesma coisa com segurança."
+sidebar:
+  order: 2
+---
+
+O entrevistador quer saber se você **pensa em segurança por padrão**. Estas são as armadilhas mais comuns.
+
+## 1. Syslog exposto na internet
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "Para receber os logs, abro a porta 514 UDP no firewall e o equipamento manda pela internet." | "O syslog nunca sai em claro para a internet. Uso um coletor dentro da rede e envio por **TLS na porta 6514**, ou por dentro de uma **VPN IPsec**. Se for fonte externa, **HTTPS com autenticação**." |
+
+**Por quê?** UDP não tem criptografia nem confirmação de entrega: qualquer um no caminho lê os logs (que podem ter usuários e IPs), pode forjar mensagens e você nem fica sabendo se algo se perdeu.
+
+## 2. Credencial no código
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "Coloco o token da API no playbook." | "O token fica num **cofre de segredos** (Key Vault). O playbook usa uma **identidade gerenciada** com permissão só de leitura daquele segredo." |
+
+## 3. Permissão de administrador "para funcionar"
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "Dou permissão de admin ao conector para não ter erro." | "**Menor privilégio**: o conector recebe só o papel necessário (ex.: *Microsoft Sentinel Responder* para comentar incidentes)." |
+
+## 4. Ingerir tudo
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "Mando todos os logs para o SIEM, quanto mais melhor." | "Ingiro o que tem **valor de detecção ou de auditoria**, filtro o resto na origem ou mando para um armazenamento mais barato. Ingestão custa dinheiro." |
+
+## 5. Automação sem controle
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "O playbook bloqueia o IP automaticamente sempre." | "Ações de impacto alto (bloquear, desativar conta) têm **aprovação humana** ou só rodam com alta confiança. Ações de baixo risco (abrir ticket, enriquecer) são automáticas." |
+
+## 6. Ticket duplicado
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "Toda vez que o alerta dispara, abro um ticket." | "Agrupo alertas em **incidentes** e o playbook é **idempotente**: antes de criar, confere se o incidente já tem ticket." |
+
+## 7. Fingir que conhece
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| Inventar como funciona uma ferramenta que você nunca usou. | "Ainda não usei essa, mas a base é a mesma: como ela **recebe logs**, como **gera alertas** e que **API** expõe para integração. Eu começaria pela documentação oficial." |
+
+## 8. Falar mal do emprego atual
+
+| ❌ Reprova | ✅ Correto |
+|---|---|
+| "Lá é desorganizado, quero sair." | "Quero me especializar em segurança, e esta vaga junta o que já faço com onde quero chegar." |

@@ -1,0 +1,93 @@
+---
+title: "Perguntas prováveis e respostas-modelo"
+description: "Perguntas técnicas e pessoais, em PT-BR e em inglês, com respostas na primeira pessoa."
+sidebar:
+  order: 1
+---
+
+Cada pergunta tem a versão em inglês (caso a entrevista mude de língua) e uma resposta-modelo. Respostas curtas: **30 a 60 segundos**.
+
+## Parte A — Base técnica
+
+### 1. O que é um SIEM?
+*EN: What is a SIEM?*
+
+> Um SIEM (Security Information and Event Management) é o ponto central onde chegam os logs de todos os sistemas. Ele **guarda**, **correlaciona** (junta eventos que, sozinhos, não dizem nada) e **gera alertas** quando algo parece ataque. Sem ele, o analista teria que abrir dezenas de consoles separados.
+
+*EN: "A SIEM collects and stores logs from every system in one place, correlates events and raises alerts when something looks like an attack, so the SOC has a single source of truth."*
+
+### 2. Por que o SIEM é tão importante num SOC?
+*EN: Why is a SIEM so important for a SOC?*
+
+> O SOC (Security Operations Center) é a equipe que vigia 24 horas. O SIEM é a "mesa de trabalho" dela: dá **visibilidade** de tudo, **contexto** para investigar, **histórico** para auditoria e conformidade, e é o gatilho para a automação (SOAR). Se o log não chega no SIEM, para o SOC aquele ataque não existiu.
+
+### 3. Qual a diferença entre SIEM e SOAR?
+*EN: What's the difference between SIEM and SOAR?*
+
+> O SIEM **detecta** — junta logs e gera alertas. O SOAR (Security Orchestration, Automation and Response) **reage** — executa playbooks: abrir ticket, enriquecer o alerta, bloquear um IP, avisar alguém. No Microsoft Sentinel, a parte de SOAR são as *automation rules* e os *playbooks* em Logic Apps.
+
+### 4. Como você colocaria uma fonte nova de logs no SIEM?
+*EN: How would you onboard a new log source?*
+
+> Primeiro entendo **o que** a fonte gera e **para que** precisamos daquilo — não faz sentido pagar ingestão de lixo. Depois escolho o caminho seguro: conector nativo ou API quando existe; se for syslog, uso um **coletor/forwarder dentro da rede** que envia por **TLS (porta 6514)** ou por dentro de uma VPN; para fontes externas, **HTTPS com autenticação**. Por fim valido: os campos chegaram certos? O horário (timezone) está correto? Crio um alerta que avisa se a fonte **parar** de mandar logs.
+
+### 5. Como você integraria o SIEM com uma ferramenta de tickets (ITSM)?
+*EN: How would you integrate the SIEM with an ITSM tool?*
+
+> Uso um playbook acionado pela criação do incidente. Ele lê título, severidade e entidades (IP, usuário, host), chama a **API REST** do ITSM via HTTPS, autenticado com um token guardado num **cofre de segredos** (Key Vault), e grava o número do ticket de volta no incidente como comentário. Assim os dois lados ficam ligados. Cuido de **idempotência** (não abrir ticket duplicado se o playbook rodar duas vezes) e de **retries** se a API falhar — é exatamente o que fiz num projeto de sincronização entre sistemas com mais de 5.000 operações por dia.
+
+### 6. O que são workbooks, workflows e playbooks?
+*EN: What are workbooks, workflows and playbooks?*
+
+> **Workbook** é um painel com gráficos e tabelas a partir de consultas KQL — serve para enxergar. **Workflow** é a sequência de passos de uma automação. **Playbook** é um workflow de segurança pronto para rodar quando surge um alerta ou incidente. No Sentinel, playbooks são Logic Apps.
+
+### 7. Como você automatizaria um relatório e garantiria que os dados estão certos?
+*EN: How would you automate a report and make sure the data is correct?*
+
+> Separo em três passos: **coletar** (uma consulta agendada que extrai os números), **validar** (regras automáticas: totais batem? Há dias sem dados? Algum valor fora do normal?) e **entregar** (PDF ou painel enviado automaticamente). Uma IA pode ajudar a resumir e a apontar anomalias, mas com **supervisão humana** e regras claras — é como trabalho com automação e IA aplicada nos meus projetos. Com SQL faço esse tipo de conferência no dia a dia, inclusive em bases de ERP como o PHC.
+
+### 8. Como você receberia logs de um sistema externo via API?
+*EN: How would you ingest logs from an external system through an API?*
+
+> Duas formas: o SIEM **busca** (pull) — um conector ou função agendada chama a API do fornecedor com credencial de leitura; ou o sistema **empurra** (push) — envia para um endpoint HTTPS autenticado (no Azure, a *Logs Ingestion API* com uma regra de coleta, DCR). Em ambos: HTTPS, token com menor privilégio, segredo no cofre, controle de limites (rate limit) e alerta se o fluxo parar.
+
+### 9. Para que servem as ferramentas de red team num SOC?
+*EN: Why do red team tools matter to a SOC?*
+
+> O red team simula o atacante. As ferramentas dele (scanners, frameworks de teste de intrusão) geram relatórios e, principalmente, **provam se as detecções funcionam**. Se o red team fez um ataque e o SIEM não alertou, encontramos uma lacuna antes do atacante real. Integrar esses resultados ao SIEM e automatizar o relatório fecha o ciclo.
+
+### 10. Qual a sua base de IA?
+*EN: What do you know about AI?*
+
+> Uso IA de forma aplicada: extração e classificação de informação, automação de tarefas repetitivas e decisões assistidas, sempre com regras claras e uma pessoa validando. Na segurança, vejo usos como triagem de alertas, resumo de incidentes e validação de relatórios. Também sei os riscos: dados sensíveis não podem vazar para o modelo, e a resposta precisa ser conferida.
+
+## Parte B — Perguntas pessoais
+
+### 11. Conte a sua história.
+*EN: Tell me about yourself.*
+
+> Veja a versão completa em [Pitch e história](/curso-sentinel/entrevista/historia/).
+
+### 12. Por que você quer sair da empresa atual?
+*EN: Why do you want to leave your current company?*
+
+> Não é por estar fugindo de algo — gosto do que faço lá: dashboards, APIs, automação e sistemas internos. É porque quero **me especializar em segurança**, e esta vaga junta exatamente o que já sei fazer (integrações, APIs, automação, dados) com a área onde quero crescer.
+
+:::caution
+Nunca fale mal da empresa atual. Fale do que você **busca**, não do que está **evitando**.
+:::
+
+### 13. Qual a sua disponibilidade e quando pode começar?
+*EN: What's your availability and when can you start?*
+
+> *(Preencha com a sua realidade: aviso prévio, horário, presencial/remoto.)* Modelo: "Tenho disponibilidade total para o horário da equipe. Preciso cumprir o aviso prévio de X dias, então posso começar em [data]."
+
+### 14. Como está o seu inglês?
+*EN: How is your English?*
+
+> Entre 2020 e 2024 entreguei mais de 20 produtos para clientes internacionais, e a documentação técnica que uso no dia a dia é em inglês. Na conversa técnica me sinto seguro e continuo melhorando. *(Ajuste ao seu nível real — honestidade aqui vale mais que exagero.)*
+
+### 15. Por que segurança?
+*EN: Why security?*
+
+> Passei anos construindo integrações e sistemas onde um erro custa caro — idempotência, logs, alertas, trilha de auditoria. Percebi que a parte de que mais gosto é justamente essa: garantir que os dados chegam certos e protegidos. Segurança é o próximo passo natural, e tenho **fome de aprender**: estou montando laboratórios próprios com Sentinel, KQL, syslog com TLS e VPN IPsec.

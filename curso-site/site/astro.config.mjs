@@ -12,6 +12,7 @@ export default defineConfig({
       { label: 'Módulo 0 — Laboratório', autogenerate: { directory: 'm0' } },
       { label: 'Módulo 2 — KQL', autogenerate: { directory: 'm2' } },
       { label: 'Módulo 4 — Detecção', autogenerate: { directory: 'm4' } },
+      { label: 'Simulação de Entrevista', autogenerate: { directory: 'entrevista' } },
       { label: 'Extras', items: [{ label: 'Glossário', link: '/glossario/' }, { label: 'Playground KQL', link: '/playground/' }, { label: 'O que é real', link: '/sobre/' }] },
     ],
   })],

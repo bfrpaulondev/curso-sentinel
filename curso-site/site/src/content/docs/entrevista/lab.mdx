@@ -1,0 +1,184 @@
+---
+title: "Mini-lab: alerta no Sentinel → Logic App → ticket no Jira"
+description: "Um playbook real que abre um ticket no Jira pela API quando o Sentinel cria um incidente, e grava o número do ticket de volta."
+sidebar:
+  order: 4
+---
+
+Este é o exemplo concreto para contar na entrevista: **"montei um playbook que, quando o Sentinel cria um incidente, abre um ticket no Jira via API e devolve o número do ticket para o incidente"**.
+
+:::caution[O que é real aqui]
+O código abaixo usa as APIs oficiais (conector Microsoft Sentinel do Logic Apps e a REST API v3 do Jira Cloud). A parte do Jira você testa de verdade com uma conta gratuita do Jira Cloud. A parte do Azure precisa de uma assinatura sua — este curso não simula o portal.
+:::
+
+## O fluxo
+
+```text
+Regra de análise ──▶ Incidente no Sentinel
+                         │  (automation rule: "quando um incidente for criado")
+                         ▼
+                 Playbook (Logic App)
+        1. lê título, severidade, entidades
+        2. busca o token do Jira no Key Vault (identidade gerenciada)
+        3. POST https://SEU-SITE.atlassian.net/rest/api/3/issue   (HTTPS)
+        4. comenta no incidente: "Ticket SEC-123 criado"
+```
+
+**Termos:**
+- **Automation rule** — regra do Sentinel que decide *quando* rodar um playbook.
+- **Logic App** — serviço do Azure de fluxos visuais; um playbook do Sentinel é uma Logic App.
+- **Identidade gerenciada** — uma "conta" que o Azure dá para a Logic App, sem senha guardada.
+- **Key Vault** — cofre de segredos do Azure.
+
+## Passo 1 — Testar a API do Jira na sua máquina
+
+Crie um token em *id.atlassian.com → Segurança → Tokens de API*. Nunca coloque o token no código: use variáveis de ambiente.
+
+```bash
+export JIRA_SITE="seu-site.atlassian.net"
+export JIRA_EMAIL="voce@exemplo.com"
+read -s JIRA_TOKEN && export JIRA_TOKEN   # digita sem aparecer na tela
+
+curl -sS -u "$JIRA_EMAIL:$JIRA_TOKEN" \
+  -H "Content-Type: application/json" \
+  -X POST "https://$JIRA_SITE/rest/api/3/issue" \
+  -d '{
+    "fields": {
+      "project":   { "key": "SEC" },
+      "issuetype": { "name": "Task" },
+      "summary":   "[Sentinel][High] Força bruta na API da loja",
+      "labels":    ["sentinel", "soc"],
+      "description": {
+        "type": "doc", "version": 1,
+        "content": [{ "type": "paragraph",
+          "content": [{ "type": "text", "text": "IP 203.0.113.50 — 42 falhas de login em 5 min." }]}]
+      }
+    }
+  }'
+# resposta esperada: {"id":"10001","key":"SEC-1","self":"https://.../rest/api/3/issue/10001"}
+```
+
+## Passo 2 — Script Python idempotente (o mesmo raciocínio do playbook)
+
+```python
+"""abrir_ticket.py — cria ticket no Jira a partir de um incidente, sem duplicar."""
+import os, requests
+
+SITE, AUTH = os.environ["JIRA_SITE"], (os.environ["JIRA_EMAIL"], os.environ["JIRA_TOKEN"])
+API = f"https://{SITE}/rest/api/3"
+
+def ja_existe(incidente_id: str):
+    # idempotência: procura um ticket com o label do incidente
+    jql = f'project = SEC AND labels = "inc-{incidente_id}"'
+    r = requests.post(f"{API}/search/jql", auth=AUTH, timeout=15,
+                      json={"jql": jql, "fields": ["key"], "maxResults": 1})
+    r.raise_for_status()
+    issues = r.json().get("issues", [])
+    return issues[0]["key"] if issues else None
+
+def abrir(incidente: dict) -> str:
+    if (chave := ja_existe(incidente["id"])):
+        return chave
+    corpo = {"fields": {
+        "project": {"key": "SEC"}, "issuetype": {"name": "Task"},
+        "summary": f'[Sentinel][{incidente["severidade"]}] {incidente["titulo"]}',
+        "labels": ["sentinel", f'inc-{incidente["id"]}'],
+        "description": {"type": "doc", "version": 1, "content": [{"type": "paragraph",
+            "content": [{"type": "text", "text": incidente["resumo"]}]}]}}}
+    for tentativa in range(3):                      # retry simples
+        r = requests.post(f"{API}/issue", auth=AUTH, json=corpo, timeout=15)
+        if r.status_code < 500:
+            r.raise_for_status(); return r.json()["key"]
+    r.raise_for_status()
+
+if __name__ == "__main__":
+    print(abrir({"id": "1234", "severidade": "High",
+                 "titulo": "Força bruta na API da loja",
+                 "resumo": "IP 203.0.113.50 — 42 falhas de login em 5 min."}))
+```
+
+Rode duas vezes: na segunda ele devolve **a mesma chave** em vez de criar outro ticket. É isso que você conta como "idempotência".
+
+## Passo 3 — O playbook (definição da Logic App)
+
+Trecho da definição (`workflow.json`) com as três ações principais. O gatilho é o do conector **Microsoft Sentinel** ("Quando um incidente do Microsoft Sentinel é criado").
+
+```json
+{
+  "triggers": {
+    "Microsoft_Sentinel_incident": {
+      "type": "ApiConnectionWebhook",
+      "inputs": {
+        "host": { "connection": { "name": "@parameters('$connections')['azuresentinel']['connectionId']" } },
+        "body": { "callback_url": "@{listCallbackUrl()}" },
+        "path": "/incident-creation"
+      }
+    }
+  },
+  "actions": {
+    "Buscar_token_Jira": {
+      "type": "Http",
+      "inputs": {
+        "method": "GET",
+        "uri": "https://SEU-COFRE.vault.azure.net/secrets/jira-token?api-version=7.4",
+        "authentication": { "type": "ManagedServiceIdentity", "audience": "https://vault.azure.net" }
+      },
+      "runtimeConfiguration": { "secureData": { "properties": ["outputs"] } }
+    },
+    "Criar_ticket_Jira": {
+      "runAfter": { "Buscar_token_Jira": ["Succeeded"] },
+      "type": "Http",
+      "inputs": {
+        "method": "POST",
+        "uri": "https://SEU-SITE.atlassian.net/rest/api/3/issue",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Basic @{base64(concat('soc-bot@exemplo.com:', body('Buscar_token_Jira')?['value']))}"
+        },
+        "body": {
+          "fields": {
+            "project": { "key": "SEC" },
+            "issuetype": { "name": "Task" },
+            "summary": "[Sentinel][@{triggerBody()?['object']?['properties']?['severity']}] @{triggerBody()?['object']?['properties']?['title']}",
+            "labels": ["sentinel", "inc-@{triggerBody()?['object']?['properties']?['incidentNumber']}"]
+          }
+        },
+        "retryPolicy": { "type": "exponential", "count": 3, "interval": "PT10S" }
+      },
+      "runtimeConfiguration": { "secureData": { "properties": ["inputs"] } }
+    },
+    "Comentar_no_incidente": {
+      "runAfter": { "Criar_ticket_Jira": ["Succeeded"] },
+      "type": "ApiConnection",
+      "inputs": {
+        "host": { "connection": { "name": "@parameters('$connections')['azuresentinel']['connectionId']" } },
+        "method": "post",
+        "path": "/Incidents/Comment",
+        "body": {
+          "incidentArmId": "@triggerBody()?['object']?['id']",
+          "message": "<p>Ticket @{body('Criar_ticket_Jira')?['key']} criado no Jira.</p>"
+        }
+      }
+    }
+  }
+}
+```
+
+Pontos de segurança que você **fala em voz alta** na entrevista:
+
+- Token no **Key Vault**, lido por **identidade gerenciada** (sem senha no fluxo).
+- `secureData` esconde o token e o cabeçalho do **histórico de execuções**.
+- Tudo por **HTTPS**; `retryPolicy` exponencial para falhas temporárias.
+- A Logic App recebe só o papel **Microsoft Sentinel Responder** no workspace (para comentar), e só **Key Vault Secrets User** no cofre.
+- O label `inc-<número>` permite checar duplicados (idempotência).
+
+## Passo 4 — Ligar ao Sentinel
+
+1. Sentinel → **Automação** → *Criar regra de automação*.
+2. Gatilho: **Quando o incidente é criado**; condição: severidade **Alta** ou **Média**.
+3. Ação: **Executar playbook** → escolha a Logic App.
+4. Dê ao Sentinel permissão de executar playbooks no grupo de recursos (*Configurações → Permissões do playbook*).
+
+## Como contar isso em 30 segundos
+
+> "Montei um playbook que, quando o Sentinel cria um incidente de severidade média ou alta, abre um ticket no Jira pela REST API e comenta o número do ticket no incidente. O token fica no Key Vault, lido por identidade gerenciada, tudo por HTTPS, com retry e checagem de duplicados. É o mesmo padrão de idempotência e retries que usei numa sincronização de mais de 5.000 operações por dia."

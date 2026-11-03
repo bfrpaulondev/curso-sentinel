@@ -1,0 +1,38 @@
+---
+title: "Simulação de Entrevista — Integrações SIEM/SOAR"
+description: "Treino para entrevista numa vaga de integrações de SIEM e SOAR: perguntas prováveis, respostas-modelo, armadilhas, mini-lab e flashcards."
+sidebar:
+  label: Visão geral
+  order: 0
+---
+
+Este módulo é diferente dos outros: não ensina uma ferramenta nova, **treina você para conversar sobre ela** numa entrevista. O foco é uma vaga do tipo "engenheiro de integrações" num SOC.
+
+## O que essa vaga costuma pedir
+
+| Tarefa do dia a dia | Em palavras simples |
+|---|---|
+| Ingestão de logs | Fazer os registros (logs) de servidores, firewalls e aplicações chegarem ao SIEM. |
+| SIEM → ITSM | Cada alerta importante abre um **ticket** sozinho na ferramenta de chamados (ITSM = sistema de gestão de serviços, tipo Jira ou ServiceNow). |
+| Workbooks | Painéis com gráficos para acompanhar o que está acontecendo. |
+| Playbooks / workflows | Receitas automáticas: "aconteceu X → faça Y". No Sentinel, são Logic Apps. |
+| Relatórios automáticos | Gerar, **validar** e entregar relatórios sem uma pessoa montar à mão. |
+| Integrações via API | Abrir incidentes em outra ferramenta e receber logs externos por HTTPS. |
+
+A análise das regras de detecção em si costuma ficar com outras equipes. O seu papel é **fazer tudo conversar com tudo, com segurança**.
+
+## Como usar
+
+1. Leia as [perguntas e respostas-modelo](/curso-sentinel/entrevista/perguntas/) em voz alta, em português e em inglês.
+2. Estude as [armadilhas](/curso-sentinel/entrevista/armadilhas/): respostas que reprovam e como corrigir.
+3. Decore o [pitch e a sua história](/curso-sentinel/entrevista/historia/).
+4. Monte o [mini-lab Sentinel → Logic App → Jira](/curso-sentinel/entrevista/lab/), para ter um exemplo concreto para contar.
+5. Treine no [modo flashcards e no quiz](/curso-sentinel/entrevista/treino/) até responder sem olhar.
+
+:::tip[A regra de ouro]
+Em toda resposta técnica, diga **como os dados viajam protegidos**: TLS, VPN, HTTPS, autenticação, menor privilégio. Quem fala em "abrir uma porta UDP para a internet" reprova na hora.
+:::
+
+:::note[Sobre as respostas-modelo]
+Elas são escritas na primeira pessoa com base no meu perfil público (bfrpaulondev.pt). Adapte as palavras ao seu jeito: decorar frase por frase soa robótico; decore as **ideias**.
+:::

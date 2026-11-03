@@ -155,3 +155,26 @@
 
   fetch(`${BASE}data/curso.json`).then(r => r.json()).then(d => { DATA = d; guard(); initQuiz(); initTeste(); initPratico(); DATA.modulos.forEach(m => estado(m.id)); progresso(); glossario(); grafico(); });
 })();
+(function () {
+  function iniciar(DATA) {
+    document.querySelectorAll('[data-flash]').forEach(box => {
+      const base = (DATA.flash || {})[box.dataset.flash] || []; if (!base.length) return;
+      let fila = base.map((_, i) => i).sort(() => Math.random() - .5), certas = 0;
+      const h = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x) e.textContent = x; return e; };
+      const card = h('div', 'cs-flash'), cont = h('p', 'cs-prev'), q = h('p', 'cs-q'), a = h('p', 'cs-flash-a'), bar = h('p');
+      const bRev = h('button', 'cs-btn', 'Mostrar resposta'), bOk = h('button', 'cs-btn', '✓ Acertei'), bNo = h('button', 'cs-btn cs-ghost', '✗ Rever depois'), bRe = h('button', 'cs-btn cs-ghost', 'Recomeçar');
+      const mostrar = () => {
+        if (!fila.length) { q.textContent = `Fim do baralho: ${certas} de ${base.length} de primeira.`; a.hidden = true; bar.replaceChildren(bRe); cont.textContent = ''; return; }
+        const c = base[fila[0]]; q.textContent = c.q; a.textContent = c.a; a.hidden = true; bar.replaceChildren(bRev);
+        cont.textContent = `Faltam ${fila.length} cartões`;
+      };
+      let errou = new Set();
+      bRev.onclick = () => { a.hidden = false; bar.replaceChildren(bOk, document.createTextNode(' '), bNo); };
+      bOk.onclick = () => { const i = fila.shift(); if (!errou.has(i)) certas++; mostrar(); };
+      bNo.onclick = () => { const i = fila.shift(); errou.add(i); fila.push(i); mostrar(); };
+      bRe.onclick = () => { fila = base.map((_, i) => i).sort(() => Math.random() - .5); certas = 0; errou = new Set(); mostrar(); };
+      card.append(cont, q, a, bar); box.replaceChildren(card); mostrar();
+    });
+  }
+  if (document.querySelector('[data-flash]')) fetch(`${window.CS_BASE || '/'}data/curso.json`).then(r => r.json()).then(iniciar);
+})();
