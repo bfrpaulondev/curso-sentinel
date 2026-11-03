@@ -1,0 +1,934 @@
+TimeGenerated,UserPrincipalName,AppDisplayName,IPAddress,Country,City,ResultType,ResultDescription,OperatingSystem
+2026-10-20T08:00:09Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.4.203,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T08:04:54Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.4.106,BR,Campinas,0,Success,macOS
+2026-10-20T08:07:19Z,ana.souza@lojapixel.com.br,Outlook,10.20.7.52,BR,Campinas,0,Success,Windows 11
+2026-10-20T08:09:00Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.3.219,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T08:10:15Z,carla.mendes@lojapixel.com.br,Outlook,10.20.1.14,BR,São Paulo,0,Success,Windows 11
+2026-10-20T08:10:46Z,gabi.torres@lojapixel.com.br,Outlook,10.20.7.70,BR,São Paulo,0,Success,Windows 11
+2026-10-20T08:13:22Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.6.157,BR,São Paulo,0,Success,Windows 11
+2026-10-20T08:13:47Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.1.160,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T08:13:56Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.2.27,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T08:15:22Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.6.195,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T08:15:35Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.1.38,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T08:17:21Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.8.173,BR,São Paulo,0,Success,macOS
+2026-10-20T08:18:39Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.8.134,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T08:20:59Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.5.67,BR,São Paulo,0,Success,macOS
+2026-10-20T08:22:20Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.8.234,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T08:22:28Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.3.222,BR,Campinas,0,Success,Windows 11
+2026-10-20T08:26:05Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.3.215,BR,Campinas,0,Success,macOS
+2026-10-20T08:27:40Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.5.27,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T08:31:07Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.5.242,BR,São Paulo,0,Success,macOS
+2026-10-20T08:31:15Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.5.33,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T08:32:01Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.9.184,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T08:37:54Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.1.246,BR,São Paulo,0,Success,Windows 11
+2026-10-20T08:38:34Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.6.81,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T08:39:49Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.5.27,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T08:41:50Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.3.151,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T08:42:27Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.8.129,BR,São Paulo,0,Success,macOS
+2026-10-20T08:43:11Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.3.22,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T08:43:43Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.9.241,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T08:44:23Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.8.52,BR,Campinas,0,Success,Windows 11
+2026-10-20T08:45:53Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.1.7,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T08:46:35Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.2.233,BR,São Paulo,0,Success,macOS
+2026-10-20T08:47:15Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.7.7,BR,Campinas,0,Success,macOS
+2026-10-20T08:48:08Z,lucas.martins@lojapixel.com.br,Outlook,10.20.3.241,BR,São Paulo,0,Success,Windows 11
+2026-10-20T08:49:55Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.2.170,BR,São Paulo,0,Success,Windows 11
+2026-10-20T08:52:18Z,ana.souza@lojapixel.com.br,Outlook,10.20.1.175,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T08:53:17Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.4.130,BR,São Paulo,0,Success,Windows 11
+2026-10-20T08:55:20Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.3.33,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T08:56:49Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.9.192,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T08:57:34Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.5.165,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T08:58:32Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.6.18,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:02:32Z,paula.freitas@lojapixel.com.br,Microsoft Teams,10.20.2.31,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T09:03:38Z,diego.rocha@lojapixel.com.br,Outlook,10.20.8.146,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:04:04Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.3.80,BR,São Paulo,0,Success,macOS
+2026-10-20T09:05:57Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.9.153,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:06:36Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.6.216,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T09:07:07Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.3.152,BR,São Paulo,0,Success,Windows 11
+2026-10-20T09:08:41Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.6.221,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:09:55Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.2.15,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:10:08Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.9.248,BR,São Paulo,0,Success,Windows 11
+2026-10-20T09:14:32Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.9.78,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:15:28Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.7.121,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:15:49Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.4.209,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T09:16:05Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.6.141,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T09:16:40Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.5.85,BR,São Paulo,0,Success,macOS
+2026-10-20T09:18:19Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.2.193,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:18:52Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.6.100,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T09:22:29Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.8.138,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:24:20Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.8.179,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:24:38Z,karen.dias@lojapixel.com.br,Outlook,10.20.8.50,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T09:25:07Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.3.107,BR,Campinas,0,Success,macOS
+2026-10-20T09:25:20Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.1.12,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:27:28Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.5.72,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:28:43Z,nina.reis@lojapixel.com.br,Outlook,10.20.8.87,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T09:31:17Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.8.151,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:34:04Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.6.185,BR,São Paulo,0,Success,macOS
+2026-10-20T09:34:45Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.2.233,BR,Rio de Janeiro,50074,Strong authentication is required,macOS
+2026-10-20T09:37:15Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.3.199,BR,Campinas,0,Success,macOS
+2026-10-20T09:37:24Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.3.236,BR,São Paulo,0,Success,Windows 11
+2026-10-20T09:38:05Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.3.228,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:39:48Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.5.74,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:40:33Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.7.122,BR,Campinas,0,Success,macOS
+2026-10-20T09:41:22Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.1.220,BR,São Paulo,0,Success,Windows 11
+2026-10-20T09:44:51Z,diego.rocha@lojapixel.com.br,Outlook,10.20.8.53,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T09:44:51Z,henrique.alves@lojapixel.com.br,Outlook,10.20.9.70,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:46:12Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.5.108,BR,Campinas,0,Success,macOS
+2026-10-20T09:49:14Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.8.24,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T09:51:46Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.8.102,BR,Campinas,0,Success,Windows 11
+2026-10-20T09:55:43Z,diego.rocha@lojapixel.com.br,Outlook,10.20.5.50,BR,São Paulo,0,Success,macOS
+2026-10-20T09:57:34Z,gabi.torres@lojapixel.com.br,Outlook,10.20.7.78,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T09:58:59Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.9.62,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T09:59:43Z,henrique.alves@lojapixel.com.br,Outlook,10.20.7.183,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:00:30Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.9.9,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:02:46Z,lucas.martins@lojapixel.com.br,Outlook,10.20.1.70,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T10:04:01Z,lucas.martins@lojapixel.com.br,Outlook,10.20.3.56,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:08:42Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.1.187,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T10:09:13Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.4.218,BR,São Paulo,50074,Strong authentication is required,macOS
+2026-10-20T10:10:17Z,gabi.torres@lojapixel.com.br,Outlook,10.20.7.16,BR,São Paulo,0,Success,macOS
+2026-10-20T10:11:20Z,elisa.prado@lojapixel.com.br,Outlook,10.20.5.171,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T10:11:50Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.3.192,BR,Campinas,0,Success,macOS
+2026-10-20T10:11:57Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.6.26,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T10:12:53Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.6.38,BR,São Paulo,0,Success,macOS
+2026-10-20T10:15:42Z,ana.souza@lojapixel.com.br,Outlook,10.20.8.162,BR,São Paulo,0,Success,Windows 11
+2026-10-20T10:18:41Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.5.163,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:19:20Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.7.97,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:19:24Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.6.248,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:23:50Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.8.203,BR,Campinas,0,Success,Windows 11
+2026-10-20T10:23:57Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.4.86,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:24:49Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.2.115,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T10:29:43Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.2.230,BR,São Paulo,0,Success,Windows 11
+2026-10-20T10:32:00Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.2.72,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:39:55Z,lucas.martins@lojapixel.com.br,Outlook,10.20.5.248,BR,Campinas,0,Success,Windows 11
+2026-10-20T10:40:43Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.3.102,BR,São Paulo,0,Success,Windows 11
+2026-10-20T10:41:43Z,gabi.torres@lojapixel.com.br,Outlook,10.20.2.46,BR,São Paulo,0,Success,macOS
+2026-10-20T10:43:19Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.8.145,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T10:49:38Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.1.21,BR,Campinas,0,Success,macOS
+2026-10-20T10:50:30Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.5.202,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T10:52:57Z,lucas.martins@lojapixel.com.br,Outlook,10.20.5.212,BR,São Paulo,0,Success,macOS
+2026-10-20T10:53:52Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.3.180,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T10:54:42Z,bruno.lima@lojapixel.com.br,Outlook,10.20.7.101,BR,São Paulo,0,Success,Windows 11
+2026-10-20T10:55:13Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.2.29,BR,Campinas,0,Success,Windows 11
+2026-10-20T10:55:24Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.9.68,BR,São Paulo,0,Success,Windows 11
+2026-10-20T10:56:31Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.7.14,BR,Campinas,0,Success,macOS
+2026-10-20T10:59:51Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.3.160,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:00:21Z,bruno.lima@lojapixel.com.br,Outlook,10.20.5.142,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:01:47Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.5.181,BR,Campinas,0,Success,Windows 11
+2026-10-20T11:01:56Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.7.151,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:02:01Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.7.118,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:03:56Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.3.97,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:04:35Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.1.205,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:05:01Z,isabela.costa@lojapixel.com.br,Outlook,10.20.6.40,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:10:45Z,lucas.martins@lojapixel.com.br,Outlook,10.20.8.154,BR,Campinas,0,Success,Windows 11
+2026-10-20T11:11:17Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.8.176,BR,São Paulo,0,Success,macOS
+2026-10-20T11:11:46Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.9.147,BR,Campinas,0,Success,Windows 11
+2026-10-20T11:14:30Z,lucas.martins@lojapixel.com.br,Outlook,10.20.8.4,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T11:14:59Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.9.134,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T11:16:20Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.3.70,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:17:26Z,henrique.alves@lojapixel.com.br,Outlook,10.20.6.150,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:18:37Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.5.19,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:18:57Z,diego.rocha@lojapixel.com.br,Outlook,10.20.2.215,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:20:40Z,nina.reis@lojapixel.com.br,Outlook,10.20.5.159,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T11:21:11Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.6.81,BR,Campinas,0,Success,macOS
+2026-10-20T11:21:26Z,paula.freitas@lojapixel.com.br,Outlook,10.20.7.165,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T11:21:53Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.6.182,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:24:34Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.2.41,BR,Campinas,0,Success,macOS
+2026-10-20T11:25:31Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.1.203,BR,Campinas,0,Success,Windows 11
+2026-10-20T11:27:08Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.9.103,BR,Campinas,0,Success,macOS
+2026-10-20T11:27:13Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.6.59,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:27:18Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.8.172,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T11:28:24Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.2.170,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:31:54Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.3.23,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:37:04Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.6.167,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:37:20Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.8.244,BR,Campinas,0,Success,Windows 11
+2026-10-20T11:39:11Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.7.123,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:42:10Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.3.74,BR,Rio de Janeiro,50126,Invalid username or password,Windows 11
+2026-10-20T11:43:10Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.3.156,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:44:17Z,lucas.martins@lojapixel.com.br,Outlook,10.20.5.146,BR,Campinas,0,Success,macOS
+2026-10-20T11:46:41Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.5.173,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:47:55Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.3.237,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:48:03Z,marina.lopes@lojapixel.com.br,Outlook,10.20.5.155,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:48:15Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.6.111,BR,São Paulo,0,Success,macOS
+2026-10-20T11:50:07Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.1.34,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:50:52Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.7.118,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:54:08Z,ana.souza@lojapixel.com.br,Outlook,10.20.8.96,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:54:17Z,diego.rocha@lojapixel.com.br,Outlook,10.20.8.142,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:54:44Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.2.38,BR,São Paulo,0,Success,Windows 11
+2026-10-20T11:55:46Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.5.66,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T11:56:47Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.8.202,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T11:57:55Z,gabi.torres@lojapixel.com.br,Outlook,10.20.4.132,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T11:58:14Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.1.134,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T11:59:34Z,nina.reis@lojapixel.com.br,Outlook,10.20.6.8,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:01:06Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.2.107,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:02:40Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.1.158,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:05:29Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.1.29,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:05:33Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.2.219,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T12:06:29Z,ana.souza@lojapixel.com.br,Outlook,10.20.1.210,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:06:41Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.2.69,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T12:06:51Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.1.166,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:09:45Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.3.13,BR,São Paulo,0,Success,macOS
+2026-10-20T12:09:54Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.2.164,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T12:10:26Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.1.140,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:10:53Z,joao.pereira@lojapixel.com.br,Outlook,10.20.4.88,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:13:51Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.6.177,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:15:58Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.5.79,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T12:16:01Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.5.203,BR,Campinas,0,Success,macOS
+2026-10-20T12:19:26Z,bruno.lima@lojapixel.com.br,Outlook,10.20.2.179,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:21:02Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.8.249,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:21:03Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.2.111,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T12:21:18Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.3.134,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:22:21Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.3.174,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:22:27Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.3.66,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:24:50Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.3.218,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:27:02Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.8.221,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:28:31Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.8.150,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:28:51Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.1.73,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:29:21Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.1.134,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:29:22Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.7.133,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:32:21Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.7.12,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:32:52Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.9.227,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:32:55Z,marina.lopes@lojapixel.com.br,Outlook,10.20.2.138,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T12:33:29Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.6.220,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:34:41Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.6.87,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:39:09Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.6.80,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T12:39:40Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.3.196,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:41:05Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.5.12,BR,Campinas,0,Success,macOS
+2026-10-20T12:41:12Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.2.101,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T12:42:11Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.6.199,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T12:42:29Z,isabela.costa@lojapixel.com.br,Outlook,10.20.7.69,BR,São Paulo,0,Success,macOS
+2026-10-20T12:43:02Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.3.200,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:43:10Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.6.36,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:46:32Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.9.15,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:46:45Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.6.24,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:47:27Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.2.164,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T12:48:45Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.1.219,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T12:51:47Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.5.82,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T12:52:21Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.6.94,BR,Campinas,0,Success,Windows 11
+2026-10-20T12:57:18Z,bruno.lima@lojapixel.com.br,Outlook,10.20.6.213,BR,São Paulo,0,Success,macOS
+2026-10-20T12:57:47Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.1.110,BR,São Paulo,0,Success,Windows 11
+2026-10-20T12:59:49Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.6.191,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:00:40Z,marina.lopes@lojapixel.com.br,Outlook,10.20.4.225,BR,São Paulo,0,Success,macOS
+2026-10-20T13:02:47Z,lucas.martins@lojapixel.com.br,Outlook,10.20.6.102,BR,São Paulo,0,Success,Windows 11
+2026-10-20T13:02:48Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.8.112,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T13:03:24Z,lucas.martins@lojapixel.com.br,Outlook,10.20.5.106,BR,São Paulo,0,Success,Windows 11
+2026-10-20T13:03:32Z,nina.reis@lojapixel.com.br,Outlook,10.20.3.66,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:04:33Z,diego.rocha@lojapixel.com.br,Outlook,10.20.3.213,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T13:10:10Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.3.5,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T13:10:25Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.4.80,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T13:10:33Z,joao.pereira@lojapixel.com.br,Outlook,10.20.2.11,BR,Campinas,0,Success,Windows 11
+2026-10-20T13:16:01Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.3.105,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T13:18:01Z,diego.rocha@lojapixel.com.br,Outlook,10.20.5.24,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T13:19:05Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.3.6,BR,São Paulo,50126,Invalid username or password,Windows 11
+2026-10-20T13:19:14Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.4.157,BR,São Paulo,0,Success,Windows 11
+2026-10-20T13:19:44Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.4.167,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:19:52Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.2.182,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:30:04Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.7.223,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:32:17Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.3.181,BR,São Paulo,0,Success,Windows 11
+2026-10-20T13:32:24Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.4.152,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T13:38:32Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.5.66,BR,Campinas,0,Success,Windows 11
+2026-10-20T13:43:02Z,carla.mendes@lojapixel.com.br,Outlook,10.20.9.31,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:46:16Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.5.118,BR,Belo Horizonte,50126,Invalid username or password,macOS
+2026-10-20T13:47:10Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.1.68,BR,São Paulo,0,Success,Windows 11
+2026-10-20T13:48:34Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.6.212,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:53:51Z,paula.freitas@lojapixel.com.br,Outlook,10.20.4.181,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T13:54:16Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.1.236,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T13:55:23Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.6.188,BR,Campinas,0,Success,Windows 11
+2026-10-20T13:56:46Z,gabi.torres@lojapixel.com.br,Outlook,10.20.1.64,BR,Campinas,0,Success,macOS
+2026-10-20T13:58:05Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.8.123,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T13:58:23Z,bruno.lima@lojapixel.com.br,Outlook,10.20.8.164,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T14:01:23Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.2.175,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:01:30Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.9.194,BR,São Paulo,0,Success,Windows 11
+2026-10-20T14:02:10Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.6.217,BR,Campinas,0,Success,macOS
+2026-10-20T14:02:49Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.3.182,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:03:18Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.6.191,BR,São Paulo,0,Success,Windows 11
+2026-10-20T14:05:09Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.8.44,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T14:05:47Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.4.13,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T14:08:24Z,karen.dias@lojapixel.com.br,Outlook,10.20.2.15,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:15:59Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.4.225,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T14:16:30Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.2.129,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:19:04Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.5.161,BR,São Paulo,0,Success,Windows 11
+2026-10-20T14:19:32Z,nina.reis@lojapixel.com.br,Outlook,10.20.8.170,BR,São Paulo,0,Success,Windows 11
+2026-10-20T14:24:26Z,paula.freitas@lojapixel.com.br,Outlook,10.20.8.230,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T14:24:57Z,paula.freitas@lojapixel.com.br,Outlook,10.20.5.200,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:25:46Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.8.87,BR,São Paulo,0,Success,macOS
+2026-10-20T14:26:23Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.8.47,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:27:56Z,nina.reis@lojapixel.com.br,Outlook,10.20.4.101,BR,São Paulo,0,Success,Windows 11
+2026-10-20T14:31:11Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.8.18,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:36:06Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.2.194,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T14:36:46Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.2.187,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T14:36:50Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.9.212,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:36:53Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.6.136,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T14:37:05Z,nina.reis@lojapixel.com.br,Outlook,10.20.8.160,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:42:52Z,bruno.lima@lojapixel.com.br,Outlook,10.20.4.105,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:45:21Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.2.171,BR,São Paulo,0,Success,Windows 11
+2026-10-20T14:45:29Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.5.182,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T14:46:25Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.1.25,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:48:00Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.2.123,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:48:53Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.7.233,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T14:52:04Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.2.137,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:52:59Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.1.82,BR,São Paulo,0,Success,macOS
+2026-10-20T14:53:02Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.8.213,BR,Rio de Janeiro,50074,Strong authentication is required,Windows 11
+2026-10-20T14:53:16Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.7.139,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:55:59Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.8.66,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:57:14Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.2.167,BR,Campinas,0,Success,Windows 11
+2026-10-20T14:59:08Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.5.200,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T14:59:57Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.8.103,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T15:00:33Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.1.241,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:05:51Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.3.205,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T15:06:08Z,bruno.lima@lojapixel.com.br,Outlook,10.20.2.161,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:06:42Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.7.232,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T15:09:04Z,joao.pereira@lojapixel.com.br,Outlook,10.20.8.174,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T15:11:25Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.7.158,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T15:17:17Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.6.230,BR,São Paulo,0,Success,Windows 11
+2026-10-20T15:17:27Z,diego.rocha@lojapixel.com.br,Outlook,10.20.6.46,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T15:19:00Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.9.201,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T15:19:17Z,henrique.alves@lojapixel.com.br,Outlook,10.20.6.40,BR,São Paulo,0,Success,Windows 11
+2026-10-20T15:22:22Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.1.33,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T15:22:42Z,carla.mendes@lojapixel.com.br,Outlook,10.20.6.216,BR,São Paulo,0,Success,Windows 11
+2026-10-20T15:23:08Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.7.132,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:24:29Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.7.233,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:25:04Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.4.237,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T15:25:38Z,isabela.costa@lojapixel.com.br,Outlook,10.20.9.140,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T15:27:44Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.7.88,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T15:27:52Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.2.187,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T15:28:15Z,paula.freitas@lojapixel.com.br,Outlook,10.20.6.91,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:33:28Z,paula.freitas@lojapixel.com.br,Outlook,10.20.2.11,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:36:36Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.5.46,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T15:38:25Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.6.89,BR,São Paulo,0,Success,macOS
+2026-10-20T15:38:42Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.2.25,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T15:38:43Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.3.40,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T15:38:55Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.4.134,BR,Campinas,0,Success,macOS
+2026-10-20T15:46:13Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.5.239,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T15:52:04Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.8.212,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:52:07Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.2.129,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:52:43Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.3.36,BR,Campinas,0,Success,macOS
+2026-10-20T15:53:09Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.3.100,BR,Campinas,0,Success,Windows 11
+2026-10-20T15:53:24Z,karen.dias@lojapixel.com.br,Outlook,10.20.1.17,BR,Campinas,0,Success,macOS
+2026-10-20T15:54:46Z,henrique.alves@lojapixel.com.br,Outlook,10.20.3.171,BR,Campinas,0,Success,macOS
+2026-10-20T15:55:20Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.1.168,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T15:55:25Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.4.44,BR,São Paulo,0,Success,Windows 11
+2026-10-20T15:55:28Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.5.28,BR,São Paulo,0,Success,Windows 11
+2026-10-20T15:59:38Z,marina.lopes@lojapixel.com.br,Outlook,10.20.7.229,BR,São Paulo,0,Success,Windows 11
+2026-10-20T16:01:19Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.1.25,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T16:03:36Z,isabela.costa@lojapixel.com.br,Outlook,10.20.7.93,BR,São Paulo,0,Success,Windows 11
+2026-10-20T16:05:47Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.3.76,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T16:07:46Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.3.190,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T16:07:56Z,ana.souza@lojapixel.com.br,Outlook,10.20.5.154,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T16:08:26Z,elisa.prado@lojapixel.com.br,Outlook,10.20.4.116,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T16:10:16Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.7.81,BR,São Paulo,0,Success,macOS
+2026-10-20T16:19:01Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.7.140,BR,São Paulo,0,Success,macOS
+2026-10-20T16:19:15Z,bruno.lima@lojapixel.com.br,Outlook,10.20.1.236,BR,Campinas,0,Success,Windows 11
+2026-10-20T16:21:27Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.4.91,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T16:25:02Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.5.5,BR,São Paulo,50126,Invalid username or password,Windows 11
+2026-10-20T16:25:14Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.8.188,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T16:25:34Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.4.145,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T16:25:53Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.4.109,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T16:26:23Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.4.224,BR,Campinas,0,Success,Windows 11
+2026-10-20T16:27:02Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.6.41,BR,Campinas,0,Success,macOS
+2026-10-20T16:27:46Z,gabi.torres@lojapixel.com.br,Outlook,10.20.3.233,BR,São Paulo,0,Success,Windows 11
+2026-10-20T16:30:31Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.9.206,BR,São Paulo,0,Success,Windows 11
+2026-10-20T16:33:34Z,joao.pereira@lojapixel.com.br,Outlook,10.20.1.132,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T16:36:07Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.7.152,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T16:37:24Z,paula.freitas@lojapixel.com.br,Outlook,10.20.8.214,BR,Campinas,0,Success,Windows 11
+2026-10-20T16:38:11Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.8.225,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T16:38:33Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.6.140,BR,São Paulo,0,Success,Windows 11
+2026-10-20T16:39:49Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.9.9,BR,São Paulo,0,Success,Windows 11
+2026-10-20T16:41:48Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.3.60,BR,São Paulo,0,Success,Windows 11
+2026-10-20T16:42:28Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.7.12,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T16:43:39Z,gabi.torres@lojapixel.com.br,Outlook,10.20.7.16,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T16:44:34Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.9.20,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T16:49:54Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.2.76,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T16:51:16Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.3.84,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T16:51:44Z,bruno.lima@lojapixel.com.br,Outlook,10.20.9.164,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T16:54:04Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.7.18,BR,Campinas,0,Success,Windows 11
+2026-10-20T16:55:25Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.4.97,BR,Campinas,50074,Strong authentication is required,Windows 11
+2026-10-20T16:55:45Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.4.54,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T16:57:41Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.6.123,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T16:58:39Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.9.133,BR,São Paulo,0,Success,macOS
+2026-10-20T16:59:49Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.5.121,BR,Campinas,0,Success,macOS
+2026-10-20T16:59:57Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.8.48,BR,Rio de Janeiro,50074,Strong authentication is required,macOS
+2026-10-20T17:00:27Z,elisa.prado@lojapixel.com.br,Outlook,10.20.2.177,BR,São Paulo,0,Success,macOS
+2026-10-20T17:04:25Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.3.102,BR,Campinas,0,Success,Windows 11
+2026-10-20T17:04:41Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.8.194,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T17:06:02Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.2.127,BR,São Paulo,0,Success,macOS
+2026-10-20T17:06:31Z,ana.souza@lojapixel.com.br,Outlook,10.20.6.245,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:07:34Z,joao.pereira@lojapixel.com.br,Outlook,10.20.7.185,BR,Campinas,0,Success,macOS
+2026-10-20T17:07:44Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.3.119,BR,Campinas,0,Success,macOS
+2026-10-20T17:08:07Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.5.217,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:08:34Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.2.53,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T17:12:06Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.9.244,BR,São Paulo,0,Success,macOS
+2026-10-20T17:14:45Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.3.145,BR,Campinas,0,Success,Windows 11
+2026-10-20T17:20:20Z,elisa.prado@lojapixel.com.br,Outlook,10.20.8.77,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:20:28Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.4.174,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:20:43Z,carla.mendes@lojapixel.com.br,Outlook,10.20.2.116,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T17:21:39Z,bruno.lima@lojapixel.com.br,Outlook,10.20.5.58,BR,Campinas,0,Success,Windows 11
+2026-10-20T17:24:48Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.9.17,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T17:26:26Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.6.37,BR,São Paulo,0,Success,Windows 11
+2026-10-20T17:28:03Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.1.210,BR,Belo Horizonte,50074,Strong authentication is required,macOS
+2026-10-20T17:33:21Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.9.18,BR,Campinas,0,Success,Windows 11
+2026-10-20T17:35:00Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.7.247,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T17:39:48Z,gabi.torres@lojapixel.com.br,Outlook,10.20.7.246,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:41:35Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.2.161,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T17:45:08Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.8.215,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:47:24Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.1.202,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:54:16Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.6.86,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T17:54:54Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.4.183,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T17:56:41Z,paula.freitas@lojapixel.com.br,Microsoft Teams,10.20.5.54,BR,São Paulo,0,Success,macOS
+2026-10-20T17:57:22Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.7.226,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T17:59:18Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.3.101,BR,Campinas,0,Success,macOS
+2026-10-20T18:02:24Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.8.147,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T18:03:33Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.5.198,BR,Campinas,0,Success,Windows 11
+2026-10-20T18:05:36Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.9.66,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T18:06:55Z,marina.lopes@lojapixel.com.br,Outlook,10.20.1.49,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T18:07:21Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.4.242,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T18:07:52Z,nina.reis@lojapixel.com.br,Outlook,10.20.2.158,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T18:08:22Z,paula.freitas@lojapixel.com.br,Outlook,10.20.2.147,BR,Rio de Janeiro,50126,Invalid username or password,Windows 11
+2026-10-20T18:09:32Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.6.149,BR,São Paulo,0,Success,Windows 11
+2026-10-20T18:12:07Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.9.46,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T18:12:31Z,henrique.alves@lojapixel.com.br,Outlook,10.20.4.166,BR,São Paulo,0,Success,Windows 11
+2026-10-20T18:13:22Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.6.67,BR,São Paulo,0,Success,Windows 11
+2026-10-20T18:15:27Z,bruno.lima@lojapixel.com.br,Outlook,10.20.8.98,BR,Campinas,0,Success,Windows 11
+2026-10-20T18:17:41Z,joao.pereira@lojapixel.com.br,Outlook,10.20.8.191,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T18:24:13Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.1.226,BR,São Paulo,50126,Invalid username or password,macOS
+2026-10-20T18:24:18Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.9.178,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T18:25:06Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.2.214,BR,São Paulo,0,Success,Windows 11
+2026-10-20T18:32:29Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.1.244,BR,Campinas,0,Success,macOS
+2026-10-20T18:32:31Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.5.33,BR,Campinas,0,Success,Windows 11
+2026-10-20T18:33:40Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.2.48,BR,São Paulo,50126,Invalid username or password,macOS
+2026-10-20T18:34:20Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.3.154,BR,Campinas,0,Success,Windows 11
+2026-10-20T18:35:50Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.5.93,BR,Campinas,0,Success,Windows 11
+2026-10-20T18:37:04Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.3.91,BR,São Paulo,50074,Strong authentication is required,macOS
+2026-10-20T18:39:42Z,carla.mendes@lojapixel.com.br,Outlook,10.20.3.85,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T18:39:57Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.2.184,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T18:40:06Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.8.229,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T18:40:44Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.8.47,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T18:43:07Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.2.182,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T18:43:52Z,henrique.alves@lojapixel.com.br,Outlook,10.20.8.199,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T18:45:13Z,elisa.prado@lojapixel.com.br,Outlook,10.20.6.11,BR,Campinas,0,Success,macOS
+2026-10-20T18:49:29Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.7.152,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T18:49:33Z,henrique.alves@lojapixel.com.br,Outlook,10.20.8.227,BR,Campinas,0,Success,Windows 11
+2026-10-20T18:50:16Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.6.216,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T18:52:55Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.3.181,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T18:54:07Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.4.129,BR,Campinas,0,Success,Windows 11
+2026-10-20T18:54:16Z,bruno.lima@lojapixel.com.br,Outlook,10.20.4.181,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T18:54:30Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.9.116,BR,Campinas,0,Success,macOS
+2026-10-20T18:55:57Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.1.167,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T18:57:01Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.5.130,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T18:59:29Z,paula.freitas@lojapixel.com.br,Outlook,10.20.7.63,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:00:44Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.1.189,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T19:02:43Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.1.10,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T19:02:52Z,nina.reis@lojapixel.com.br,Outlook,10.20.1.6,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:06:19Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.3.188,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T19:06:58Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.4.69,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:08:24Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.3.219,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:09:02Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.9.12,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:10:56Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.7.210,BR,Campinas,0,Success,macOS
+2026-10-20T19:11:57Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.1.13,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:11:58Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.3.183,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T19:12:04Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.2.153,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T19:16:52Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.6.147,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:21:23Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.8.244,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T19:22:38Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.7.96,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:24:39Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.8.219,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:25:07Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.8.81,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T19:25:36Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.4.140,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T19:26:40Z,ana.souza@lojapixel.com.br,Outlook,10.20.3.142,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T19:29:11Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.5.11,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:30:48Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.2.103,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T19:31:07Z,marina.lopes@lojapixel.com.br,Outlook,10.20.2.189,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:32:35Z,gabi.torres@lojapixel.com.br,Outlook,10.20.3.221,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T19:33:02Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.9.6,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T19:34:34Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.2.228,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:36:01Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.2.125,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T19:36:15Z,elisa.prado@lojapixel.com.br,Outlook,10.20.9.211,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T19:37:05Z,ana.souza@lojapixel.com.br,Outlook,10.20.2.205,BR,Campinas,0,Success,macOS
+2026-10-20T19:37:34Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.1.110,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T19:37:51Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.3.66,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:40:15Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.8.149,BR,São Paulo,0,Success,macOS
+2026-10-20T19:40:50Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.5.229,BR,Campinas,0,Success,macOS
+2026-10-20T19:42:42Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.5.32,BR,Campinas,0,Success,Windows 11
+2026-10-20T19:42:51Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.9.152,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T19:43:21Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.7.126,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:43:23Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.8.165,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T19:44:57Z,paula.freitas@lojapixel.com.br,Microsoft Teams,10.20.8.232,BR,São Paulo,0,Success,macOS
+2026-10-20T19:45:31Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.1.26,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:46:26Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.5.191,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T19:47:56Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.6.144,BR,Campinas,0,Success,macOS
+2026-10-20T19:49:28Z,paula.freitas@lojapixel.com.br,Outlook,10.20.1.245,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T19:49:34Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.9.19,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:49:49Z,diego.rocha@lojapixel.com.br,Outlook,10.20.7.205,BR,Campinas,0,Success,macOS
+2026-10-20T19:51:39Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.2.113,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T19:54:53Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.2.39,BR,Campinas,0,Success,macOS
+2026-10-20T19:57:40Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.5.122,BR,São Paulo,0,Success,Windows 11
+2026-10-20T19:57:51Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.4.41,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T19:58:48Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.3.249,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T20:04:21Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.7.81,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T20:04:29Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.1.199,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T20:05:15Z,gabi.torres@lojapixel.com.br,Outlook,10.20.1.141,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T20:05:39Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.4.194,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T20:08:23Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.9.132,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T20:08:24Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.8.8,BR,São Paulo,0,Success,Windows 11
+2026-10-20T20:10:20Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.6.141,BR,São Paulo,0,Success,Windows 11
+2026-10-20T20:10:35Z,gabi.torres@lojapixel.com.br,Outlook,10.20.6.226,BR,Campinas,0,Success,macOS
+2026-10-20T20:12:19Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.5.30,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:12:36Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.8.178,BR,São Paulo,0,Success,Windows 11
+2026-10-20T20:12:41Z,diego.rocha@lojapixel.com.br,Outlook,10.20.9.160,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:13:24Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.5.202,BR,Belo Horizonte,50074,Strong authentication is required,Windows 11
+2026-10-20T20:14:29Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.2.19,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:14:47Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.3.122,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:15:38Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.9.85,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:16:44Z,diego.rocha@lojapixel.com.br,Outlook,10.20.3.7,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:17:16Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.8.132,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:18:37Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.5.247,BR,São Paulo,0,Success,Windows 11
+2026-10-20T20:24:09Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.5.164,BR,Campinas,0,Success,macOS
+2026-10-20T20:24:49Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.3.27,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:25:23Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.1.173,BR,Belo Horizonte,50126,Invalid username or password,Windows 11
+2026-10-20T20:30:22Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.6.192,BR,São Paulo,0,Success,Windows 11
+2026-10-20T20:32:52Z,henrique.alves@lojapixel.com.br,Outlook,10.20.7.130,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T20:33:02Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.4.115,BR,Campinas,0,Success,macOS
+2026-10-20T20:33:38Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.5.199,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:33:41Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.3.99,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:33:54Z,paula.freitas@lojapixel.com.br,Outlook,10.20.2.94,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:36:02Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.7.192,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:36:16Z,joao.pereira@lojapixel.com.br,Outlook,10.20.4.95,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:36:18Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.3.43,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:36:21Z,joao.pereira@lojapixel.com.br,Outlook,10.20.1.74,BR,São Paulo,0,Success,macOS
+2026-10-20T20:36:33Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.4.229,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:37:01Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.7.3,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T20:42:06Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.9.125,BR,São Paulo,0,Success,macOS
+2026-10-20T20:42:55Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.7.119,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:44:14Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.8.118,BR,Campinas,0,Success,macOS
+2026-10-20T20:46:45Z,bruno.lima@lojapixel.com.br,Outlook,10.20.2.203,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T20:47:18Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.5.73,BR,Campinas,0,Success,Windows 11
+2026-10-20T20:47:46Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.3.49,BR,Campinas,0,Success,macOS
+2026-10-20T20:53:30Z,paula.freitas@lojapixel.com.br,Outlook,10.20.2.111,BR,São Paulo,0,Success,macOS
+2026-10-20T20:54:27Z,paula.freitas@lojapixel.com.br,Outlook,10.20.2.99,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T20:55:39Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.5.58,BR,Campinas,0,Success,macOS
+2026-10-20T20:57:26Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.5.37,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T20:59:35Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.2.32,BR,Campinas,0,Success,macOS
+2026-10-20T21:02:30Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.5.141,BR,Campinas,0,Success,Windows 11
+2026-10-20T21:04:52Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.8.140,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T21:05:37Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.7.170,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T21:07:02Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.9.207,BR,São Paulo,0,Success,Windows 11
+2026-10-20T21:08:10Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.8.118,BR,São Paulo,0,Success,Windows 11
+2026-10-20T21:08:17Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.8.242,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T21:08:56Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.7.250,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T21:10:28Z,ana.souza@lojapixel.com.br,Outlook,10.20.3.62,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T21:14:25Z,joao.pereira@lojapixel.com.br,Outlook,10.20.7.192,BR,Campinas,0,Success,Windows 11
+2026-10-20T21:16:58Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.8.88,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T21:18:34Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.2.100,BR,Campinas,0,Success,Windows 11
+2026-10-20T21:19:33Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.9.143,BR,Campinas,0,Success,Windows 11
+2026-10-20T21:21:34Z,lucas.martins@lojapixel.com.br,Outlook,10.20.1.234,BR,Campinas,0,Success,macOS
+2026-10-20T21:22:16Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.3.111,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T21:27:47Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.2.46,BR,São Paulo,0,Success,Windows 11
+2026-10-20T21:34:42Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.3.54,BR,Campinas,0,Success,Windows 11
+2026-10-20T21:38:09Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.4.81,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T21:38:41Z,gabi.torres@lojapixel.com.br,Outlook,10.20.8.25,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T21:38:57Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.5.104,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T21:39:34Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.1.123,BR,São Paulo,0,Success,macOS
+2026-10-20T21:43:18Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.1.10,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T21:43:46Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.2.162,BR,São Paulo,0,Success,Windows 11
+2026-10-20T21:47:49Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.8.21,BR,Campinas,0,Success,Windows 11
+2026-10-20T21:51:21Z,gabi.torres@lojapixel.com.br,Outlook,10.20.9.209,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T21:54:01Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.5.244,BR,Campinas,0,Success,macOS
+2026-10-20T21:54:42Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.5.156,BR,Campinas,0,Success,Windows 11
+2026-10-20T21:57:35Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.4.240,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T21:59:14Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.2.159,BR,São Paulo,0,Success,macOS
+2026-10-20T22:00:05Z,marina.lopes@lojapixel.com.br,Outlook,10.20.5.184,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:00:18Z,lucas.martins@lojapixel.com.br,Outlook,10.20.7.168,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:01:59Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.8.248,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T22:02:05Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.5.187,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:04:33Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.5.89,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:07:35Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.2.155,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:08:18Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.6.16,BR,São Paulo,0,Success,macOS
+2026-10-20T22:08:22Z,marina.lopes@lojapixel.com.br,Outlook,10.20.5.10,BR,Campinas,0,Success,macOS
+2026-10-20T22:09:37Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.4.94,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:10:07Z,ana.souza@lojapixel.com.br,Outlook,10.20.5.75,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T22:10:07Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.9.10,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:14:54Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.9.187,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:18:33Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.5.51,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:21:38Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.2.193,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T22:22:24Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.4.145,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:24:57Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.2.110,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:25:12Z,gabi.torres@lojapixel.com.br,Outlook,10.20.4.59,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:25:49Z,ana.souza@lojapixel.com.br,Outlook,10.20.9.9,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T22:26:41Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.3.38,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:29:06Z,isabela.costa@lojapixel.com.br,Outlook,10.20.3.158,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T22:29:22Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.7.98,BR,São Paulo,0,Success,macOS
+2026-10-20T22:29:29Z,bruno.lima@lojapixel.com.br,Outlook,10.20.6.146,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:30:00Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.6.100,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T22:32:20Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.4.28,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:32:22Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.9.179,BR,Campinas,0,Success,Windows 11
+2026-10-20T22:33:29Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.3.40,BR,Campinas,0,Success,Windows 11
+2026-10-20T22:34:36Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.9.244,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:36:04Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.2.200,BR,São Paulo,0,Success,Windows 11
+2026-10-20T22:36:41Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.5.191,BR,Campinas,50126,Invalid username or password,Windows 11
+2026-10-20T22:37:53Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.3.11,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:38:01Z,gabi.torres@lojapixel.com.br,Outlook,10.20.5.125,BR,Campinas,0,Success,macOS
+2026-10-20T22:40:47Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.9.161,BR,Campinas,0,Success,macOS
+2026-10-20T22:41:17Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.8.22,BR,São Paulo,0,Success,macOS
+2026-10-20T22:41:48Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.7.138,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T22:42:52Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.9.112,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T22:44:19Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.1.54,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T22:44:57Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.8.154,BR,São Paulo,0,Success,macOS
+2026-10-20T22:45:25Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.9.232,BR,São Paulo,50126,Invalid username or password,Windows 11
+2026-10-20T22:47:43Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.1.122,BR,São Paulo,0,Success,macOS
+2026-10-20T22:50:44Z,joao.pereira@lojapixel.com.br,Outlook,10.20.6.240,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T22:51:50Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.3.18,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T22:53:25Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.6.121,BR,Campinas,0,Success,Windows 11
+2026-10-20T22:57:18Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.5.247,BR,São Paulo,50126,Invalid username or password,Windows 11
+2026-10-20T22:57:58Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.3.248,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:58:14Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.5.131,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:58:17Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.7.30,BR,Campinas,0,Success,Windows 11
+2026-10-20T22:58:23Z,marina.lopes@lojapixel.com.br,Outlook,10.20.6.13,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T22:58:46Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.5.116,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T23:00:15Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.7.93,BR,São Paulo,0,Success,macOS
+2026-10-20T23:08:00Z,diego.rocha@lojapixel.com.br,Outlook,10.20.8.126,BR,São Paulo,0,Success,Windows 11
+2026-10-20T23:08:33Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.4.7,BR,Campinas,0,Success,macOS
+2026-10-20T23:08:37Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.9.249,BR,São Paulo,0,Success,Windows 11
+2026-10-20T23:09:30Z,ana.souza@lojapixel.com.br,Outlook,10.20.9.132,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T23:10:40Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.7.67,BR,São Paulo,0,Success,Windows 11
+2026-10-20T23:12:14Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.9.103,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T23:13:30Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.6.198,BR,Campinas,0,Success,macOS
+2026-10-20T23:14:45Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.1.112,BR,São Paulo,0,Success,macOS
+2026-10-20T23:20:05Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.8.150,BR,Campinas,0,Success,Windows 11
+2026-10-20T23:22:45Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.4.169,BR,Campinas,0,Success,Windows 11
+2026-10-20T23:24:34Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.9.23,BR,Rio de Janeiro,0,Success,macOS
+2026-10-20T23:27:19Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.8.179,BR,Rio de Janeiro,50126,Invalid username or password,Windows 11
+2026-10-20T23:28:03Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.7.69,BR,Rio de Janeiro,50074,Strong authentication is required,Windows 11
+2026-10-20T23:30:26Z,ana.souza@lojapixel.com.br,Outlook,10.20.1.92,BR,São Paulo,0,Success,Windows 11
+2026-10-20T23:31:05Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.4.27,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T23:31:22Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.7.35,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T23:33:41Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.7.82,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T23:34:49Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.4.94,BR,São Paulo,0,Success,macOS
+2026-10-20T23:36:07Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.7.104,BR,Campinas,0,Success,Windows 11
+2026-10-20T23:43:21Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.6.183,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T23:43:23Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.5.48,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T23:43:33Z,lucas.martins@lojapixel.com.br,GitHub Enterprise,10.20.9.167,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T23:46:28Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.7.180,BR,São Paulo,0,Success,Windows 11
+2026-10-20T23:50:47Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.7.25,BR,São Paulo,0,Success,Windows 11
+2026-10-20T23:50:57Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.6.214,BR,Campinas,0,Success,Windows 11
+2026-10-20T23:51:37Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.4.153,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T23:52:51Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.4.48,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T23:53:13Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.6.62,BR,Campinas,0,Success,macOS
+2026-10-20T23:53:14Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.2.46,BR,Campinas,0,Success,Windows 11
+2026-10-20T23:54:01Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.9.141,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T23:54:58Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.9.205,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-20T23:55:11Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.2.54,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-20T23:56:17Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.7.71,BR,São Paulo,0,Success,macOS
+2026-10-20T23:58:19Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.5.146,BR,São Paulo,0,Success,Windows 11
+2026-10-20T23:59:23Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.9.220,BR,Campinas,0,Success,Windows 11
+2026-10-20T23:59:52Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.5.77,BR,Belo Horizonte,0,Success,macOS
+2026-10-20T23:59:58Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.6.224,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:01:54Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.1.26,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:04:50Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.7.212,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T00:05:40Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.7.233,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:06:33Z,carla.mendes@lojapixel.com.br,Outlook,10.20.5.38,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:07:04Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.7.235,BR,São Paulo,0,Success,macOS
+2026-10-21T00:07:17Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.4.185,BR,Campinas,0,Success,macOS
+2026-10-21T00:08:15Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.1.188,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:13:37Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.3.209,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T00:14:32Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.1.215,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T00:15:03Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.3.23,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T00:17:56Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.1.86,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T00:18:40Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.1.75,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T00:19:52Z,henrique.alves@lojapixel.com.br,Outlook,10.20.1.166,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T00:20:19Z,nina.reis@lojapixel.com.br,Outlook,10.20.1.239,BR,São Paulo,0,Success,macOS
+2026-10-21T00:21:18Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.7.205,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:24:10Z,diego.rocha@lojapixel.com.br,Outlook,10.20.6.23,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:28:31Z,paula.freitas@lojapixel.com.br,Outlook,10.20.7.188,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T00:32:16Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.2.149,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:33:00Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.4.205,BR,Campinas,0,Success,Windows 11
+2026-10-21T00:34:05Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.5.103,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:38:13Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.6.40,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:39:55Z,karen.dias@lojapixel.com.br,Outlook,10.20.2.30,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T00:41:33Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.7.164,BR,São Paulo,0,Success,macOS
+2026-10-21T00:42:45Z,isabela.costa@lojapixel.com.br,Outlook,10.20.1.182,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T00:44:18Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.3.149,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T00:44:27Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.6.94,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:44:42Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.4.135,BR,Campinas,0,Success,macOS
+2026-10-21T00:46:07Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.6.108,BR,São Paulo,0,Success,macOS
+2026-10-21T00:47:08Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.6.246,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:47:55Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.4.109,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:48:58Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.3.210,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T00:49:07Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.8.233,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:51:26Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.6.189,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:52:49Z,lucas.martins@lojapixel.com.br,Outlook,10.20.7.87,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:53:08Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.7.24,BR,Campinas,0,Success,Windows 11
+2026-10-21T00:54:53Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.8.213,BR,São Paulo,0,Success,Windows 11
+2026-10-21T00:56:22Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.8.102,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T00:59:14Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.1.7,BR,Campinas,0,Success,macOS
+2026-10-21T01:00:03Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.3.72,BR,Campinas,0,Success,Windows 11
+2026-10-21T01:05:02Z,paula.freitas@lojapixel.com.br,Outlook,10.20.7.215,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:05:34Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.3.116,BR,São Paulo,50126,Invalid username or password,Windows 11
+2026-10-21T01:09:13Z,henrique.alves@lojapixel.com.br,Microsoft Teams,10.20.6.218,BR,Campinas,0,Success,Windows 11
+2026-10-21T01:09:41Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.4.231,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T01:12:49Z,paula.freitas@lojapixel.com.br,Microsoft Teams,10.20.8.190,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:13:08Z,carla.mendes@lojapixel.com.br,Outlook,10.20.3.10,BR,São Paulo,0,Success,Windows 11
+2026-10-21T01:17:15Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.3.74,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T01:17:51Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.5.92,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:19:52Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.1.163,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T01:20:43Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.9.214,BR,Campinas,0,Success,Windows 11
+2026-10-21T01:22:50Z,henrique.alves@lojapixel.com.br,Outlook,10.20.7.141,BR,Campinas,0,Success,Windows 11
+2026-10-21T01:23:53Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.3.155,BR,São Paulo,0,Success,Windows 11
+2026-10-21T01:25:43Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.8.85,BR,São Paulo,0,Success,Windows 11
+2026-10-21T01:28:05Z,diego.rocha@lojapixel.com.br,Outlook,10.20.5.197,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T01:28:48Z,nina.reis@lojapixel.com.br,Outlook,10.20.6.21,BR,Campinas,0,Success,Windows 11
+2026-10-21T01:30:01Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.2.31,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T01:31:46Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.2.144,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:32:37Z,gabi.torres@lojapixel.com.br,Outlook,10.20.8.247,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T01:34:40Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.2.144,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:39:31Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.1.56,BR,Campinas,0,Success,Windows 11
+2026-10-21T01:43:10Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.8.123,BR,Campinas,0,Success,macOS
+2026-10-21T01:44:44Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.9.107,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:46:45Z,paula.freitas@lojapixel.com.br,Microsoft Teams,10.20.5.165,BR,Campinas,0,Success,macOS
+2026-10-21T01:47:17Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.8.37,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T01:48:09Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.2.160,BR,Campinas,0,Success,Windows 11
+2026-10-21T01:49:23Z,henrique.alves@lojapixel.com.br,Outlook,10.20.2.71,BR,São Paulo,0,Success,Windows 11
+2026-10-21T01:50:21Z,bruno.lima@lojapixel.com.br,Outlook,10.20.7.11,BR,São Paulo,0,Success,Windows 11
+2026-10-21T01:52:41Z,nina.reis@lojapixel.com.br,Outlook,10.20.2.243,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T01:52:46Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.5.188,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T01:54:26Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.9.134,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:54:44Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.3.25,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T01:56:14Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.3.25,BR,São Paulo,0,Success,Windows 11
+2026-10-21T01:59:51Z,paula.freitas@lojapixel.com.br,Outlook,10.20.3.40,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T02:00:36Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.7.206,BR,São Paulo,0,Success,Windows 11
+2026-10-21T02:01:55Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.1.62,BR,São Paulo,0,Success,Windows 11
+2026-10-21T02:05:45Z,joao.pereira@lojapixel.com.br,Outlook,10.20.6.161,BR,São Paulo,0,Success,macOS
+2026-10-21T02:07:06Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.9.95,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T02:07:13Z,gabi.torres@lojapixel.com.br,Outlook,10.20.9.243,BR,Campinas,0,Success,Windows 11
+2026-10-21T02:08:21Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.8.153,BR,Rio de Janeiro,50126,Invalid username or password,macOS
+2026-10-21T02:09:02Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.6.14,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T02:10:05Z,ana.souza@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:11:05Z,bruno.lima@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:12:05Z,carla.mendes@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:12:58Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.1.128,BR,São Paulo,0,Success,macOS
+2026-10-21T02:13:05Z,diego.rocha@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:13:32Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.5.177,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T02:14:05Z,elisa.prado@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:14:18Z,ana.souza@lojapixel.com.br,Outlook,10.20.2.26,BR,Campinas,50074,Strong authentication is required,Windows 11
+2026-10-21T02:14:31Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.9.133,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T02:14:35Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.4.186,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T02:15:05Z,fabio.nunes@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:16:05Z,gabi.torres@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:17:05Z,henrique.alves@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:18:05Z,isabela.costa@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:18:53Z,elisa.prado@lojapixel.com.br,Outlook,10.20.3.219,BR,São Paulo,0,Success,macOS
+2026-10-21T02:19:05Z,joao.pereira@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:20:05Z,karen.dias@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:21:04Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.2.234,BR,São Paulo,50074,Strong authentication is required,Windows 11
+2026-10-21T02:21:05Z,lucas.martins@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:22:05Z,marina.lopes@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:22:43Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.2.51,BR,Campinas,0,Success,Windows 11
+2026-10-21T02:23:05Z,nina.reis@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:24:05Z,otavio.ramos@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:24:46Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.4.128,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T02:25:05Z,paula.freitas@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:26:05Z,ana.souza@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:27:05Z,bruno.lima@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:27:08Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.2.102,BR,Belo Horizonte,50074,Strong authentication is required,macOS
+2026-10-21T02:28:05Z,carla.mendes@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:28:38Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.3.34,BR,Campinas,0,Success,Windows 11
+2026-10-21T02:28:53Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.8.205,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T02:29:05Z,diego.rocha@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:30:05Z,elisa.prado@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:31:05Z,fabio.nunes@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:31:43Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.3.232,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T02:32:05Z,gabi.torres@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:33:05Z,henrique.alves@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:33:34Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.5.225,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T02:33:40Z,ana.souza@lojapixel.com.br,Outlook,10.20.5.191,BR,Campinas,0,Success,macOS
+2026-10-21T02:34:05Z,isabela.costa@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:35:05Z,joao.pereira@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:36:05Z,karen.dias@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:36:14Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.3.145,BR,Campinas,0,Success,Windows 11
+2026-10-21T02:37:05Z,lucas.martins@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:37:37Z,paula.freitas@lojapixel.com.br,Outlook,10.20.9.76,BR,Campinas,0,Success,macOS
+2026-10-21T02:37:51Z,isabela.costa@lojapixel.com.br,Outlook,10.20.1.243,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T02:38:05Z,marina.lopes@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:39:05Z,nina.reis@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:39:08Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.3.222,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T02:39:48Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.3.201,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T02:40:05Z,otavio.ramos@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:41:05Z,paula.freitas@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,50126,Invalid username or password,Linux
+2026-10-21T02:41:34Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.4.70,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T02:44:12Z,joao.pereira@lojapixel.com.br,Azure Portal,198.51.100.23,NL,Amsterdam,0,Success,Linux
+2026-10-21T02:45:15Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.8.191,BR,São Paulo,0,Success,Windows 11
+2026-10-21T02:46:12Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.3.22,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T02:46:39Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.5.151,BR,São Paulo,0,Success,Windows 11
+2026-10-21T02:49:30Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.9.86,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T02:50:18Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.6.91,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T02:50:46Z,ana.souza@lojapixel.com.br,GitHub Enterprise,10.20.5.88,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T02:52:21Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.1.170,BR,Campinas,50074,Strong authentication is required,Windows 11
+2026-10-21T02:53:20Z,diego.rocha@lojapixel.com.br,Outlook,10.20.1.129,BR,São Paulo,0,Success,Windows 11
+2026-10-21T02:55:21Z,diego.rocha@lojapixel.com.br,Outlook,10.20.2.24,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:02:02Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.6.119,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T03:04:47Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.2.16,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T03:05:04Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.4.188,BR,Campinas,50074,Strong authentication is required,Windows 11
+2026-10-21T03:05:50Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.5.129,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T03:09:54Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.3.54,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:10:46Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.2.45,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:13:25Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.7.217,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T03:13:31Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.5.190,BR,Rio de Janeiro,50126,Invalid username or password,macOS
+2026-10-21T03:15:12Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.9.29,BR,São Paulo,0,Success,macOS
+2026-10-21T03:15:27Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.1.242,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T03:18:06Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.2.35,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:19:04Z,carla.mendes@lojapixel.com.br,Outlook,10.20.2.74,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:19:29Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.7.209,BR,Belo Horizonte,50074,Strong authentication is required,macOS
+2026-10-21T03:20:49Z,carla.mendes@lojapixel.com.br,Outlook,10.20.8.224,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:21:03Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.5.86,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:22:00Z,marina.lopes@lojapixel.com.br,Azure Portal,10.20.6.175,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:22:33Z,joao.pereira@lojapixel.com.br,Outlook,10.20.2.9,BR,São Paulo,0,Success,macOS
+2026-10-21T03:23:21Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.2.83,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:24:39Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.6.172,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T03:25:47Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.1.87,BR,São Paulo,0,Success,Windows 11
+2026-10-21T03:26:22Z,carla.mendes@lojapixel.com.br,Outlook,10.20.2.45,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:30:10Z,paula.freitas@lojapixel.com.br,Outlook,10.20.9.54,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T03:31:05Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.5.82,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:32:20Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.8.152,BR,Rio de Janeiro,50074,Strong authentication is required,macOS
+2026-10-21T03:32:51Z,bruno.lima@lojapixel.com.br,Outlook,10.20.1.150,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:34:40Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.8.146,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T03:34:46Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.2.30,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T03:36:25Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.1.142,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:37:50Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.6.164,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:43:16Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.7.221,BR,São Paulo,0,Success,Windows 11
+2026-10-21T03:49:52Z,diego.rocha@lojapixel.com.br,Outlook,10.20.5.17,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:54:30Z,bruno.lima@lojapixel.com.br,Azure Portal,10.20.8.129,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T03:55:38Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.5.127,BR,Campinas,0,Success,Windows 11
+2026-10-21T03:58:46Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.8.11,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:00:26Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.3.135,BR,Campinas,0,Success,Windows 11
+2026-10-21T04:01:00Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.2.75,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:02:14Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.8.209,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T04:03:55Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.3.56,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T04:06:46Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.1.37,BR,São Paulo,0,Success,Windows 11
+2026-10-21T04:09:33Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.6.174,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T04:09:55Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.3.230,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:13:31Z,carla.mendes@lojapixel.com.br,Microsoft Teams,10.20.2.151,BR,Campinas,50126,Invalid username or password,macOS
+2026-10-21T04:16:58Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.6.65,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T04:17:04Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.4.127,BR,Campinas,0,Success,macOS
+2026-10-21T04:20:04Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.1.95,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T04:25:45Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.9.104,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T04:26:10Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.9.226,BR,Campinas,0,Success,Windows 11
+2026-10-21T04:27:08Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.6.126,BR,Campinas,0,Success,macOS
+2026-10-21T04:29:07Z,henrique.alves@lojapixel.com.br,Outlook,10.20.4.189,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:29:39Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.7.77,BR,Rio de Janeiro,50126,Invalid username or password,Windows 11
+2026-10-21T04:31:06Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.7.245,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T04:31:33Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.7.62,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:31:36Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.6.160,BR,São Paulo,0,Success,Windows 11
+2026-10-21T04:33:10Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.6.208,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T04:34:20Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.4.192,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:35:02Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.4.213,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T04:36:32Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.8.219,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T04:38:33Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.5.10,BR,Campinas,0,Success,Windows 11
+2026-10-21T04:38:56Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.9.236,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:39:22Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.5.57,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:42:14Z,elisa.prado@lojapixel.com.br,Outlook,10.20.8.161,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T04:43:59Z,paula.freitas@lojapixel.com.br,GitHub Enterprise,10.20.2.19,BR,Campinas,0,Success,macOS
+2026-10-21T04:46:06Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.7.195,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:46:35Z,paula.freitas@lojapixel.com.br,Microsoft Teams,10.20.2.147,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T04:46:40Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.1.206,BR,São Paulo,0,Success,macOS
+2026-10-21T04:47:01Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.4.55,BR,São Paulo,0,Success,Windows 11
+2026-10-21T04:49:51Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.7.72,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:50:21Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.4.39,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T04:51:10Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.5.93,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T04:52:20Z,marina.lopes@lojapixel.com.br,Outlook,10.20.1.155,BR,São Paulo,0,Success,Windows 11
+2026-10-21T04:52:50Z,lucas.martins@lojapixel.com.br,Outlook,10.20.4.96,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T04:52:57Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.6.21,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T05:02:32Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.8.83,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T05:09:19Z,karen.dias@lojapixel.com.br,Outlook,10.20.8.80,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T05:11:38Z,elisa.prado@lojapixel.com.br,Outlook,10.20.6.112,BR,Belo Horizonte,50074,Strong authentication is required,Windows 11
+2026-10-21T05:14:48Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.8.27,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T05:23:24Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.7.31,BR,Campinas,0,Success,macOS
+2026-10-21T05:23:43Z,henrique.alves@lojapixel.com.br,GitHub Enterprise,10.20.9.66,BR,São Paulo,0,Success,Windows 11
+2026-10-21T05:28:59Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.2.226,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T05:31:53Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.6.180,BR,São Paulo,0,Success,Windows 11
+2026-10-21T05:35:37Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.8.8,BR,São Paulo,0,Success,macOS
+2026-10-21T05:35:52Z,carla.mendes@lojapixel.com.br,Outlook,10.20.6.72,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T05:39:01Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.1.198,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T05:40:03Z,marina.lopes@lojapixel.com.br,Microsoft Teams,10.20.9.91,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T05:41:26Z,diego.rocha@lojapixel.com.br,Outlook,10.20.4.87,BR,São Paulo,0,Success,Windows 11
+2026-10-21T05:44:50Z,ana.souza@lojapixel.com.br,Outlook,10.20.9.127,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T05:45:17Z,fabio.nunes@lojapixel.com.br,Azure Portal,10.20.7.137,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T05:45:39Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.8.74,BR,São Paulo,0,Success,Windows 11
+2026-10-21T05:47:14Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.2.107,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T05:47:41Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.3.18,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T05:48:22Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.4.213,BR,São Paulo,0,Success,Windows 11
+2026-10-21T05:49:26Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.1.62,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T05:49:47Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.7.250,BR,Campinas,0,Success,Windows 11
+2026-10-21T05:52:25Z,diego.rocha@lojapixel.com.br,Microsoft Teams,10.20.7.93,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T05:59:11Z,lucas.martins@lojapixel.com.br,Microsoft Teams,10.20.8.241,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T06:00:06Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.4.54,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:00:48Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.4.62,BR,São Paulo,0,Success,Windows 11
+2026-10-21T06:01:13Z,nina.reis@lojapixel.com.br,GitHub Enterprise,10.20.1.33,BR,Campinas,0,Success,macOS
+2026-10-21T06:01:49Z,lucas.martins@lojapixel.com.br,Outlook,10.20.9.87,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T06:01:52Z,nina.reis@lojapixel.com.br,Outlook,10.20.8.103,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:02:11Z,elisa.prado@lojapixel.com.br,Azure Portal,10.20.6.227,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:02:32Z,lucas.martins@lojapixel.com.br,Azure Portal,10.20.5.152,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:03:25Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.6.171,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T06:05:04Z,karen.dias@lojapixel.com.br,Outlook,10.20.8.22,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:05:20Z,carla.mendes@lojapixel.com.br,GitHub Enterprise,10.20.9.181,BR,São Paulo,0,Success,Windows 11
+2026-10-21T06:06:48Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.5.180,BR,Campinas,0,Success,macOS
+2026-10-21T06:07:53Z,fabio.nunes@lojapixel.com.br,Microsoft Teams,10.20.8.224,BR,São Paulo,0,Success,Windows 11
+2026-10-21T06:12:24Z,otavio.ramos@lojapixel.com.br,Microsoft Teams,10.20.5.17,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T06:12:39Z,karen.dias@lojapixel.com.br,Outlook,10.20.3.157,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T06:17:00Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.3.6,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T06:19:18Z,isabela.costa@lojapixel.com.br,Microsoft Teams,10.20.3.6,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T06:22:30Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.7.222,BR,São Paulo,0,Success,Windows 11
+2026-10-21T06:22:52Z,marina.lopes@lojapixel.com.br,GitHub Enterprise,10.20.4.210,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T06:24:04Z,diego.rocha@lojapixel.com.br,GitHub Enterprise,10.20.2.238,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T06:25:25Z,karen.dias@lojapixel.com.br,Azure Portal,10.20.3.52,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T06:36:43Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.8.13,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:41:39Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.6.194,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T06:41:58Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.8.17,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:42:26Z,fabio.nunes@lojapixel.com.br,Outlook,10.20.9.28,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T06:42:57Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.9.92,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T06:43:30Z,paula.freitas@lojapixel.com.br,Outlook,10.20.9.35,BR,São Paulo,0,Success,macOS
+2026-10-21T06:45:38Z,isabela.costa@lojapixel.com.br,GitHub Enterprise,10.20.9.224,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T06:50:02Z,paula.freitas@lojapixel.com.br,Outlook,10.20.2.111,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:50:46Z,nina.reis@lojapixel.com.br,Microsoft Teams,10.20.2.68,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T06:50:48Z,paula.freitas@lojapixel.com.br,Outlook,10.20.3.221,BR,Belo Horizonte,50126,Invalid username or password,macOS
+2026-10-21T06:51:06Z,karen.dias@lojapixel.com.br,Outlook,10.20.6.121,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:53:32Z,paula.freitas@lojapixel.com.br,Azure Portal,10.20.2.192,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T06:55:02Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.5.229,BR,São Paulo,50074,Strong authentication is required,macOS
+2026-10-21T06:56:03Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.5.106,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T06:57:05Z,gabi.torres@lojapixel.com.br,Outlook,10.20.9.64,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T06:58:16Z,paula.freitas@lojapixel.com.br,Microsoft Teams,10.20.6.237,BR,Campinas,0,Success,Windows 11
+2026-10-21T06:59:23Z,otavio.ramos@lojapixel.com.br,GitHub Enterprise,10.20.2.234,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:02:53Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.9.184,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T07:03:13Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.5.6,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T07:03:53Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.1.192,BR,São Paulo,0,Success,Windows 11
+2026-10-21T07:04:43Z,otavio.ramos@lojapixel.com.br,Azure Portal,10.20.9.176,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:05:52Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.5.149,BR,Campinas,0,Success,macOS
+2026-10-21T07:09:08Z,gabi.torres@lojapixel.com.br,Outlook,10.20.9.231,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:11:06Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.9.82,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:11:10Z,isabela.costa@lojapixel.com.br,Azure Portal,10.20.8.73,BR,São Paulo,0,Success,Windows 11
+2026-10-21T07:12:39Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.4.37,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:12:41Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.9.247,BR,Campinas,0,Success,macOS
+2026-10-21T07:16:51Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.7.24,BR,São Paulo,0,Success,macOS
+2026-10-21T07:20:03Z,fabio.nunes@lojapixel.com.br,GitHub Enterprise,10.20.6.197,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:20:40Z,ana.souza@lojapixel.com.br,Microsoft Teams,10.20.4.200,BR,Campinas,0,Success,Windows 11
+2026-10-21T07:21:32Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.2.96,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:22:39Z,bruno.lima@lojapixel.com.br,GitHub Enterprise,10.20.9.241,BR,São Paulo,0,Success,macOS
+2026-10-21T07:23:20Z,otavio.ramos@lojapixel.com.br,Outlook,10.20.7.66,BR,São Paulo,0,Success,Windows 11
+2026-10-21T07:24:10Z,carla.mendes@lojapixel.com.br,Azure Portal,10.20.2.248,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T07:24:20Z,nina.reis@lojapixel.com.br,Outlook,10.20.7.232,BR,Campinas,0,Success,Windows 11
+2026-10-21T07:27:30Z,karen.dias@lojapixel.com.br,GitHub Enterprise,10.20.5.130,BR,São Paulo,0,Success,Windows 11
+2026-10-21T07:29:18Z,gabi.torres@lojapixel.com.br,Azure Portal,10.20.6.202,BR,Campinas,0,Success,Windows 11
+2026-10-21T07:29:25Z,elisa.prado@lojapixel.com.br,Microsoft Teams,10.20.3.26,BR,São Paulo,0,Success,macOS
+2026-10-21T07:31:02Z,isabela.costa@lojapixel.com.br,Outlook,10.20.2.218,BR,Campinas,0,Success,Windows 11
+2026-10-21T07:31:32Z,diego.rocha@lojapixel.com.br,Azure Portal,10.20.8.238,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:32:56Z,karen.dias@lojapixel.com.br,Microsoft Teams,10.20.4.121,BR,Campinas,0,Success,Windows 11
+2026-10-21T07:37:50Z,henrique.alves@lojapixel.com.br,Azure Portal,10.20.1.99,BR,Belo Horizonte,0,Success,macOS
+2026-10-21T07:40:55Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.4.46,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:41:31Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.4.211,BR,São Paulo,0,Success,Windows 11
+2026-10-21T07:41:32Z,bruno.lima@lojapixel.com.br,Microsoft Teams,10.20.4.168,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T07:42:12Z,joao.pereira@lojapixel.com.br,Microsoft Teams,10.20.8.61,BR,Rio de Janeiro,0,Success,Windows 11
+2026-10-21T07:43:08Z,elisa.prado@lojapixel.com.br,Outlook,10.20.6.241,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T07:51:13Z,joao.pereira@lojapixel.com.br,Azure Portal,10.20.5.115,BR,São Paulo,0,Success,Windows 11
+2026-10-21T07:51:48Z,gabi.torres@lojapixel.com.br,GitHub Enterprise,10.20.4.224,BR,Campinas,0,Success,Windows 11
+2026-10-21T07:55:10Z,nina.reis@lojapixel.com.br,Azure Portal,10.20.3.29,BR,São Paulo,0,Success,Windows 11
+2026-10-21T07:55:36Z,elisa.prado@lojapixel.com.br,Outlook,10.20.2.171,BR,Belo Horizonte,0,Success,Windows 11
+2026-10-21T07:57:30Z,ana.souza@lojapixel.com.br,Azure Portal,10.20.2.199,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T07:57:30Z,gabi.torres@lojapixel.com.br,Microsoft Teams,10.20.1.123,BR,Rio de Janeiro,0,Success,macOS
+2026-10-21T07:57:46Z,joao.pereira@lojapixel.com.br,GitHub Enterprise,10.20.7.119,BR,Campinas,0,Success,Windows 11
+2026-10-21T07:57:51Z,elisa.prado@lojapixel.com.br,GitHub Enterprise,10.20.3.162,BR,Rio de Janeiro,0,Success,Windows 11

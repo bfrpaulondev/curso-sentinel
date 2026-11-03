@@ -1,0 +1,11 @@
+// 2.5 — Funções com let: reutilizar lógica (e filtrar o tempo PRIMEIRO)
+let FalhasPorIp = (tabela:(TimeGenerated:datetime, IPAddress:string, ResultType:string), limiar:long) {
+    tabela
+    | where ResultType != "0"
+    | summarize Falhas = count() by IPAddress
+    | where Falhas >= limiar
+};
+SigninLogs
+| where TimeGenerated between (datetime(2026-10-20 00:00) .. datetime(2026-10-21 12:00))
+| project TimeGenerated, IPAddress, ResultType
+| invoke FalhasPorIp(10)

@@ -1,0 +1,55 @@
+id: 0e8b5f8e-1f6a-4c1b-8b8d-9c2c7f4e0a02
+name: Loja Pixel - Sucesso após várias falhas, de país incomum
+description: |
+  Uma conta do Entra ID tem 5+ falhas seguidas de um sucesso a partir de um país fora da lista habitual.
+severity: High
+status: Available
+requiredDataConnectors:
+  - connectorId: AzureActiveDirectory
+    dataTypes:
+      - SigninLogs
+queryFrequency: 10m
+queryPeriod: 1h
+triggerOperator: gt
+triggerThreshold: 0
+tactics:
+  - InitialAccess
+  - CredentialAccess
+relevantTechniques:
+  - T1078
+  - T1110
+query: |
+  let PaisesHabituais = dynamic(["BR"]);
+  SigninLogs
+  | where TimeGenerated > ago(1h)
+  | where Country !in (PaisesHabituais)
+  | summarize Falhas = countif(ResultType != "0"), Sucessos = countif(ResultType == "0"),
+              UltimoSucesso = maxif(TimeGenerated, ResultType == "0")
+      by UserPrincipalName, IPAddress, Country
+  | where Falhas >= 5 and Sucessos > 0
+  | extend Conta = tostring(split(UserPrincipalName, "@")[0]), Dominio = tostring(split(UserPrincipalName, "@")[1])
+entityMappings:
+  - entityType: Account
+    fieldMappings:
+      - identifier: Name
+        columnName: Conta
+      - identifier: UPNSuffix
+        columnName: Dominio
+  - entityType: IP
+    fieldMappings:
+      - identifier: Address
+        columnName: IPAddress
+customDetails:
+  Pais: Country
+  Falhas: Falhas
+incidentConfiguration:
+  createIncident: true
+  groupingConfiguration:
+    enabled: true
+    reopenClosedIncident: false
+    lookbackDuration: 1d
+    matchingMethod: AllEntities
+eventGroupingSettings:
+  aggregationKind: AlertPerResult
+version: 1.0.0
+kind: Scheduled

@@ -1,0 +1,7 @@
+union
+  (SigninLogs | where ResultType != "0" | project Origem = IPAddress),
+  (LojaApi_CL | where StatusCode == 401 | project Origem = ClientIP),
+  (Syslog | where SyslogMessage has "Failed password" | project Origem = extract(@"from (\S+) port", 1, SyslogMessage))
+| summarize Falhas = count() by Origem
+| where Falhas >= 30
+| sort by Falhas desc

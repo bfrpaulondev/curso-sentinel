@@ -1,0 +1,7 @@
+// <Aula X.Y> — <pergunta que esta consulta responde>
+// 1) filtre o tempo primeiro  2) reduza colunas cedo  3) prefira has a contains
+Tabela
+| where TimeGenerated between (datetime(2026-10-20 08:00) .. datetime(2026-10-21 08:00))
+| project TimeGenerated, Coluna1, Coluna2
+| summarize Total = count() by Coluna1
+| sort by Total desc

@@ -1,0 +1,89 @@
+---
+title: "Aula 4.4 · Agrupando alertas em incidentes"
+description: "Evitar 50 incidentes para o mesmo ataque: configurar o agrupamento."
+sidebar:
+  order: 4
+---
+
+<div data-modulo="m4"></div>
+
+**Objetivo:** Evitar 50 incidentes para o mesmo ataque: configurar o agrupamento.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_4.4.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_4.4.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_4.4.vtt" default /></video>
+
+<small>Duração: 1:27 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 4.4](/curso-sentinel/diagramas/aula_4.4.png)
+
+## Termos desta aula
+
+- **Alerta** — Um aviso gerado por uma execução da regra.
+- **Incidente** — O 'caso' que o analista investiga; reúne alertas.
+- **Agrupamento** — Regra de quando juntar alertas no mesmo incidente.
+
+:::caution
+O motor_regras_local.py é um SIMULADOR didático: valida o YAML no formato do repositório Azure-Sentinel, roda a query no Kusto real e aplica limiar e agrupamento. Ele NÃO é o Microsoft Sentinel.
+:::
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Ataque de um segundo IP.
+
+```bash
+IP=203.0.113.99 bash labs/m4/ataque_forca_bruta.sh >/dev/null; python3 labs/m4/enviar_logs.py
+```
+
+**Saída esperada** (execução real):
+
+```text
+21 eventos enviados para LojaApi_CL
+```
+
+### Passo 2
+
+Rode as duas regras.
+
+```bash
+python3 labs/m4/motor_regras_local.py labs/m4/regras/*.yaml
+```
+
+**Saída esperada** (execução real):
+
+```text
+
+▶ Regra: Loja Pixel - Força bruta na API de login  [Scheduled, a cada 5m, olhando 15m]
+  ✓ YAML válido • MITRE: CredentialAccess / T1110
+  ⚠ 2 alerta(s)
+  [INCIDENTE] INC-376AC7: 1 alerta(s) • entidades: IP=203.0.113.66
+  [INCIDENTE] INC-5141A5: 1 alerta(s) • entidades: IP=203.0.113.99
+
+▶ Regra: Loja Pixel - Sucesso após várias falhas, de país incomum  [Scheduled, a cada 10m, olhando 1h]
+  ✓ YAML válido • MITRE: InitialAccess, CredentialAccess / T1078, T1110
+  ⚠ 1 alerta(s)
+  [INCIDENTE] INC-327002: 1 alerta(s) • entidades: Account=marina.lopes, IP=198.51.100.99
+
+Total: 3 incidente(s) → incidentes.json
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 4.4](/curso-sentinel/shots/aula_4.4_4.jpg)
+![Captura 2 da aula 4.4](/curso-sentinel/shots/aula_4.4_7.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: troque o matchingMethod para AnyAlert e explique por que o resultado piora para o analista.
+
+## Mini-quiz
+
+<div data-quiz="4.4"></div>
+
+<button class="cs-btn" data-concluir="4.4">Marcar aula como concluída</button>

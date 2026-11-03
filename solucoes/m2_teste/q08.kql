@@ -1,0 +1,8 @@
+let Spray = SigninLogs
+    | where ResultType == "50126"
+    | summarize Contas = dcount(UserPrincipalName) by IPAddress
+    | where Contas >= 10;
+SigninLogs
+| where ResultType == "0"
+| join kind=inner Spray on IPAddress
+| project TimeGenerated, UserPrincipalName, IPAddress, Contas

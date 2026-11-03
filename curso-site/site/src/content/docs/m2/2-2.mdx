@@ -1,0 +1,88 @@
+---
+title: "Aula 2.2 · summarize, count e bin"
+description: "Agrupar eventos no tempo para enxergar picos — o GROUP BY do KQL."
+sidebar:
+  order: 2
+---
+
+<div data-modulo="m2"></div>
+
+**Objetivo:** Agrupar eventos no tempo para enxergar picos — o GROUP BY do KQL.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_2.2.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_2.2.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_2.2.vtt" default /></video>
+
+<small>Duração: 1:06 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 2.2](/curso-sentinel/diagramas/aula_2.2.png)
+
+## Termos desta aula
+
+- **summarize** — O GROUP BY: agrega linhas.
+- **bin()** — Arredonda o tempo em 'baldes' (ex.: 1 hora).
+- **dcount()** — Conta valores distintos (COUNT DISTINCT).
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Falhas por hora.
+
+```bash
+./kql.py -f labs/m2/2.2_summarize_bin.kql
+```
+
+**Saída esperada** (execução real):
+
+```text
+TimeGenerated        | Falhas
+---------------------+-------
+2026-10-21T02:00:00Z | 37    
+2026-10-20T18:00:00Z | 4     
+2026-10-21T03:00:00Z | 4     
+2026-10-20T16:00:00Z | 3     
+2026-10-20T22:00:00Z | 3     
+
+(5 linhas)
+```
+
+### Passo 2
+
+Quem causou o pico?
+
+```bash
+./kql.py 'SigninLogs | where ResultType != "0" and TimeGenerated between (datetime(2026-10-21 02:00) .. 1h) | summarize Falhas=count(), Contas=dcount(UserPrincipalName) by IPAddress | top 3 by Falhas'
+```
+
+**Saída esperada** (execução real):
+
+```text
+IPAddress     | Falhas | Contas
+--------------+--------+-------
+198.51.100.23 | 32     | 16    
+10.20.8.153   | 1      | 1     
+10.20.2.26    | 1      | 1     
+
+(3 linhas)
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 2.2](/curso-sentinel/shots/aula_2.2_3.jpg)
+![Captura 2 da aula 2.2](/curso-sentinel/shots/aula_2.2_4.jpg)
+![Captura 3 da aula 2.2](/curso-sentinel/shots/aula_2.2_5.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: na tabela LojaApi_CL, encontre a janela de 5 minutos com mais respostas 401 na rota /api/login.
+
+## Mini-quiz
+
+<div data-quiz="2.2"></div>
+
+<button class="cs-btn" data-concluir="2.2">Marcar aula como concluída</button>

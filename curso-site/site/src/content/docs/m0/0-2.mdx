@@ -1,0 +1,91 @@
+---
+title: "Aula 0.2 · Workspace do Log Analytics e Microsoft Sentinel"
+description: "Entender a relação workspace ↔ Sentinel e criá-los com Bicep, com limite diário de ingestão."
+sidebar:
+  order: 2
+---
+
+<div data-modulo="m0"></div>
+
+**Objetivo:** Entender a relação workspace ↔ Sentinel e criá-los com Bicep, com limite diário de ingestão.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_0.2.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_0.2.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_0.2.vtt" default /></video>
+
+<small>Duração: 1:43 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 0.2](/curso-sentinel/diagramas/aula_0.2.png)
+
+## Termos desta aula
+
+- **Log Analytics workspace** — O 'armazém' onde os logs ficam guardados e são consultados com KQL.
+- **Microsoft Sentinel** — SIEM e SOAR que funciona por cima de um workspace.
+- **Limite diário (daily cap)** — Teto de GB por dia que o workspace aceita ingerir.
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Valide o template do workspace + Sentinel.
+
+```bash
+bicep lint labs/m0/sentinel.bicep && echo 'sem avisos'
+```
+
+**Saída esperada** (execução real):
+
+```text
+sem avisos
+```
+
+### Passo 2
+
+Liste os tipos de recurso do template.
+
+```bash
+bicep build labs/m0/sentinel.bicep --stdout | grep '"type"'
+```
+
+**Saída esperada** (execução real):
+
+```text
+      "type": "string",
+      "type": "string",
+      "type": "Microsoft.OperationalInsights/workspaces",
+      "type": "Microsoft.SecurityInsights/onboardingStates",
+      "type": "string",
+```
+
+### Passo 3
+
+Na sua conta: crie o grupo e faça o deploy.
+
+```bash
+az group create -n rg-curso-sentinel -l brazilsouth
+az deployment group create -g rg-curso-sentinel -f labs/m0/sentinel.bicep
+```
+
+:::note[Precisa da sua conta]
+Precisa de login no Azure.
+:::
+
+### Capturas da demo
+
+![Captura 1 da aula 0.2](/curso-sentinel/shots/aula_0.2_4.jpg)
+![Captura 2 da aula 0.2](/curso-sentinel/shots/aula_0.2_6.jpg)
+![Captura 3 da aula 0.2](/curso-sentinel/shots/aula_0.2_7.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: transforme a retenção em parâmetro com `@minValue(30)` e `@maxValue(730)`, e acrescente um `output` com o nome do workspace.
+
+## Mini-quiz
+
+<div data-quiz="0.2"></div>
+
+<button class="cs-btn" data-concluir="0.2">Marcar aula como concluída</button>

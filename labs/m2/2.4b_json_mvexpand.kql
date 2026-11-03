@@ -1,0 +1,7 @@
+// 2.4 — parse_json + mv-expand: o campo Properties da API é JSON
+LojaApi_CL
+| extend P = parse_json(Properties)
+| extend UserAgent = tostring(P.userAgent)
+| mv-expand Tag = P.tags to typeof(string)
+| summarize Pedidos = count() by Tag
+| sort by Pedidos desc

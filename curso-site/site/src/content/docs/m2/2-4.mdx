@@ -1,0 +1,85 @@
+---
+title: "Aula 2.4 · parse, extract, parse_json e mv-expand"
+description: "Tirar informação de texto livre e de JSON — o dia a dia com logs reais."
+sidebar:
+  order: 4
+---
+
+<div data-modulo="m2"></div>
+
+**Objetivo:** Tirar informação de texto livre e de JSON — o dia a dia com logs reais.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_2.4.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_2.4.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_2.4.vtt" default /></video>
+
+<small>Duração: 1:08 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 2.4](/curso-sentinel/diagramas/aula_2.4.png)
+
+## Termos desta aula
+
+- **parse** — Recorta um texto usando pedaços fixos como molde.
+- **extract()** — Tira um pedaço do texto com uma expressão regular.
+- **mv-expand** — Transforma uma lista numa linha por item.
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Recorte a mensagem do SSH.
+
+```bash
+./kql.py -f labs/m2/2.4_parse.kql
+```
+
+**Saída esperada** (execução real):
+
+```text
+Usuario | IP          | Tentativas
+--------+-------------+-----------
+admin   | 192.0.2.150 | 35        
+
+(1 linha)
+```
+
+### Passo 2
+
+Abra o JSON da API.
+
+```bash
+./kql.py -f labs/m2/2.4b_json_mvexpand.kql
+```
+
+**Saída esperada** (execução real):
+
+```text
+Tag          | Pedidos
+-------------+--------
+web          | 1040   
+mobile       | 932    
+promo        | 903    
+black-friday | 902    
+
+(4 linhas)
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 2.4](/curso-sentinel/shots/aula_2.4_3.jpg)
+![Captura 2 da aula 2.4](/curso-sentinel/shots/aula_2.4_4.jpg)
+![Captura 3 da aula 2.4](/curso-sentinel/shots/aula_2.4_6.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: usando parse_json(Properties).login, descubra qual login foi usado com sucesso pelo IP 203.0.113.77.
+
+## Mini-quiz
+
+<div data-quiz="2.4"></div>
+
+<button class="cs-btn" data-concluir="2.4">Marcar aula como concluída</button>

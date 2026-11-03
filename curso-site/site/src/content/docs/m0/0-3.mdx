@@ -1,0 +1,95 @@
+---
+title: "Aula 0.3 · A empresa fictícia: Loja Pixel"
+description: "Subir a Loja Pixel (API Node.js) localmente, gerar logs reais e conhecer o script de deploy no Azure."
+sidebar:
+  order: 3
+---
+
+<div data-modulo="m0"></div>
+
+**Objetivo:** Subir a Loja Pixel (API Node.js) localmente, gerar logs reais e conhecer o script de deploy no Azure.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_0.3.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_0.3.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_0.3.vtt" default /></video>
+
+<small>Duração: 1:30 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 0.3](/curso-sentinel/diagramas/aula_0.3.png)
+
+## Termos desta aula
+
+- **API** — O 'balcão' da loja: recebe pedidos (HTTP) e devolve respostas.
+- **Log em JSON** — Cada linha é um objeto JSON — fácil de ingerir e de ler com parse_json.
+- **X-Forwarded-For** — Cabeçalho que informa o IP original do cliente quando há um proxy no meio.
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Suba a API da Loja Pixel.
+
+```bash
+node api-loja/server.js &
+```
+
+### Passo 2
+
+Faça um login com senha errada.
+
+```bash
+curl -s -X POST localhost:3000/api/login -H 'Content-Type: application/json' -d '{"email":"carla@cliente.com","senha":"errada"}'
+```
+
+**Saída esperada** (execução real):
+
+```text
+{"erro":"credenciais inválidas"}
+```
+
+### Passo 3
+
+Veja o log gerado (formato LojaApi_CL).
+
+```bash
+tail -n 1 api-loja/logs/api.jsonl
+```
+
+**Saída esperada** (execução real):
+
+```text
+{"TimeGenerated":"2026-11-03T16:18:26.603Z","Service":"api-loja","Method":"POST","Route":"/api/login","StatusCode":401,"DurationMs":1,"ClientIP":"::1","Properties":{"userAgent":"curl/8.14.1","region":"local-lab","tags":["web"],"login":"carla@cliente.com"}}
+```
+
+### Passo 4
+
+Opcional, na sua conta: deploy completo no Azure (custa dinheiro — apague no fim).
+
+```bash
+cd labs/m0 && ./0.3_deploy_loja.sh
+```
+
+:::note[Precisa da sua conta]
+Precisa de login no Azure e de permissão para criar usuários no Entra ID.
+:::
+
+### Capturas da demo
+
+![Captura 1 da aula 0.3](/curso-sentinel/shots/aula_0.3_3.jpg)
+![Captura 2 da aula 0.3](/curso-sentinel/shots/aula_0.3_5.jpg)
+![Captura 3 da aula 0.3](/curso-sentinel/shots/aula_0.3_7.jpg)
+![Captura 4 da aula 0.3](/curso-sentinel/shots/aula_0.3_8.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: acrescente à API uma rota GET /api/saude que responda &#123;"ok":true&#125; e confirme que ela também aparece no api.jsonl com StatusCode 200.
+
+## Mini-quiz
+
+<div data-quiz="0.3"></div>
+
+<button class="cs-btn" data-concluir="0.3">Marcar aula como concluída</button>

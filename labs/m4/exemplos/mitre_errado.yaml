@@ -1,0 +1,49 @@
+id: 7c1d5a52-3b4e-4f0a-9a63-2f1f2e7a0d01
+name: Loja Pixel - Força bruta na API de login
+description: |
+  Muitas respostas 401 em /api/login vindas do mesmo IP em pouco tempo.
+  Pode ser password guessing contra uma conta ou credential stuffing contra várias.
+severity: Medium
+status: Available
+requiredDataConnectors: []
+queryFrequency: 5m
+queryPeriod: 15m
+triggerOperator: gt
+triggerThreshold: 0
+tactics:
+  - AcessoCredenciais
+relevantTechniques:
+  - T111
+query: |
+  LojaApi_CL
+  | where TimeGenerated > ago(15m)
+  | where Route == "/api/login"
+  | extend Login = tostring(parse_json(Properties).login), UA = tostring(parse_json(Properties).userAgent)
+  | summarize Falhas = countif(StatusCode == 401), Sucessos = countif(StatusCode == 200),
+              Contas = make_set(Login, 20), Inicio = min(TimeGenerated), Fim = max(TimeGenerated), UA = any(UA)
+      by ClientIP
+  | where Falhas >= 10
+entityMappings:
+  - entityType: IP
+    fieldMappings:
+      - identifier: Address
+        columnName: ClientIP
+customDetails:
+  Falhas: Falhas
+  Sucessos: Sucessos
+  UserAgent: UA
+alertDetailsOverride:
+  alertDisplayNameFormat: "Força bruta na API a partir de {{ClientIP}} ({{Falhas}} falhas)"
+incidentConfiguration:
+  createIncident: true
+  groupingConfiguration:
+    enabled: true
+    reopenClosedIncident: false
+    lookbackDuration: 5h
+    matchingMethod: Selected
+    groupByEntities:
+      - IP
+eventGroupingSettings:
+  aggregationKind: AlertPerResult
+version: 1.0.0
+kind: Scheduled

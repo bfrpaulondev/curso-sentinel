@@ -1,0 +1,6 @@
+// 2.2 — Falhas de login por hora (summarize, count, bin)
+SigninLogs
+| where ResultType != "0"
+| summarize Falhas = count() by bin(TimeGenerated, 1h)
+| sort by Falhas desc
+| take 5

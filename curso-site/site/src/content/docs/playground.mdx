@@ -1,0 +1,37 @@
+---
+title: "Playground KQL grátis"
+description: "Dataset da Loja Pixel para praticar KQL sem pagar nada."
+sidebar:
+  order: 101
+---
+
+O dataset fixo da Loja Pixel (933 logins, 2540 pedidos de API, 535 linhas de Syslog — 24 horas com três ataques escondidos) está no repositório, em `dataset/`.
+
+## Opção 1 — Kusto local (sem conta nenhuma)
+
+```bash
+docker run -d --name kusto -p 8080:8080 -e ACCEPT_EULA=Y mcr.microsoft.com/azuredataexplorer/kustainer-linux:latest
+pip install azure-kusto-data pyyaml
+python3 dataset/carregar_dataset.py
+./kql.py "SigninLogs | take 5"
+```
+
+Foi assim que todas as consultas do curso foram executadas.
+
+## Opção 2 — Cluster gratuito do Azure Data Explorer
+
+A Microsoft oferece um [cluster gratuito do Azure Data Explorer](https://learn.microsoft.com/azure/data-explorer/start-for-free) que precisa só de uma conta Microsoft (sem subscrição e sem cartão). Crie o cluster e um banco `Loja`, e depois:
+
+```bash
+az login
+export KUSTO_URL=https://SEU-CLUSTER.REGIAO.kusto.windows.net KUSTO_DB=Loja
+python3 dataset/carregar_dataset.py
+```
+
+:::note
+A opção 2 não foi testada nesta versão porque exige login numa conta Microsoft.
+:::
+
+## Gráfico com os dados reais (aula 2.6)
+
+<canvas data-grafico height="120"></canvas>

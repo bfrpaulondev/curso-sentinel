@@ -1,0 +1,14 @@
+Route,Erros,DuracaoMedia
+/api/carrinho,9,2174.0
+/api/produtos,9,2356.0
+/api/checkout,7,1755.0
+/api/login,5,2426.0
+/api/produtos/108,1,1182.0
+/api/produtos/118,1,1783.0
+/api/produtos/126,1,2329.0
+/api/produtos/140,1,2146.0
+/api/produtos/144,1,1598.0
+/api/produtos/148,1,2498.0
+/api/produtos/150,1,1839.0
+/api/produtos/156,1,2318.0
+/api/produtos/160,1,2402.0

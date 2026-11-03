@@ -1,0 +1,5 @@
+__pycache__/
+*.enviado
+api-loja/logs/
+labs/m4/incidentes.json
+node_modules/

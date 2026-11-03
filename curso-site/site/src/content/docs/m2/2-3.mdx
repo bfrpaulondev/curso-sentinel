@@ -1,0 +1,86 @@
+---
+title: "Aula 2.3 · join, union e let"
+description: "Cruzar tabelas e dar nome a pedaços da consulta — de suspeita a evidência."
+sidebar:
+  order: 3
+---
+
+<div data-modulo="m2"></div>
+
+**Objetivo:** Cruzar tabelas e dar nome a pedaços da consulta — de suspeita a evidência.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_2.3.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_2.3.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_2.3.vtt" default /></video>
+
+<small>Duração: 1:18 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 2.3](/curso-sentinel/diagramas/aula_2.3.png)
+
+## Termos desta aula
+
+- **let** — Dá um nome a uma expressão — como uma CTE (WITH) do SQL.
+- **join** — Junta duas tabelas por uma coluna comum.
+- **union** — Empilha tabelas (como UNION ALL).
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Cruze falhas e sucessos.
+
+```bash
+./kql.py -f labs/m2/2.3_join_let.kql
+```
+
+**Saída esperada** (execução real):
+
+```text
+IPAddress     | ContasAtacadas | ContaComprometida             | HoraDoSucesso       
+--------------+----------------+-------------------------------+---------------------
+198.51.100.23 | 16             | joao.pereira@lojapixel.com.br | 2026-10-21T02:44:12Z
+
+(1 linha)
+```
+
+### Passo 2
+
+Linha do tempo única com union.
+
+```bash
+./kql.py -f labs/m2/2.3b_union.kql
+```
+
+**Saída esperada** (execução real):
+
+```text
+Fonte    | Origem        | Eventos
+---------+---------------+--------
+API      | 203.0.113.77  | 138    
+SSH      | 192.0.2.150   | 35     
+Entra ID | 198.51.100.23 | 32     
+Entra ID | 10.20.1.173   | 1      
+Entra ID | 10.20.9.232   | 1      
+
+(5 linhas)
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 2.3](/curso-sentinel/shots/aula_2.3_4.jpg)
+![Captura 2 da aula 2.3](/curso-sentinel/shots/aula_2.3_5.jpg)
+![Captura 3 da aula 2.3](/curso-sentinel/shots/aula_2.3_7.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: troque o join para kind=leftanti e explique, com as suas palavras, o que o resultado significa.
+
+## Mini-quiz
+
+<div data-quiz="2.3"></div>
+
+<button class="cs-btn" data-concluir="2.3">Marcar aula como concluída</button>

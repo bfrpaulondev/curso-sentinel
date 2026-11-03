@@ -1,0 +1,4 @@
+Syslog
+| where SyslogMessage has "Failed password"
+| extend IP = extract(@"from (\d+\.\d+\.\d+\.\d+)", 1, SyslogMessage)
+| summarize Tentativas = count(), Inicio = min(TimeGenerated), Fim = max(TimeGenerated) by Computer, IP

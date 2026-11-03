@@ -1,0 +1,5 @@
+LojaApi_CL
+| mv-expand Tag = parse_json(Properties).tags to typeof(string)
+| where Tag == "black-friday"
+| summarize Pedidos = count() by Method
+| sort by Method asc

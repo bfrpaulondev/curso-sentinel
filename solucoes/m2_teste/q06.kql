@@ -1,0 +1,5 @@
+LojaApi_CL
+| where Route == "/api/login" and ClientIP == "203.0.113.77" and StatusCode == 200
+| extend Login = tostring(parse_json(Properties).login)
+| project TimeGenerated, Login
+| sort by TimeGenerated asc

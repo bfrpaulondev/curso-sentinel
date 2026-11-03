@@ -1,0 +1,4 @@
+// 2.6 — render: gráfico de pedidos da API por status, a cada 30 minutos
+LojaApi_CL
+| summarize Pedidos = count() by bin(TimeGenerated, 30m), Status = tostring(StatusCode)
+| render timechart

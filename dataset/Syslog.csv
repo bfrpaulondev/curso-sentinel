@@ -1,0 +1,536 @@
+TimeGenerated,Computer,Facility,SeverityLevel,ProcessName,SyslogMessage
+2026-10-20T08:04:38Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T08:05:17Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.24 port 34601 ssh2
+2026-10-20T08:06:17Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T08:12:37Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T08:15:36Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T08:15:42Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.15 port 39200 ssh2
+2026-10-20T08:17:38Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T08:25:48Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T08:27:10Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.9 port 55243 ssh2
+2026-10-20T08:29:26Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.17 port 40073 ssh2
+2026-10-20T08:31:03Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T08:32:07Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T08:36:42Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.28 port 52628 ssh2
+2026-10-20T08:40:58Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.13 port 46503 ssh2
+2026-10-20T08:43:11Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T08:48:53Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T08:51:49Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T08:52:42Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.27 port 41414 ssh2
+2026-10-20T08:54:30Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T09:01:08Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T09:03:24Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T09:11:44Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T09:14:49Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.30 port 46718 ssh2
+2026-10-20T09:17:30Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T09:19:47Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.28 port 30019 ssh2
+2026-10-20T09:20:26Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T09:24:24Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T09:25:02Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T09:27:48Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T09:28:09Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T09:33:57Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T09:44:53Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T09:45:43Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T09:45:53Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.5 port 31186 ssh2
+2026-10-20T09:47:23Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T09:49:00Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T09:49:31Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T09:53:24Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T09:55:15Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.29 port 49195 ssh2
+2026-10-20T09:58:31Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T09:58:52Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.8 port 56502 ssh2
+2026-10-20T09:59:15Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T10:05:09Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T10:05:11Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T10:06:04Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:09:55Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T10:12:30Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.27 port 48507 ssh2
+2026-10-20T10:16:29Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:20:05Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T10:26:02Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.12 port 53064 ssh2
+2026-10-20T10:27:36Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:29:47Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:35:16Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.35 port 51417 ssh2
+2026-10-20T10:35:54Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:36:00Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T10:37:32Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.32 port 49071 ssh2
+2026-10-20T10:39:49Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.16 port 45352 ssh2
+2026-10-20T10:42:07Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:45:12Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.3 port 54332 ssh2
+2026-10-20T10:46:07Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T10:46:58Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:48:52Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T10:52:26Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.24 port 30201 ssh2
+2026-10-20T11:00:16Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T11:02:03Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T11:08:44Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:08:50Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:10:51Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:11:06Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T11:11:15Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.2 port 49702 ssh2
+2026-10-20T11:16:19Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T11:16:59Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T11:19:22Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.18 port 38839 ssh2
+2026-10-20T11:22:34Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:24:31Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:25:46Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:33:00Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T11:37:23Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:38:04Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:42:39Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.2 port 41720 ssh2
+2026-10-20T11:44:08Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T11:44:57Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:48:38Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T11:48:52Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:50:03Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T11:51:34Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T11:54:06Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:57:57Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.3 port 50168 ssh2
+2026-10-20T11:58:00Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:58:15Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T11:59:06Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.34 port 47698 ssh2
+2026-10-20T12:05:25Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.32 port 58682 ssh2
+2026-10-20T12:07:36Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T12:10:21Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T12:12:59Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T12:15:45Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T12:17:59Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T12:21:48Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T12:24:47Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T12:30:45Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T12:32:46Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T12:32:57Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T12:33:08Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T12:33:28Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T12:34:04Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.25 port 54891 ssh2
+2026-10-20T12:37:26Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.32 port 54877 ssh2
+2026-10-20T12:37:28Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.6 port 37121 ssh2
+2026-10-20T12:38:44Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T12:41:18Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T12:45:17Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.22 port 43468 ssh2
+2026-10-20T12:45:25Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T12:46:46Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T12:50:46Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.22 port 53268 ssh2
+2026-10-20T12:56:54Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T12:58:45Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T12:58:55Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T13:02:36Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.37 port 56445 ssh2
+2026-10-20T13:07:09Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T13:16:49Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T13:22:59Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T13:26:12Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.27 port 40814 ssh2
+2026-10-20T13:30:14Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.34 port 34046 ssh2
+2026-10-20T13:30:14Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T13:42:56Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T13:44:10Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.2 port 44623 ssh2
+2026-10-20T13:44:33Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T13:46:59Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T13:49:19Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.29 port 56491 ssh2
+2026-10-20T13:50:20Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.7 port 43166 ssh2
+2026-10-20T13:53:05Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T13:55:33Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T13:56:56Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T13:59:32Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T14:00:09Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T14:04:31Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T14:08:29Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T14:09:36Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T14:10:01Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T14:18:55Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.30 port 51392 ssh2
+2026-10-20T14:21:55Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T14:25:35Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T14:25:48Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.38 port 52289 ssh2
+2026-10-20T14:29:29Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T14:33:08Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T14:34:10Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T14:35:52Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T14:42:29Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T14:47:30Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T14:49:21Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T14:51:31Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T14:53:39Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.34 port 42719 ssh2
+2026-10-20T14:53:46Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T14:55:55Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T15:00:28Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.37 port 49322 ssh2
+2026-10-20T15:04:52Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T15:11:46Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T15:19:01Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T15:24:17Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.9 port 52720 ssh2
+2026-10-20T15:24:20Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T15:24:50Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T15:26:15Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T15:34:23Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T15:34:46Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.17 port 36210 ssh2
+2026-10-20T15:37:40Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T15:38:16Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.4 port 32716 ssh2
+2026-10-20T15:42:41Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T15:45:10Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.29 port 57580 ssh2
+2026-10-20T15:48:21Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T15:48:40Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T15:50:24Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T15:58:54Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T16:03:37Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.2 port 50888 ssh2
+2026-10-20T16:10:31Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.7 port 50183 ssh2
+2026-10-20T16:15:33Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T16:15:48Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.31 port 38432 ssh2
+2026-10-20T16:22:26Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T16:27:12Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T16:31:38Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T16:31:54Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.5 port 34286 ssh2
+2026-10-20T16:32:35Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.19 port 36499 ssh2
+2026-10-20T16:36:03Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T16:44:18Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T16:44:31Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.2 port 40210 ssh2
+2026-10-20T16:44:57Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.37 port 47621 ssh2
+2026-10-20T16:45:03Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.32 port 34085 ssh2
+2026-10-20T16:47:39Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T16:48:42Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T16:49:28Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:00:29Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.35 port 41528 ssh2
+2026-10-20T17:03:39Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.10 port 52077 ssh2
+2026-10-20T17:05:25Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T17:08:08Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T17:08:09Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:09:40Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:14:36Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:24:16Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T17:26:07Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:27:41Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:28:03Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:30:18Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.12 port 34650 ssh2
+2026-10-20T17:30:54Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:31:01Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:31:02Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:33:28Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:34:00Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:36:54Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:37:20Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T17:37:34Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T17:48:32Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:49:09Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.30 port 58982 ssh2
+2026-10-20T17:50:25Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.39 port 33401 ssh2
+2026-10-20T17:52:52Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.28 port 52920 ssh2
+2026-10-20T17:53:50Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:55:27Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T17:56:49Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T17:57:30Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T18:00:41Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:03:03Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T18:03:53Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T18:05:57Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:09:55Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:10:52Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.32 port 53979 ssh2
+2026-10-20T18:13:26Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.29 port 49421 ssh2
+2026-10-20T18:17:09Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T18:19:36Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T18:21:41Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:22:33Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.17 port 37923 ssh2
+2026-10-20T18:22:36Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T18:24:01Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T18:27:15Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.24 port 47207 ssh2
+2026-10-20T18:33:20Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T18:33:35Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T18:36:10Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:36:12Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.23 port 33694 ssh2
+2026-10-20T18:37:23Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:37:32Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T18:49:45Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.18 port 52309 ssh2
+2026-10-20T18:51:28Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T18:53:50Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T18:55:06Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:56:42Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:57:26Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T18:58:54Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.12 port 55711 ssh2
+2026-10-20T19:10:28Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.3 port 53934 ssh2
+2026-10-20T19:11:35Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T19:12:10Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T19:15:52Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.13 port 58364 ssh2
+2026-10-20T19:18:42Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T19:21:51Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.20 port 59913 ssh2
+2026-10-20T19:25:44Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.37 port 41189 ssh2
+2026-10-20T19:33:51Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T19:34:31Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T19:37:34Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T19:38:44Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.40 port 44965 ssh2
+2026-10-20T19:40:57Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T19:42:14Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T19:51:33Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T19:56:03Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T19:58:16Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T19:59:09Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T20:01:19Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.15 port 33764 ssh2
+2026-10-20T20:02:09Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.19 port 40137 ssh2
+2026-10-20T20:07:52Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.29 port 38678 ssh2
+2026-10-20T20:07:59Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.39 port 32153 ssh2
+2026-10-20T20:08:32Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T20:13:41Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T20:16:22Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T20:19:38Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T20:19:40Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T20:27:36Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.21 port 49537 ssh2
+2026-10-20T20:27:47Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T20:30:21Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.20 port 54387 ssh2
+2026-10-20T20:31:09Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T20:31:15Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T20:32:46Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T20:35:02Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T20:35:30Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.38 port 56230 ssh2
+2026-10-20T20:36:12Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T20:38:46Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T20:41:54Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T20:52:41Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.12 port 44873 ssh2
+2026-10-20T20:53:12Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T20:54:05Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T21:04:06Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T21:04:54Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.12 port 33546 ssh2
+2026-10-20T21:13:12Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T21:14:44Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T21:18:58Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T21:19:54Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T21:24:34Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T21:24:55Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T21:25:55Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T21:28:32Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T21:34:23Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.37 port 45828 ssh2
+2026-10-20T21:34:30Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.14 port 42386 ssh2
+2026-10-20T21:35:25Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T21:41:41Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T21:44:03Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.25 port 45747 ssh2
+2026-10-20T21:47:33Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T21:48:11Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.4 port 50726 ssh2
+2026-10-20T22:08:09Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T22:10:15Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.8 port 56641 ssh2
+2026-10-20T22:10:40Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T22:12:06Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T22:16:06Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.12 port 56870 ssh2
+2026-10-20T22:21:36Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.2 port 43535 ssh2
+2026-10-20T22:24:08Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T22:33:32Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T22:34:55Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T22:39:42Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T22:41:58Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.17 port 35180 ssh2
+2026-10-20T22:44:16Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T22:45:50Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T22:48:12Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.28 port 39684 ssh2
+2026-10-20T22:48:31Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T22:56:31Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.13 port 37199 ssh2
+2026-10-20T23:00:52Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T23:06:27Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T23:06:54Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T23:07:55Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.8 port 38049 ssh2
+2026-10-20T23:08:19Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T23:10:36Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T23:17:35Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T23:18:38Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T23:20:05Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.39 port 57136 ssh2
+2026-10-20T23:25:48Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T23:31:44Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-20T23:33:24Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T23:36:07Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.18 port 53992 ssh2
+2026-10-20T23:44:40Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T23:46:40Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-20T23:52:56Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-20T23:53:16Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.11 port 36511 ssh2
+2026-10-21T00:03:02Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T00:04:40Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T00:04:52Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.37 port 52283 ssh2
+2026-10-21T00:06:14Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T00:07:35Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.26 port 47300 ssh2
+2026-10-21T00:07:50Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T00:09:21Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T00:09:32Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T00:14:43Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.9 port 38225 ssh2
+2026-10-21T00:14:45Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T00:23:42Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T00:24:06Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T00:28:44Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T00:29:46Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T00:33:40Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T00:39:11Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T00:42:50Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T00:49:01Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.22 port 44232 ssh2
+2026-10-21T00:54:08Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.32 port 57344 ssh2
+2026-10-21T00:55:16Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T01:04:49Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T01:12:23Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T01:14:01Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.25 port 49117 ssh2
+2026-10-21T01:15:35Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.3 port 39576 ssh2
+2026-10-21T01:17:54Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T01:20:35Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T01:22:38Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T01:27:42Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T01:28:05Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.32 port 37577 ssh2
+2026-10-21T01:32:10Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T01:40:24Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.10 port 42626 ssh2
+2026-10-21T01:45:30Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T01:47:16Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T01:50:29Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T01:52:08Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T01:55:15Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T01:55:36Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:00:10Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.10 port 48378 ssh2
+2026-10-21T02:01:48Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:07:17Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T02:11:08Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:11:58Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:13:41Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.16 port 32636 ssh2
+2026-10-21T02:15:35Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.17 port 38711 ssh2
+2026-10-21T02:17:11Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T02:19:33Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:20:41Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:27:03Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.27 port 40949 ssh2
+2026-10-21T02:28:56Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:29:07Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.35 port 52945 ssh2
+2026-10-21T02:30:01Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T02:30:59Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.34 port 47376 ssh2
+2026-10-21T02:33:34Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T02:35:03Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.24 port 49653 ssh2
+2026-10-21T02:37:47Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T02:37:50Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T02:39:27Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T02:41:01Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T02:45:17Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T02:47:59Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T02:51:42Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T02:53:21Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T02:57:32Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:00:59Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.36 port 30364 ssh2
+2026-10-21T03:01:33Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:03:10Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.25 port 53933 ssh2
+2026-10-21T03:03:26Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:09:00Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.10 port 51857 ssh2
+2026-10-21T03:09:03Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:10:27Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:14:08Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.30 port 56144 ssh2
+2026-10-21T03:14:41Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:16:46Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:18:25Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:18:25Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T03:19:35Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:20:47Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:26:09Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T03:30:06Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:30:41Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T03:32:12Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T03:33:21Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:39:47Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.37 port 40093 ssh2
+2026-10-21T03:40:34Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T03:40:55Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:42:22Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:42:52Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:43:06Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:44:02Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:51:32Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T03:53:40Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T03:57:48Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T03:57:54Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.19 port 48688 ssh2
+2026-10-21T03:58:35Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T04:05:11Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.31 port 32069 ssh2
+2026-10-21T04:08:57Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T04:13:40Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T04:15:00Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50000 ssh2
+2026-10-21T04:15:05Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50001 ssh2
+2026-10-21T04:15:10Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50002 ssh2
+2026-10-21T04:15:15Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50003 ssh2
+2026-10-21T04:15:20Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50004 ssh2
+2026-10-21T04:15:25Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50005 ssh2
+2026-10-21T04:15:30Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50006 ssh2
+2026-10-21T04:15:35Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50007 ssh2
+2026-10-21T04:15:40Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50008 ssh2
+2026-10-21T04:15:45Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50009 ssh2
+2026-10-21T04:15:50Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50010 ssh2
+2026-10-21T04:15:55Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50011 ssh2
+2026-10-21T04:16:00Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50012 ssh2
+2026-10-21T04:16:05Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50013 ssh2
+2026-10-21T04:16:10Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50014 ssh2
+2026-10-21T04:16:15Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50015 ssh2
+2026-10-21T04:16:20Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50016 ssh2
+2026-10-21T04:16:25Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50017 ssh2
+2026-10-21T04:16:30Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50018 ssh2
+2026-10-21T04:16:35Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50019 ssh2
+2026-10-21T04:16:40Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50020 ssh2
+2026-10-21T04:16:45Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50021 ssh2
+2026-10-21T04:16:50Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50022 ssh2
+2026-10-21T04:16:55Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50023 ssh2
+2026-10-21T04:17:00Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50024 ssh2
+2026-10-21T04:17:05Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50025 ssh2
+2026-10-21T04:17:10Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50026 ssh2
+2026-10-21T04:17:15Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50027 ssh2
+2026-10-21T04:17:20Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50028 ssh2
+2026-10-21T04:17:25Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50029 ssh2
+2026-10-21T04:17:30Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50030 ssh2
+2026-10-21T04:17:35Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50031 ssh2
+2026-10-21T04:17:40Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50032 ssh2
+2026-10-21T04:17:45Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50033 ssh2
+2026-10-21T04:17:50Z,vm-api-01,authpriv,notice,sshd,Failed password for invalid user admin from 192.0.2.150 port 50034 ssh2
+2026-10-21T04:18:27Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T04:18:41Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T04:18:43Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.39 port 41937 ssh2
+2026-10-21T04:21:45Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T04:22:33Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T04:23:59Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T04:24:14Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T04:28:29Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T04:29:41Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.24 port 48769 ssh2
+2026-10-21T04:31:59Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T04:38:13Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T04:39:11Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T04:53:28Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T04:56:55Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:00:32Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.30 port 39098 ssh2
+2026-10-21T05:01:18Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T05:17:57Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.33 port 55118 ssh2
+2026-10-21T05:19:30Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:21:29Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.23 port 31091 ssh2
+2026-10-21T05:36:41Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:39:06Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:42:06Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:43:21Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:43:22Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T05:46:12Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:46:43Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:49:30Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T05:52:58Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T05:54:42Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.20 port 57521 ssh2
+2026-10-21T05:55:01Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:57:38Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T05:58:12Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T05:58:28Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T05:58:51Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T05:59:42Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.9 port 34171 ssh2
+2026-10-21T06:00:05Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T06:09:06Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T06:10:03Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.24 port 51914 ssh2
+2026-10-21T06:20:54Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T06:27:03Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.2 port 45579 ssh2
+2026-10-21T06:31:40Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T06:32:14Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T06:32:49Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T06:44:48Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T06:45:51Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.27 port 49313 ssh2
+2026-10-21T06:49:20Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T06:49:57Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.9 port 59138 ssh2
+2026-10-21T06:58:25Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T07:04:49Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T07:09:06Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T07:09:31Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.14 port 59513 ssh2
+2026-10-21T07:12:12Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T07:15:49Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.15 port 36578 ssh2
+2026-10-21T07:18:47Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.36 port 43761 ssh2
+2026-10-21T07:20:26Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T07:21:09Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T07:21:38Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T07:23:12Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T07:24:12Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.16 port 49500 ssh2
+2026-10-21T07:27:26Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T07:32:27Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T07:34:24Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T07:34:50Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T07:38:17Z,vm-api-01,daemon,info,CRON,pam_unix(cron:session): session opened for user root
+2026-10-21T07:38:56Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T07:41:22Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.10 port 32854 ssh2
+2026-10-21T07:44:31Z,vm-api-01,auth,info,sshd,Accepted publickey for deploy from 10.20.1.27 port 31694 ssh2
+2026-10-21T07:46:46Z,vm-api-01,daemon,info,node,api-loja listening on :3000
+2026-10-21T07:49:43Z,vm-api-01,daemon,info,systemd,Started Daily apt download activities.
+2026-10-21T07:50:45Z,vm-api-01,daemon,info,node,api-loja listening on :3000

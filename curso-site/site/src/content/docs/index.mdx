@@ -1,0 +1,33 @@
+---
+title: "Microsoft Sentinel na prática"
+description: "Curso prático de SIEM e SOAR com o Microsoft Sentinel, KQL e detecção como código."
+template: splash
+hero:
+  tagline: "Um cenário só, do começo ao fim: a Loja Pixel é atacada, você detecta e responde. Tudo como código, alinhado ao SC-200."
+  actions:
+    - text: Começar pelo Módulo 0
+      link: /curso-sentinel/m0/
+      icon: right-arrow
+    - text: Repositório do curso
+      link: https://github.com/bfrpaulondev/curso-sentinel
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="Ataque → detecção → resposta" icon="warning">Na madrugada de 21/10/2026 a Loja Pixel sofre um password spray, um credential stuffing na API e força bruta no SSH. Você vai achar cada um com KQL.</Card>
+  <Card title="KQL rodando de verdade" icon="seti:db">Todas as consultas foram executadas num Kusto real (emulador oficial Kustainer). Você roda o mesmo na sua máquina, sem conta.</Card>
+  <Card title="Detecção como código" icon="github">Regras em YAML no formato do repositório Azure-Sentinel, versionadas no Git e testadas com um ataque controlado.</Card>
+  <Card title="Progresso no seu navegador" icon="approve-check">Quizzes com explicação, testes por módulo e liberação do próximo módulo com nota mínima. Nada sai do seu navegador.</Card>
+</CardGrid>
+
+## Seu progresso
+
+<div data-progresso></div>
+
+## Como o curso funciona
+
+Cada aula tem: **vídeo** (diagrama animado + demo real no VS Code), **diagrama de referência**, **laboratório guiado** com a saída esperada, **desafio sem guia** e **mini-quiz**. Cada módulo termina com um **teste** (múltipla escolha com cenários + desafio prático corrigido automaticamente). O próximo módulo libera com **70%**.
+
+Esta é a **primeira versão**: Módulos 0, 2 e 4.

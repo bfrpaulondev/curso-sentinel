@@ -1,0 +1,5 @@
+// 2.4 — parse e extract: tirar usuário e IP da mensagem do SSH
+Syslog
+| where ProcessName == "sshd" and SyslogMessage has "Failed password"
+| parse SyslogMessage with * "invalid user " Usuario " from " IP " port " Porta " ssh2"
+| summarize Tentativas = count() by Usuario, IP

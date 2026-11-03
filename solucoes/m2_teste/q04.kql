@@ -1,0 +1,4 @@
+LojaApi_CL
+| where StatusCode >= 500
+| summarize Erros = count(), DuracaoMedia = round(avg(DurationMs), 0) by Route
+| sort by Erros desc, Route asc

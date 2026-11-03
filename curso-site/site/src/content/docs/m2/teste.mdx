@@ -1,0 +1,30 @@
+---
+title: "Teste — Módulo 2"
+description: "Teste do módulo: múltipla escolha com cenários e desafio prático."
+sidebar:
+  order: 99
+---
+
+<div data-modulo="m2"></div>
+
+## Situação
+
+<div data-estado="m2"></div>
+
+## Parte 1 — 16 questões de cenário
+
+Mínimo: **70%**. Cada resposta vem com explicação.
+
+<div data-teste="m2"></div>
+
+## Parte 2 — Teste prático: 10 consultas corrigidas automaticamente
+
+Resolva as 10 tarefas no dataset fixo da Loja Pixel. Para cada uma, rode `./kql.py -f q01.kql --csv saida.csv` e cole o CSV aqui. O resultado é comparado com o CSV esperado, gerado numa execução real do Kusto. Mínimo: 7 de 10. No repositório, `python3 grader/corrigir.py` faz a mesma correção rodando as suas consultas.
+
+No repositório: copie as suas consultas para `respostas/m2/q01.kql … q10.kql` e rode `python3 grader/corrigir.py` — ele executa no Kusto e dá a nota.
+
+:::caution
+O Módulo 4 insere eventos novos nas tabelas. Antes deste teste, recarregue o dataset fixo: `python3 dataset/carregar_dataset.py`.
+:::
+
+<div data-pratico="m2"></div>

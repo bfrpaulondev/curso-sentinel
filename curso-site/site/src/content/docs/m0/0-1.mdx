@@ -1,0 +1,106 @@
+---
+title: "Aula 0.1 · Conta Azure e alertas de orçamento"
+description: "Criar a sua conta e, antes de qualquer recurso, um orçamento com alertas por e-mail — como código."
+sidebar:
+  order: 1
+---
+
+<div data-modulo="m0"></div>
+
+**Objetivo:** Criar a sua conta e, antes de qualquer recurso, um orçamento com alertas por e-mail — como código.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_0.1.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_0.1.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_0.1.vtt" default /></video>
+
+<small>Duração: 2:09 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 0.1](/curso-sentinel/diagramas/aula_0.1.png)
+
+## Termos desta aula
+
+- **Subscrição** — A 'conta de luz' do Azure: tudo o que você cria é cobrado nela.
+- **Orçamento (Budget)** — Um limite de referência mensal que dispara alertas. Ele avisa, mas NÃO desliga nada.
+- **Bicep** — Linguagem da Microsoft para descrever recursos do Azure como código.
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Abra o arquivo do orçamento no VS Code.
+
+```bash
+code labs/m0/orcamento.bicep
+```
+
+### Passo 2
+
+Valide o Bicep localmente (não precisa de conta).
+
+```bash
+bicep lint labs/m0/orcamento.bicep && echo 'sem avisos'
+```
+
+**Saída esperada** (execução real):
+
+```text
+sem avisos
+```
+
+### Passo 3
+
+Gere o template ARM para ver o que o Azure vai receber.
+
+```bash
+bicep build labs/m0/orcamento.bicep --stdout | head -12
+```
+
+**Saída esperada** (execução real):
+
+```text
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.48.1.52935",
+      "templateHash": "2041619382135466602"
+    }
+  },
+  "parameters": {
+    "email": {
+```
+
+### Passo 4
+
+Na sua máquina, com a sua conta: entre e aplique. Troque o e-mail.
+
+```bash
+az login
+az deployment sub create -l brazilsouth -f labs/m0/orcamento.bicep -p email=voce@exemplo.com
+```
+
+:::note[Precisa da sua conta]
+Precisa de login no Azure. Confira depois em Cost Management → Budgets.
+:::
+
+### Capturas da demo
+
+![Captura 1 da aula 0.1](/curso-sentinel/shots/aula_0.1_4.jpg)
+![Captura 2 da aula 0.1](/curso-sentinel/shots/aula_0.1_6.jpg)
+![Captura 3 da aula 0.1](/curso-sentinel/shots/aula_0.1_8.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: adicione um quarto alerta, de 120% do gasto REAL, que mande e-mail para um segundo endereço passado como parâmetro `emailExtra`. O `bicep lint` tem de continuar sem avisos.
+
+## Mini-quiz
+
+<div data-quiz="0.1"></div>
+
+<button class="cs-btn" data-concluir="0.1">Marcar aula como concluída</button>

@@ -1,0 +1,6 @@
+// 2.1 — Logins com falha no Azure Portal (where, project, sort, take)
+SigninLogs
+| where ResultType != "0" and AppDisplayName == "Azure Portal"
+| project TimeGenerated, UserPrincipalName, IPAddress, Country, ResultDescription
+| sort by TimeGenerated asc
+| take 5

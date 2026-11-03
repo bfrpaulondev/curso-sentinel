@@ -1,0 +1,84 @@
+---
+title: "Aula 4.2 · Mapeamento de entidades e custom details"
+description: "Fazer o alerta dizer QUEM (IP, conta) e mostrar os números importantes sem abrir a query."
+sidebar:
+  order: 2
+---
+
+<div data-modulo="m4"></div>
+
+**Objetivo:** Fazer o alerta dizer QUEM (IP, conta) e mostrar os números importantes sem abrir a query.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_4.2.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_4.2.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_4.2.vtt" default /></video>
+
+<small>Duração: 1:24 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 4.2](/curso-sentinel/diagramas/aula_4.2.png)
+
+## Termos desta aula
+
+- **Entidade** — Um 'personagem' do alerta: IP, conta, host…
+- **Identificador** — O campo que identifica a entidade (ex.: Address do IP).
+- **Custom details** — Campos da query que aparecem direto no alerta.
+
+:::caution
+O motor_regras_local.py é um SIMULADOR didático: valida o YAML no formato do repositório Azure-Sentinel, roda a query no Kusto real e aplica limiar e agrupamento. Ele NÃO é o Microsoft Sentinel.
+:::
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Rode a regra no simulador local.
+
+```bash
+python3 labs/m4/motor_regras_local.py labs/m4/regras/forca_bruta_api.yaml
+```
+
+**Saída esperada** (execução real):
+
+```text
+
+▶ Regra: Loja Pixel - Força bruta na API de login  [Scheduled, a cada 5m, olhando 15m]
+  ✓ YAML válido • MITRE: CredentialAccess / T1110
+  ⚠ 1 alerta(s)
+  [INCIDENTE] INC-C3EFA0: 1 alerta(s) • entidades: IP=203.0.113.66
+
+Total: 1 incidente(s) → incidentes.json
+```
+
+### Passo 2
+
+Inspecione entidades e detalhes.
+
+```bash
+python3 -m json.tool labs/m4/incidentes.json | head -30
+```
+
+**Saída esperada** (execução real):
+
+```text
+[]
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 4.2](/curso-sentinel/shots/aula_4.2_3.jpg)
+![Captura 2 da aula 4.2](/curso-sentinel/shots/aula_4.2_5.jpg)
+![Captura 3 da aula 4.2](/curso-sentinel/shots/aula_4.2_6.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: adicione uma entidade Account mapeando o primeiro login da lista Contas (dica: extend Conta = tostring(Contas[0])).
+
+## Mini-quiz
+
+<div data-quiz="4.2"></div>
+
+<button class="cs-btn" data-concluir="4.2">Marcar aula como concluída</button>

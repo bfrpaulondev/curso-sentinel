@@ -1,0 +1,100 @@
+---
+title: "Aula 4.1 · Tipos de regra: Scheduled, NRT, Fusion e Microsoft"
+description: "Saber qual tipo de regra usar e os limites de cada um, segundo o Microsoft Learn."
+sidebar:
+  order: 1
+---
+
+<div data-modulo="m4"></div>
+
+**Objetivo:** Saber qual tipo de regra usar e os limites de cada um, segundo o Microsoft Learn.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_4.1.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_4.1.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_4.1.vtt" default /></video>
+
+<small>Duração: 2:15 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 4.1](/curso-sentinel/diagramas/aula_4.1.png)
+
+## Termos desta aula
+
+- **Regra agendada (Scheduled)** — Uma query KQL que roda de tempos em tempos e gera alertas.
+- **NRT** — Near-real-time: roda a cada minuto.
+- **Fusion** — Correlação de ataques em várias etapas feita pela Microsoft.
+
+:::caution
+O motor_regras_local.py é um SIMULADOR didático: valida o YAML no formato do repositório Azure-Sentinel, roda a query no Kusto real e aplica limiar e agrupamento. Ele NÃO é o Microsoft Sentinel.
+:::
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Suba a API e rode o ataque (só localhost).
+
+```bash
+node api-loja/server.js &
+bash labs/m4/ataque_forca_bruta.sh | tail -4
+```
+
+**Saída esperada** (execução real):
+
+```text
+monkey -> 401
+1q2w3e -> 401
+senhaforte -> 401
+Senha#Forte2026 -> 200
+```
+
+### Passo 2
+
+Envie os logs ao Kusto.
+
+```bash
+python3 labs/m4/enviar_logs.py
+```
+
+**Saída esperada** (execução real):
+
+```text
+21 eventos enviados para LojaApi_CL
+```
+
+### Passo 3
+
+Rode a query da regra.
+
+```bash
+./kql.py 'LojaApi_CL | where TimeGenerated > ago(15m) and Route == "/api/login" | summarize Falhas=countif(StatusCode==401), Sucessos=countif(StatusCode==200) by ClientIP'
+```
+
+**Saída esperada** (execução real):
+
+```text
+ClientIP     | Falhas | Sucessos
+-------------+--------+---------
+203.0.113.66 | 20     | 1       
+
+(1 linha)
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 4.1](/curso-sentinel/shots/aula_4.1_5.jpg)
+![Captura 2 da aula 4.1](/curso-sentinel/shots/aula_4.1_8.jpg)
+![Captura 3 da aula 4.1](/curso-sentinel/shots/aula_4.1_10.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: transforme a regra numa NRT (kind: NRT). Que campos deixam de fazer sentido e por quê? Confira no Microsoft Learn.
+
+## Mini-quiz
+
+<div data-quiz="4.1"></div>
+
+<button class="cs-btn" data-concluir="4.1">Marcar aula como concluída</button>

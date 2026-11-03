@@ -1,0 +1,78 @@
+---
+title: "Aula 2.5 · Funções, desempenho e erros comuns"
+description: "Reutilizar lógica com funções e escrever consultas rápidas e baratas."
+sidebar:
+  order: 5
+---
+
+<div data-modulo="m2"></div>
+
+**Objetivo:** Reutilizar lógica com funções e escrever consultas rápidas e baratas.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_2.5.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_2.5.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_2.5.vtt" default /></video>
+
+<small>Duração: 1:14 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 2.5](/curso-sentinel/diagramas/aula_2.5.png)
+
+## Termos desta aula
+
+- **Função (let)** — Uma 'stored procedure' leve, definida na própria consulta.
+- **invoke** — Chama uma função passando a tabela da esteira.
+- **Filtro de tempo** — Limitar TimeGenerated primeiro é a otimização nº 1.
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Use a função com invoke.
+
+```bash
+./kql.py -f labs/m2/2.5_funcoes.kql
+```
+
+**Saída esperada** (execução real):
+
+```text
+IPAddress     | Falhas
+--------------+-------
+198.51.100.23 | 32    
+
+(1 linha)
+```
+
+### Passo 2
+
+Provoque o erro de nome de coluna e leia a mensagem.
+
+```bash
+./kql.py 'SigninLogs | where resulttype != "0" | count'
+```
+
+**Saída esperada** (execução real):
+
+```text
+ERRO do Kusto: Semantic error: SEM0100: 'where' operator: Failed to resolve column or scalar expression named 'resulttype'
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 2.5](/curso-sentinel/shots/aula_2.5_4.jpg)
+![Captura 2 da aula 2.5](/curso-sentinel/shots/aula_2.5_5.jpg)
+![Captura 3 da aula 2.5](/curso-sentinel/shots/aula_2.5_6.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: crie uma função FalhasApi(limiar) para a LojaApi_CL (StatusCode 401 por ClientIP) e use-a com limiar 50.
+
+## Mini-quiz
+
+<div data-quiz="2.5"></div>
+
+<button class="cs-btn" data-concluir="2.5">Marcar aula como concluída</button>

@@ -1,0 +1,7 @@
+// 2.3 — union: uma linha do tempo única de falhas (Entra ID + API + SSH)
+union
+    (SigninLogs | where ResultType != "0" | project TimeGenerated, Fonte = "Entra ID", Origem = IPAddress),
+    (LojaApi_CL | where Route == "/api/login" and StatusCode == 401 | project TimeGenerated, Fonte = "API", Origem = ClientIP),
+    (Syslog | where SyslogMessage has "Failed password" | extend Origem = extract(@"from (\S+) port", 1, SyslogMessage) | project TimeGenerated, Fonte = "SSH", Origem)
+| summarize Eventos = count() by Fonte, Origem
+| top 5 by Eventos

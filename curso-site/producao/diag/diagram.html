@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Virgil;src:url(Virgil.woff2)}
+html,body{margin:0;background:#fbfaf6;overflow:hidden}
+svg{display:block}
+.t{font-family:Virgil,cursive}
+.step{opacity:0}
+.step.on{opacity:1}
+.step.on path{animation:draw 1.1s ease-out forwards}
+@keyframes draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+.step.on text{animation:fade .8s ease-out .3s both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+</style></head><body>
+<svg id="s" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+<script src="node_modules/roughjs/bundled/rough.js"></script>
+<script src="spec.js"></script>
+<script>
+const svg=document.getElementById('s'), rc=rough.svg(svg), NS='http://www.w3.org/2000/svg';
+const params=new URLSearchParams(location.search); const S=SPECS[params.get('d')]; let seed=7;
+function txt(g,x,y,str,size,color,anchor){const lines=String(str).split('\n');const lh=size*1.22;const y0=y-(lines.length-1)*lh/2;
+ lines.forEach((l,i)=>{const t=document.createElementNS(NS,'text');t.setAttribute('x',x);t.setAttribute('y',y0+i*lh);t.setAttribute('font-size',size);t.setAttribute('fill',color||'#1f2328');t.setAttribute('text-anchor',anchor||'middle');t.setAttribute('dominant-baseline','middle');t.setAttribute('class','t');t.textContent=l;g.appendChild(t)})}
+function fit(label,w,h){const lines=String(label).split('\n');const longest=Math.max(...lines.map(l=>l.length));return Math.min(46,(w-30)/(longest*0.52),(h-20)/(lines.length*1.3))}
+function add(g,node){g.appendChild(node)}
+const o=(c,extra)=>Object.assign({seed:seed++,roughness:1.3,strokeWidth:3,stroke:c||'#1f2328',bowing:1.2},extra||{});
+// title
+const tg=document.createElementNS(NS,'g');svg.appendChild(tg);txt(tg,60,70,S.titulo,40,'#495057','start');
+const line=rc.line(60,100,60+S.titulo.length*20,100,o('#adb5bd',{strokeWidth:2}));tg.appendChild(line);
+S.steps.forEach((st,i)=>{const g=document.createElementNS(NS,'g');g.setAttribute('class','step');g.id='st'+i;svg.appendChild(g);
+ st.els.forEach(e=>{const k=e[0];
+  if(k==='box'){const[,x,y,w,h,label,c]=e;add(g,rc.rectangle(x,y,w,h,o(c,{fill:c+'22',fillStyle:'hachure',hachureGap:12,fillWeight:1.5})));if(label)txt(g,x+w/2,y+h/2,label,fit(label,w,h),'#1f2328')}
+  else if(k==='db'){const[,x,y,w,h,label,c]=e;add(g,rc.path(`M${x} ${y+30} L${x} ${y+h-30} A ${w/2} 30 0 0 0 ${x+w} ${y+h-30} L${x+w} ${y+30}`,o(c,{fill:c+'22',fillStyle:'hachure',hachureGap:12})));add(g,rc.ellipse(x+w/2,y+30,w,60,o(c,{fill:'#fbfaf6',fillStyle:'solid'})));txt(g,x+w/2,y+h/2+15,label,fit(label,w,h-60),'#1f2328')}
+  else if(k==='arrow'){const[,x1,y1,x2,y2,label]=e;add(g,rc.line(x1,y1,x2,y2,o('#1f2328')));const a=Math.atan2(y2-y1,x2-x1),L=22;
+    add(g,rc.line(x2,y2,x2-L*Math.cos(a-0.45),y2-L*Math.sin(a-0.45),o('#1f2328')));add(g,rc.line(x2,y2,x2-L*Math.cos(a+0.45),y2-L*Math.sin(a+0.45),o('#1f2328')));
+    if(label){txt(g,(x1+x2)/2,(y1+y2)/2-26,label,30,'#495057');const t=g.lastChild;t.setAttribute('stroke','#fbfaf6');t.setAttribute('stroke-width','10');t.setAttribute('paint-order','stroke')}}
+  else if(k==='text'){const[,x,y,str,size,c]=e;txt(g,x,y,str,size,c)}
+  else if(k==='person'){const[,x,y,label]=e;add(g,rc.circle(x,y-70,60,o('#1f2328')));add(g,rc.line(x,y-40,x,y+40,o()));add(g,rc.line(x-45,y-10,x+45,y-10,o()));add(g,rc.line(x,y+40,x-35,y+100,o()));add(g,rc.line(x,y+40,x+35,y+100,o()));txt(g,x,y+140,label,34)}
+ })});
+document.querySelectorAll('path').forEach(p=>{try{const l=p.getTotalLength();p.style.strokeDasharray=l;p.style.setProperty('--len',l)}catch(e){}});
+let cur=-1; window.next=()=>{cur++;const g=document.getElementById('st'+cur);if(g)g.classList.add('on')};
+if(params.get('all')){document.querySelectorAll('.step').forEach(g=>g.classList.add('on'));document.querySelectorAll('path').forEach(p=>p.style.animation='none');document.querySelectorAll('text').forEach(p=>p.style.animation='none')}
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key===' ')next()});
+</script></body></html>

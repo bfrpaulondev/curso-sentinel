@@ -1,0 +1,86 @@
+---
+title: "Aula 2.1 · where, project, take e sort"
+description: "Filtrar linhas, escolher colunas e ordenar — a base de toda consulta."
+sidebar:
+  order: 1
+---
+
+<div data-modulo="m2"></div>
+
+**Objetivo:** Filtrar linhas, escolher colunas e ordenar — a base de toda consulta.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_2.1.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_2.1.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_2.1.vtt" default /></video>
+
+<small>Duração: 1:32 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 2.1](/curso-sentinel/diagramas/aula_2.1.png)
+
+## Termos desta aula
+
+- **Pipe ( | )** — A esteira da fábrica: o resultado de um passo entra no próximo.
+- **where** — O WHERE do SQL: filtra linhas.
+- **project** — O SELECT do SQL: escolhe e renomeia colunas.
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Rode a consulta da aula.
+
+```bash
+./kql.py -f labs/m2/2.1_where_project.kql
+```
+
+**Saída esperada** (execução real):
+
+```text
+TimeGenerated        | UserPrincipalName              | IPAddress   | Country | ResultDescription                
+---------------------+--------------------------------+-------------+---------+----------------------------------
+2026-10-20T09:34:45Z | joao.pereira@lojapixel.com.br  | 10.20.2.233 | BR      | Strong authentication is required
+2026-10-20T11:42:10Z | elisa.prado@lojapixel.com.br   | 10.20.3.74  | BR      | Invalid username or password     
+2026-10-20T13:46:16Z | bruno.lima@lojapixel.com.br    | 10.20.5.118 | BR      | Invalid username or password     
+2026-10-20T17:28:03Z | lucas.martins@lojapixel.com.br | 10.20.1.210 | BR      | Strong authentication is required
+2026-10-20T20:13:24Z | karen.dias@lojapixel.com.br    | 10.20.5.202 | BR      | Strong authentication is required
+
+(5 linhas)
+```
+
+### Passo 2
+
+Conte todas as falhas.
+
+```bash
+./kql.py 'SigninLogs | where ResultType != "0" | count'
+```
+
+**Saída esperada** (execução real):
+
+```text
+Count
+-----
+68   
+
+(1 linha)
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 2.1](/curso-sentinel/shots/aula_2.1_3.jpg)
+![Captura 2 da aula 2.1](/curso-sentinel/shots/aula_2.1_5.jpg)
+![Captura 3 da aula 2.1](/curso-sentinel/shots/aula_2.1_6.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: liste os 10 logins com SUCESSO mais recentes fora do Brasil, mostrando só hora, usuário e país.
+
+## Mini-quiz
+
+<div data-quiz="2.1"></div>
+
+<button class="cs-btn" data-concluir="2.1">Marcar aula como concluída</button>

@@ -1,0 +1,26 @@
+---
+title: "O que é real neste curso"
+description: "Transparência: o que foi executado de verdade e o que é só código."
+sidebar:
+  order: 102
+---
+
+## Executado de verdade
+- **Todas as consultas KQL** (labs, gabaritos do teste do Módulo 2, saídas esperadas): emulador oficial do Kusto (Kustainer) em Docker.
+- **API da Loja Pixel** (Node.js), **ataque de força bruta** (apenas contra `localhost`), envio dos logs para o Kusto.
+- **Demos dos vídeos**: gravação real da tela (ffmpeg) do code-server (VS Code no navegador) com a extensão Kuskus, terminal, Git e Azure CLI.
+- **Bicep**: validado com `bicep lint` e `bicep build`.
+- **Corretores**: `grader/corrigir.py` (Módulo 2) e `grader/testar_regra.py` (Módulo 4).
+
+## Só código (precisa da sua conta Azure)
+- Orçamento, workspace + Sentinel e deploy da Loja Pixel no Azure (`labs/m0/`). Nada foi aplicado numa subscrição.
+- Nenhuma tela do portal do Azure ou do Defender aparece no curso: nós não simulamos o portal.
+
+## Simulado, e avisado
+- **Logins do Entra ID**: o dataset e o script `login_suspeito.py` geram linhas **sintéticas** de SigninLogs (não há um tenant real).
+- **`motor_regras_local.py`** é um **simulador didático** do motor de regras. Valida o YAML e roda a query no Kusto real, mas **não é o Microsoft Sentinel**.
+
+## Fontes
+Os limites e comportamentos citados (NRT, entidades, custom details, agrupamento, Fusion, portal do Defender) foram conferidos no Microsoft Learn em 03/11/2026.
+
+Vídeos com marca d'água @bfrpaulondev. Narração com vozes neurais pt-BR.

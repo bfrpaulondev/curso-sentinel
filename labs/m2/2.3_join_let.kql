@@ -1,0 +1,11 @@
+// 2.3 — IPs com falhas em várias contas E pelo menos um sucesso (let + join)
+let Falhas = SigninLogs
+    | where ResultType != "0"
+    | summarize ContasAtacadas = dcount(UserPrincipalName) by IPAddress
+    | where ContasAtacadas >= 5;
+let Sucessos = SigninLogs
+    | where ResultType == "0"
+    | project IPAddress, ContaComprometida = UserPrincipalName, HoraDoSucesso = TimeGenerated;
+Falhas
+| join kind=inner Sucessos on IPAddress
+| project IPAddress, ContasAtacadas, ContaComprometida, HoraDoSucesso

@@ -1,0 +1,5 @@
+LojaApi_CL
+| where Route == "/api/login" and StatusCode == 401
+| summarize Falhas = count() by bin(TimeGenerated, 5m)
+| where Falhas >= 20
+| sort by TimeGenerated asc

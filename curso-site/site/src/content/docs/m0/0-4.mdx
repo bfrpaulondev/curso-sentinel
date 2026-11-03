@@ -1,0 +1,92 @@
+---
+title: "Aula 0.4 · Ferramentas: VS Code, extensão KQL, Git e Azure CLI"
+description: "Deixar a sua máquina pronta e conhecer o Kusto local (emulador) onde as consultas do curso rodam de verdade."
+sidebar:
+  order: 4
+---
+
+<div data-modulo="m0"></div>
+
+**Objetivo:** Deixar a sua máquina pronta e conhecer o Kusto local (emulador) onde as consultas do curso rodam de verdade.
+
+## Vídeo
+
+<video controls preload="metadata" playsinline poster="/curso-sentinel/diagramas/aula_0.4.png" style="width:100%;border-radius:8px"><source src="/curso-sentinel/videos/aula_0.4.mp4" type="video/mp4" /><track kind="subtitles" srclang="pt-BR" label="Português" src="/curso-sentinel/videos/aula_0.4.vtt" default /></video>
+
+<small>Duração: 1:19 · narração em voz sintética pt-BR · demo gravada de verdade no code-server.</small>
+
+## Diagrama de referência
+
+![Diagrama da aula 0.4](/curso-sentinel/diagramas/aula_0.4.png)
+
+## Termos desta aula
+
+- **Kustainer** — Emulador oficial do Kusto em Docker: roda KQL de verdade, sem conta.
+- **Azure CLI (az)** — Linha de comando para gerenciar o Azure.
+- **Git** — Histórico de versões do seu código — inclusive das regras de detecção.
+
+## Laboratório guiado
+
+Todos os comandos rodam a partir da pasta raiz do [repositório do curso](https://github.com/bfrpaulondev/curso-sentinel).
+
+### Passo 1
+
+Suba o emulador Kusto e carregue o dataset da Loja Pixel (sem conta).
+
+```bash
+cd labs/m0 && ./0.local_setup.sh
+```
+
+### Passo 2
+
+Confira as ferramentas.
+
+```bash
+git --version && az version | head -3
+```
+
+**Saída esperada** (execução real):
+
+```text
+git version 2.47.3
+{
+  "azure-cli": "2.92.0",
+  "azure-cli-core": "2.92.0",
+```
+
+### Passo 3
+
+Primeira consulta real.
+
+```bash
+./kql.py 'union withsource=Tabela SigninLogs, LojaApi_CL, Syslog | summarize Linhas=count() by Tabela'
+```
+
+**Saída esperada** (execução real):
+
+```text
+Tabela     | Linhas
+-----------+-------
+Syslog     | 535   
+SigninLogs | 933   
+LojaApi_CL | 2540  
+
+(3 linhas)
+```
+
+### Capturas da demo
+
+![Captura 1 da aula 0.4](/curso-sentinel/shots/aula_0.4_4.jpg)
+![Captura 2 da aula 0.4](/curso-sentinel/shots/aula_0.4_6.jpg)
+![Captura 3 da aula 0.4](/curso-sentinel/shots/aula_0.4_7.jpg)
+![Captura 4 da aula 0.4](/curso-sentinel/shots/aula_0.4_8.jpg)
+
+## Desafio (sem guia)
+
+Sem guia: com o kql.py, descubra o primeiro e o último TimeGenerated de cada tabela (dica: min() e max()).
+
+## Mini-quiz
+
+<div data-quiz="0.4"></div>
+
+<button class="cs-btn" data-concluir="0.4">Marcar aula como concluída</button>

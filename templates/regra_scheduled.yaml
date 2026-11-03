@@ -1,0 +1,39 @@
+# Modelo de regra agendada (formato do repositório Azure-Sentinel). Copie, renomeie e preencha.
+id: 00000000-0000-0000-0000-000000000000   # gere um: python3 -c "import uuid;print(uuid.uuid4())"
+name: Loja Pixel - <o que a regra detecta>
+description: |
+  <por que isso é suspeito e o que o analista deve fazer>
+severity: Medium            # Informational | Low | Medium | High
+status: Available
+requiredDataConnectors: []
+queryFrequency: 5m          # 5m a 14d
+queryPeriod: 15m            # >= queryFrequency
+triggerOperator: gt
+triggerThreshold: 0
+tactics:
+  - CredentialAccess        # nomes oficiais, sem espaços
+relevantTechniques:
+  - T1110
+query: |
+  Tabela
+  | where TimeGenerated > ago(15m)
+  | summarize Eventos = count() by Coluna
+  | where Eventos >= 10
+entityMappings:
+  - entityType: IP
+    fieldMappings:
+      - identifier: Address
+        columnName: Coluna
+customDetails:
+  Eventos: Eventos
+incidentConfiguration:
+  createIncident: true
+  groupingConfiguration:
+    enabled: true
+    reopenClosedIncident: false
+    lookbackDuration: 5h
+    matchingMethod: AllEntities   # AllEntities | AnyAlert | Selected
+eventGroupingSettings:
+  aggregationKind: AlertPerResult
+version: 1.0.0
+kind: Scheduled
