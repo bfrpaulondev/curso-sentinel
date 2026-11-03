@@ -1,0 +1,81 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:05.489
+Este é o cenário que vai nos acompanhar o curso inteiro:
+
+2
+00:00:05.489 --> 00:00:08.196
+a Loja Pixel, uma loja online pequena.
+
+3
+00:00:08.896 --> 00:00:15.016
+A API conversa com o banco de dados, os funcionários entram pelo Entra ID, e o código
+
+4
+00:00:15.016 --> 00:00:17.392
+passa por uma pipeline no GitHub.
+
+5
+00:00:18.164 --> 00:00:19.948
+E tudo isso gera logs.
+
+6
+00:00:19.948 --> 00:00:26.029
+Cada login, cada erro, cada deploy vira uma linha que vai para o workspace.
+
+7
+00:00:26.029 --> 00:00:29.516
+É desses logs que vamos caçar os atacantes.
+
+8
+00:00:31.245 --> 00:00:36.341
+No repositório, a API está em api-loja barra server ponto js.
+
+9
+00:00:36.341 --> 00:00:42.189
+É um servidor Node puro, sem framework, para você entender cada linha.
+
+10
+00:00:43.054 --> 00:00:45.838
+Vou subir a API num terminal.
+
+11
+00:00:49.236 --> 00:00:52.668
+Um pedido normal à lista de produtos.
+
+12
+00:00:53.749 --> 00:00:56.574
+Agora um login com senha errada.
+
+13
+00:00:56.574 --> 00:01:00.901
+A API responde quatrocentos e um, não autorizado.
+
+14
+00:01:01.602 --> 00:01:03.178
+E o mais importante:
+
+15
+00:01:03.178 --> 00:01:03.650
+o log.
+
+16
+00:01:03.650 --> 00:01:10.504
+Cada pedido vira uma linha JSON, já no formato da tabela LojaApi underline CL que vamos
+
+17
+00:01:10.504 --> 00:01:11.843
+usar no Sentinel.
+
+18
+00:01:12.799 --> 00:01:18.178
+Para colocar a loja no Azure, existe o script zero ponto três deploy loja.
+
+19
+00:01:18.178 --> 00:01:24.210
+Ele cria o grupo, o workspace, o App Service e três usuários fictícios no Entra ID.
+
+20
+00:01:24.210 --> 00:01:30.679
+Ele custa dinheiro e precisa da sua conta, por isso fica para você rodar e apagar no fim.

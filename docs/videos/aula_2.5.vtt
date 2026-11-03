@@ -1,0 +1,93 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:04.476
+Três hábitos que deixam a consulta rápida.
+
+2
+00:00:04.476 --> 00:00:05.114
+Primeiro:
+
+3
+00:00:05.114 --> 00:00:07.239
+filtre o tempo logo no começo.
+
+4
+00:00:07.239 --> 00:00:11.916
+É como procurar só na gaveta de outubro em vez do arquivo inteiro.
+
+5
+00:00:12.616 --> 00:00:13.275
+Segundo:
+
+6
+00:00:13.275 --> 00:00:16.242
+reduza as colunas cedo, com project.
+
+7
+00:00:16.242 --> 00:00:19.456
+Menos coisa na esteira, menos trabalho.
+
+8
+00:00:20.156 --> 00:00:20.797
+Terceiro:
+
+9
+00:00:20.797 --> 00:00:22.435
+prefira has a contains.
+
+10
+00:00:22.435 --> 00:00:28.346
+O has procura palavras inteiras usando o índice, o contains varre o texto letra por
+
+11
+00:00:28.346 --> 00:00:28.773
+letra.
+
+12
+00:00:29.545 --> 00:00:32.543
+E quando a lógica se repete, vira função.
+
+13
+00:00:32.543 --> 00:00:37.297
+Definimos uma vez com let, com parâmetros, e chamamos com invoke.
+
+14
+00:00:39.025 --> 00:00:42.860
+Esta é a função FalhasPorIp, com dois parâmetros:
+
+15
+00:00:42.860 --> 00:00:44.425
+a tabela e o limiar.
+
+16
+00:00:45.290 --> 00:00:49.730
+Com limiar dez, só o IP do password spray passa.
+
+17
+00:00:50.633 --> 00:00:53.074
+Agora o erro mais comum de todos:
+
+18
+00:00:53.074 --> 00:00:55.885
+nome de coluna com a maiúscula errada.
+
+19
+00:00:55.885 --> 00:00:59.657
+No KQL, os nomes de colunas diferenciam maiúsculas.
+
+20
+00:01:00.540 --> 00:01:03.075
+A mensagem diz exatamente o problema:
+
+21
+00:01:03.075 --> 00:01:05.748
+falhou ao resolver a coluna resulttype.
+
+22
+00:01:05.748 --> 00:01:09.722
+Lendo o erro com calma, ele quase sempre aponta o culpado.
+
+23
+00:01:09.722 --> 00:01:14.724
+Corrigindo para ResultType, com R e T maiúsculos, tudo volta a funcionar.

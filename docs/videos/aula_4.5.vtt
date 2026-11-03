@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:06.566
+Regra boa é a que dispara no ataque e fica quieta no resto.
+
+2
+00:00:06.566 --> 00:00:08.541
+O tuning é uma balança:
+
+3
+00:00:08.541 --> 00:00:12.148
+limiar baixo demais, chove falso positivo.
+
+4
+00:00:12.148 --> 00:00:14.724
+Alto demais, o atacante passa.
+
+5
+00:00:15.424 --> 00:00:16.551
+As ferramentas:
+
+6
+00:00:16.551 --> 00:00:23.089
+medir antes com KQL, excluir quem é conhecido, como o monitor de disponibilidade, e, se
+
+7
+00:00:23.089 --> 00:00:27.973
+preciso, suprimir a regra por um tempo, até vinte e quatro horas.
+
+8
+00:00:28.748 --> 00:00:30.751
+E a regra mais importante:
+
+9
+00:00:30.751 --> 00:00:35.372
+depois de ajustar, ataque de novo e prove que ainda detecta.
+
+10
+00:00:37.103 --> 00:00:38.447
+Primeiro, medir.
+
+11
+00:00:38.447 --> 00:00:44.495
+Quantas falhas por IP um usuário normal gera no nosso dataset de um dia?
+
+12
+00:00:45.371 --> 00:00:47.770
+Abro a versão ajustada da regra:
+
+13
+00:00:47.770 --> 00:00:52.043
+uma lista de IPs permitidos e o limiar subiu para quinze.
+
+14
+00:00:52.908 --> 00:00:53.630
+E a prova:
+
+15
+00:00:53.630 --> 00:00:59.623
+o teste automático do módulo ataca de um IP aleatório e verifica se a regra gera um
+
+16
+00:00:59.623 --> 00:01:01.212
+incidente com esse IP.
+
+17
+00:01:02.152 --> 00:01:02.942
+Aprovado.
+
+18
+00:01:02.942 --> 00:01:07.421
+A regra continua pegando o ataque, com menos ruído.
+
+19
+00:01:07.421 --> 00:01:13.480
+Por último, versionamos tudo no Git, porque detecção também é código.

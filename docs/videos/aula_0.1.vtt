@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:06.763
+Antes de criar qualquer coisa no Azure, vamos instalar o nosso freio de mão.
+
+2
+00:00:06.763 --> 00:00:10.087
+Pense na subscrição como a conta de luz da casa:
+
+3
+00:00:10.087 --> 00:00:12.996
+tudo o que você liga entra na fatura dela.
+
+4
+00:00:13.696 --> 00:00:16.585
+Dentro dela criamos um orçamento.
+
+5
+00:00:16.585 --> 00:00:18.861
+Aqui, vinte euros por mês.
+
+6
+00:00:18.861 --> 00:00:21.662
+Atenção a um detalhe importante:
+
+7
+00:00:21.662 --> 00:00:26.039
+o orçamento avisa, mas não desliga recurso nenhum.
+
+8
+00:00:26.039 --> 00:00:28.840
+Ele é o alarme, não o disjuntor.
+
+9
+00:00:29.541 --> 00:00:32.158
+Os alertas disparam em três pontos:
+
+10
+00:00:32.158 --> 00:00:38.589
+cinquenta por cento do gasto real, oitenta por cento do gasto real, e cem por cento do
+
+11
+00:00:38.589 --> 00:00:39.710
+gasto previsto.
+
+12
+00:00:39.785 --> 00:00:44.421
+O previsto é o mais útil, porque avisa antes de você estourar.
+
+13
+00:00:45.121 --> 00:00:46.533
+E um aviso honesto:
+
+14
+00:00:46.533 --> 00:00:50.472
+os dados de custo chegam com atraso de algumas horas.
+
+15
+00:00:50.472 --> 00:00:56.641
+Por isso, no fim de cada laboratório, a regra de ouro é apagar o grupo de recursos.
+
+16
+00:00:58.382 --> 00:00:59.681
+Vamos ao código.
+
+17
+00:00:59.681 --> 00:01:05.606
+Este é o arquivo orcamento ponto bicep, que está no repositório do curso.
+
+18
+00:01:06.468 --> 00:01:09.643
+Repare no targetScope igual a subscription:
+
+19
+00:01:09.643 --> 00:01:13.926
+o orçamento vive na subscrição, não num grupo de recursos.
+
+20
+00:01:13.926 --> 00:01:20.499
+O valor é vinte, o período é mensal, e temos três notificações, cada uma com o seu limite
+
+21
+00:01:20.499 --> 00:01:22.714
+e o tipo Actual ou Forecasted.
+
+22
+00:01:23.488 --> 00:01:29.324
+Antes de mandar para o Azure, eu valido o arquivo com o linter do Bicep.
+
+23
+00:01:29.324 --> 00:01:31.432
+Nenhum aviso, nenhum erro.
+
+24
+00:01:32.297 --> 00:01:35.952
+Também dá para ver o JSON que o Azure vai receber.
+
+25
+00:01:35.952 --> 00:01:40.337
+O Bicep é só uma forma mais limpa de escrever esse template.
+
+26
+00:01:41.037 --> 00:01:42.789
+Agora, a parte honesta.
+
+27
+00:01:42.789 --> 00:01:48.197
+Para aplicar de verdade, você precisa entrar na sua conta com az login.
+
+28
+00:01:48.197 --> 00:01:54.291
+Eu não vou fazer isso aqui, porque esta máquina de gravação não tem a sua conta.
+
+29
+00:01:54.291 --> 00:01:58.557
+Na sua máquina, o comando é este que está no comentário.
+
+30
+00:01:59.420 --> 00:02:00.028
+Fechou:
+
+31
+00:02:00.028 --> 00:02:04.631
+orçamento como código, validado, pronto para aplicar.
+
+32
+00:02:04.631 --> 00:02:09.668
+Na próxima aula, criamos o workspace e ligamos o Sentinel.

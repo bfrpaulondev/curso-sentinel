@@ -1,0 +1,81 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:03.223
+Suspeita não é prova.
+
+2
+00:00:03.223 --> 00:00:07.572
+Temos de um lado os IPs que erraram em muitas contas.
+
+3
+00:00:08.272 --> 00:00:11.182
+Do outro, os logins que deram certo.
+
+4
+00:00:11.182 --> 00:00:15.304
+O let dá nome a cada conjunto, como um WITH no SQL.
+
+5
+00:00:16.004 --> 00:00:18.179
+O join cruza os dois pelo IP.
+
+6
+00:00:18.179 --> 00:00:21.029
+O que sobra é a pior notícia possível:
+
+7
+00:00:21.029 --> 00:00:23.804
+o atacante acertou a senha de alguém.
+
+8
+00:00:24.505 --> 00:00:29.687
+E o union empilha fontes diferentes numa linha do tempo só:
+
+9
+00:00:29.687 --> 00:00:32.497
+Entra ID, API e SSH lado a lado.
+
+10
+00:00:34.223 --> 00:00:37.967
+Aqui está a consulta com dois let e um join.
+
+11
+00:00:38.827 --> 00:00:39.877
+Executando.
+
+12
+00:00:39.877 --> 00:00:40.832
+Uma linha:
+
+13
+00:00:40.832 --> 00:00:49.329
+o IP 198.51.100.23 atacou dezesseis contas e conseguiu entrar como joao ponto pereira, às
+
+14
+00:00:49.329 --> 00:00:51.716
+duas e quarenta e quatro.
+
+15
+00:00:52.671 --> 00:00:54.093
+Agora o union.
+
+16
+00:00:54.093 --> 00:00:57.039
+Três fontes, um só resultado.
+
+17
+00:00:57.739 --> 00:01:01.836
+Três atacantes diferentes na mesma madrugada:
+
+18
+00:01:01.836 --> 00:01:09.758
+cento e trinta e oito falhas na API vindas de 203.0.113.77, trinta e cinco no SSH, e as
+
+19
+00:01:09.758 --> 00:01:12.672
+trinta e duas do password spray.
+
+20
+00:01:13.624 --> 00:01:18.496
+Esses três números vão virar regras de detecção no Módulo 4.

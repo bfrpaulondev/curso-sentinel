@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:06.909
+O MITRE ATT&CK é um catálogo público de como os atacantes agem.
+
+2
+00:00:06.909 --> 00:00:08.969
+As táticas são o porquê:
+
+3
+00:00:08.969 --> 00:00:12.060
+entrar, obter credenciais, mover-se.
+
+4
+00:00:12.760 --> 00:00:15.024
+As técnicas são o como.
+
+5
+00:00:15.024 --> 00:00:19.750
+A T1110, Brute Force, fica em Credential Access.
+
+6
+00:00:19.750 --> 00:00:27.232
+A T1078, Valid Accounts, aparece quando o atacante usa uma conta verdadeira.
+
+7
+00:00:27.933 --> 00:00:33.714
+No YAML, as táticas vão em tactics, escritas sem espaços, e as técnicas em
+
+8
+00:00:33.714 --> 00:00:35.198
+relevantTechniques.
+
+9
+00:00:35.276 --> 00:00:35.901
+O ganho:
+
+10
+00:00:35.901 --> 00:00:39.885
+o Sentinel mostra a sua cobertura no mapa do MITRE.
+
+11
+00:00:41.620 --> 00:00:43.307
+A segunda regra:
+
+12
+00:00:43.307 --> 00:00:48.791
+sucesso depois de várias falhas, de um país incomum.
+
+13
+00:00:48.791 --> 00:00:49.635
+Táticas:
+
+14
+00:00:49.635 --> 00:00:53.642
+acesso inicial e acesso a credenciais.
+
+15
+00:00:53.642 --> 00:00:54.592
+Técnicas:
+
+16
+00:00:54.592 --> 00:00:56.068
+T1078 e T1110.
+
+17
+00:00:56.926 --> 00:00:58.338
+Vou gerar o evento.
+
+18
+00:00:58.338 --> 00:01:04.731
+Como não temos um Entra ID real aqui, o script insere linhas sintéticas em SigninLogs,
+
+19
+00:01:04.731 --> 00:01:06.069
+marcadas como tal:
+
+20
+00:01:06.144 --> 00:01:10.678
+oito falhas e um sucesso da Rússia para a marina ponto lopes.
+
+21
+00:01:11.378 --> 00:01:13.418
+Rodando a regra.
+
+22
+00:01:16.416 --> 00:01:19.237
+E agora o que acontece com um MITRE errado:
+
+23
+00:01:19.237 --> 00:01:23.568
+tática traduzida para o português e técnica com um dígito a menos.
+
+24
+00:01:24.426 --> 00:01:26.616
+O validador recusa os dois.
+
+25
+00:01:26.616 --> 00:01:33.752
+Os nomes de tática são fixos, em inglês e sem espaços, e a técnica é T seguido de quatro
+
+26
+00:01:33.752 --> 00:01:34.401
+dígitos.

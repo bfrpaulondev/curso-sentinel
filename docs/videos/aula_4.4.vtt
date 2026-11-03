@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:04.646
+A regra roda a cada cinco minutos.
+
+2
+00:00:04.646 --> 00:00:08.716
+Se o ataque dura uma hora, são doze alertas.
+
+3
+00:00:08.716 --> 00:00:12.232
+Doze incidentes para o mesmo atacante?
+
+4
+00:00:12.232 --> 00:00:13.620
+Ninguém merece.
+
+5
+00:00:14.320 --> 00:00:20.008
+O agrupamento junta alertas dentro de uma janela de tempo, por exemplo cinco horas, em
+
+6
+00:00:20.008 --> 00:00:22.918
+até cento e cinquenta alertas por incidente.
+
+7
+00:00:23.685 --> 00:00:24.762
+São três modos:
+
+8
+00:00:24.762 --> 00:00:30.868
+quando todas as entidades batem, que é o recomendado; tudo num incidente só; ou só as
+
+9
+00:00:30.868 --> 00:00:33.669
+entidades e detalhes que você escolher.
+
+10
+00:00:34.441 --> 00:00:41.013
+E no portal do Defender, essas configurações valem só no momento da criação do incidente.
+
+11
+00:00:41.013 --> 00:00:46.921
+Depois, o motor de correlação do Defender pode juntar ou separar de outro jeito.
+
+12
+00:00:48.656 --> 00:00:51.795
+No YAML, o bloco incidentConfiguration:
+
+13
+00:00:51.795 --> 00:00:58.798
+criar incidente, agrupamento ligado, janela de cinco horas, modo Selected pela entidade
+
+14
+00:00:58.798 --> 00:00:59.040
+IP.
+
+15
+00:00:59.986 --> 00:01:05.986
+Vou atacar mais duas vezes, do mesmo IP, para gerar vários alertas.
+
+16
+00:01:06.686 --> 00:01:09.782
+E um terceiro ataque de outro IP.
+
+17
+00:01:11.970 --> 00:01:14.946
+Rodando as duas regras juntas.
+
+18
+00:01:16.846 --> 00:01:22.205
+Um incidente por IP atacante, e o da marina na regra de login suspeito.
+
+19
+00:01:22.205 --> 00:01:27.790
+Agrupar pela entidade certa é o que separa um SOC calmo de um SOC afogado.

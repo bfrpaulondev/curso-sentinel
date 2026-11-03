@@ -1,0 +1,85 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:03.628
+A query devolve colunas.
+
+2
+00:00:03.628 --> 00:00:06.110
+Sozinhas, elas são só texto.
+
+3
+00:00:06.110 --> 00:00:09.834
+O mapeamento de entidades diz ao Sentinel:
+
+4
+00:00:09.834 --> 00:00:13.380
+esta coluna é um IP, aquela é uma conta.
+
+5
+00:00:14.080 --> 00:00:15.517
+Os limites do Learn:
+
+6
+00:00:15.517 --> 00:00:21.696
+até dez mapeamentos por regra, até três identificadores por entidade, e até quinhentas
+
+7
+00:00:21.696 --> 00:00:25.504
+entidades por alerta, divididas entre os mapeamentos.
+
+8
+00:00:26.278 --> 00:00:31.372
+Já os custom details colocam números da query no próprio alerta:
+
+9
+00:00:31.372 --> 00:00:33.680
+falhas, sucessos, user agent.
+
+10
+00:00:33.680 --> 00:00:38.614
+Até vinte por regra, e no total até dois kilobytes por alerta.
+
+11
+00:00:40.348 --> 00:00:43.386
+Na regra, o bloco entityMappings:
+
+12
+00:00:43.386 --> 00:00:48.172
+entidade IP, identificador Address, coluna ClientIP.
+
+13
+00:00:49.029 --> 00:00:55.139
+E o customDetails, com três campos, mais o alertDetailsOverride, que coloca o IP e o
+
+14
+00:00:55.139 --> 00:00:58.412
+número de falhas no próprio título do alerta.
+
+15
+00:00:59.185 --> 00:01:01.843
+Rodo a regra no simulador local.
+
+16
+00:01:01.843 --> 00:01:02.674
+Lembrando:
+
+17
+00:01:02.674 --> 00:01:06.413
+isto é um simulador didático, não o Sentinel.
+
+18
+00:01:06.413 --> 00:01:12.145
+Ele valida o YAML, roda a query no Kusto de verdade e monta o alerta.
+
+19
+00:01:13.011 --> 00:01:15.176
+Vamos ver o alerta por dentro:
+
+20
+00:01:15.176 --> 00:01:21.454
+o título já tem o IP, a entidade IP está mapeada, e os detalhes trazem vinte falhas, um
+
+21
+00:01:21.454 --> 00:01:23.835
+sucesso e o user agent hydra-sim.

@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:04.565
+Quatro ferramentas, um fluxo só.
+
+2
+00:00:04.565 --> 00:00:12.324
+No VS Code você escreve KQL, Bicep e YAML, com a extensão Kuskus colorindo o KQL.
+
+3
+00:00:13.024 --> 00:00:15.244
+O Git guarda o histórico.
+
+4
+00:00:15.244 --> 00:00:18.263
+Regra de detecção também é código:
+
+5
+00:00:18.263 --> 00:00:21.904
+tem revisão, tem versão, tem volta atrás.
+
+6
+00:00:22.604 --> 00:00:25.596
+Para executar, temos dois caminhos.
+
+7
+00:00:25.596 --> 00:00:29.017
+Com conta, o Azure CLI publica no Azure.
+
+8
+00:00:29.017 --> 00:00:34.489
+Sem conta, o emulador Kustainer roda o mesmo KQL na sua máquina.
+
+9
+00:00:34.489 --> 00:00:39.020
+Todas as consultas deste curso foram executadas nele.
+
+10
+00:00:40.741 --> 00:00:43.663
+Vamos conferir as versões.
+
+11
+00:00:43.663 --> 00:00:45.349
+Primeiro o Git.
+
+12
+00:00:46.050 --> 00:00:47.922
+O Azure CLI.
+
+13
+00:00:50.312 --> 00:00:53.432
+O histórico do repositório do curso.
+
+14
+00:00:54.522 --> 00:00:57.618
+O emulador Kusto rodando em Docker.
+
+15
+00:00:59.422 --> 00:01:05.226
+E a primeira consulta KQL de verdade, com o nosso ajudante kql ponto py:
+
+16
+00:01:05.226 --> 00:01:08.854
+quantas linhas tem cada tabela do banco Loja.
+
+17
+00:01:09.717 --> 00:01:15.615
+Abrindo um arquivo ponto kql, a extensão colore operadores e funções.
+
+18
+00:01:15.615 --> 00:01:19.461
+A partir do Módulo 2, é aqui que vamos morar.

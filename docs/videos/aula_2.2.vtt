@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:04.267
+Eventos soltos não contam história.
+
+2
+00:00:04.267 --> 00:00:06.005
+Precisamos agrupá-los.
+
+3
+00:00:06.005 --> 00:00:08.772
+Imagine baldes de uma hora em fila.
+
+4
+00:00:09.472 --> 00:00:15.347
+A função bin arredonda cada hora para o seu balde, e o summarize conta quantos eventos
+
+5
+00:00:15.347 --> 00:00:16.577
+caíram em cada um.
+
+6
+00:00:16.645 --> 00:00:19.173
+O balde das duas da manhã transborda:
+
+7
+00:00:19.173 --> 00:00:20.608
+trinta e sete falhas.
+
+8
+00:00:21.309 --> 00:00:28.149
+É exatamente o mesmo raciocínio do GROUP BY com DATEPART do SQL, só que bem mais curto.
+
+9
+00:00:29.912 --> 00:00:33.392
+Abro a consulta da aula dois ponto dois.
+
+10
+00:00:34.288 --> 00:00:34.865
+Rodando.
+
+11
+00:00:34.865 --> 00:00:40.496
+O primeiro lugar é dia vinte e um, às duas da manhã, com trinta e sete falhas.
+
+12
+00:00:40.496 --> 00:00:43.744
+Ninguém trabalha nesse horário na Loja Pixel.
+
+13
+00:00:44.691 --> 00:00:46.030
+Vamos aprofundar:
+
+14
+00:00:46.030 --> 00:00:50.204
+nesse balde, quantos IPs e quantas contas diferentes?
+
+15
+00:00:50.204 --> 00:00:52.803
+O dcount conta valores distintos.
+
+16
+00:00:53.682 --> 00:00:59.933
+Um IP só, 198.51.100.23, errando senha em dezesseis contas.
+
+17
+00:00:59.933 --> 00:01:02.158
+Esse padrão tem nome:
+
+18
+00:01:02.158 --> 00:01:03.747
+password spray.
+
+19
+00:01:03.747 --> 00:01:06.714
+É o nosso primeiro suspeito.

@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:04.263
+O render é o último passo da esteira.
+
+2
+00:00:04.263 --> 00:00:07.548
+Ele não muda os dados, só diz como desenhar.
+
+3
+00:00:08.248 --> 00:00:10.144
+Cada status vira uma série.
+
+4
+00:00:10.144 --> 00:00:14.218
+A linha do quatrocentos e um dá um salto às três da manhã:
+
+5
+00:00:14.218 --> 00:00:16.816
+é o credential stuffing contra a API.
+
+6
+00:00:17.516 --> 00:00:18.245
+Importante:
+
+7
+00:00:18.245 --> 00:00:23.413
+quem desenha é a ferramenta cliente, como o Log Analytics ou o Kusto Explorer.
+
+8
+00:00:23.413 --> 00:00:29.112
+No nosso terminal, o render devolve a tabela, e no site do curso o gráfico é desenhado
+
+9
+00:00:29.112 --> 00:00:31.034
+com esses mesmos dados reais.
+
+10
+00:00:32.832 --> 00:00:34.992
+A consulta da aula.
+
+11
+00:00:36.985 --> 00:00:40.836
+No terminal, recebemos a tabela que alimenta o gráfico:
+
+12
+00:00:40.836 --> 00:00:45.457
+cento e setenta e uma linhas, uma por balde de meia hora e status.
+
+13
+00:00:46.322 --> 00:00:52.265
+Vou filtrar só o balde das três da manhã para ver o salto do quatrocentos e um com os
+
+14
+00:00:52.265 --> 00:00:52.684
+olhos.
+
+15
+00:00:53.618 --> 00:00:57.541
+Cento e trinta e oito quatrocentos e uns em meia hora.
+
+16
+00:00:57.541 --> 00:01:00.955
+No gráfico do site, essa é a montanha vermelha.
+
+17
+00:01:00.955 --> 00:01:02.699
+Com isso fechamos o KQL.
+
+18
+00:01:02.699 --> 00:01:04.442
+Hora do teste do módulo.

@@ -1,0 +1,89 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:07.757
+Se você vem do SQL, a boa notícia é que o KQL pensa parecido, só que lê de cima para
+
+2
+00:00:07.757 --> 00:00:09.545
+baixo, como uma esteira.
+
+3
+00:00:09.619 --> 00:00:11.556
+Começa sempre pela tabela.
+
+4
+00:00:12.256 --> 00:00:13.630
+O where é o filtro:
+
+5
+00:00:13.630 --> 00:00:15.800
+só passam as linhas com falha.
+
+6
+00:00:15.800 --> 00:00:18.982
+O project escolhe as colunas, como o SELECT.
+
+7
+00:00:18.982 --> 00:00:23.176
+O sort ordena e o take pega só algumas linhas, como o TOP.
+
+8
+00:00:23.876 --> 00:00:26.523
+Uma dica de quem trabalha com SQL:
+
+9
+00:00:26.523 --> 00:00:31.663
+no KQL, comparação de texto com dois iguais diferencia maiúsculas.
+
+10
+00:00:31.663 --> 00:00:34.388
+Se quiser ignorar, use o til igual.
+
+11
+00:00:36.117 --> 00:00:39.069
+Abro a primeira consulta do módulo.
+
+12
+00:00:40.357 --> 00:00:44.189
+Tabela SigninLogs, filtro de falhas no Azure Portal:
+
+13
+00:00:44.189 --> 00:00:47.505
+ResultType diferente de zero significa falha.
+
+14
+00:00:47.505 --> 00:00:52.885
+Depois escolho cinco colunas, ordeno pela hora e pego as cinco primeiras.
+
+15
+00:00:53.585 --> 00:00:54.948
+Rodando no Kusto.
+
+16
+00:00:54.948 --> 00:01:00.641
+Cinco linhas, cada uma com o usuário, o IP, o país e o motivo da falha.
+
+17
+00:01:01.497 --> 00:01:04.440
+Agora um teste rápido direto no terminal:
+
+18
+00:01:04.440 --> 00:01:06.162
+quantas falhas no total?
+
+19
+00:01:06.162 --> 00:01:09.033
+Basta trocar o fim da esteira por count.
+
+20
+00:01:09.894 --> 00:01:12.137
+Sessenta e oito falhas num dia.
+
+21
+00:01:12.137 --> 00:01:14.815
+Parece pouco, mas guarde esse número:
+
+22
+00:01:14.815 --> 00:01:19.374
+a maioria delas veio de um lugar só, e vamos descobrir de onde.

@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:04.345
+Os logs chegam de vários lugares:
+
+2
+00:00:04.345 --> 00:00:08.052
+o Entra ID, a nossa API, as máquinas Linux.
+
+3
+00:00:08.752 --> 00:00:12.609
+Todos eles desembocam num Log Analytics workspace.
+
+4
+00:00:12.609 --> 00:00:15.232
+Pense num armazém com prateleiras:
+
+5
+00:00:15.232 --> 00:00:19.552
+cada prateleira é uma tabela, como SigninLogs ou Syslog.
+
+6
+00:00:20.253 --> 00:00:23.542
+O Microsoft Sentinel não é outro armazém.
+
+7
+00:00:23.542 --> 00:00:26.671
+Ele é uma camada por cima do workspace:
+
+8
+00:00:26.671 --> 00:00:31.485
+lê as tabelas, roda as regras de detecção e cria incidentes.
+
+9
+00:00:32.185 --> 00:00:33.941
+Uma novidade importante:
+
+10
+00:00:33.941 --> 00:00:40.232
+depois de trinta e um de março de 2027, o Sentinel deixa de ser suportado no portal do
+
+11
+00:00:40.232 --> 00:00:44.402
+Azure e passa a viver só no portal do Microsoft Defender.
+
+12
+00:00:44.475 --> 00:00:48.937
+Neste curso, o que fazemos é código, então vale para os dois.
+
+13
+00:00:50.681 --> 00:00:53.220
+Aqui está o sentinel ponto bicep.
+
+14
+00:00:53.220 --> 00:00:54.527
+Primeiro recurso:
+
+15
+00:00:54.527 --> 00:01:01.143
+o workspace, com o SKU por gigabyte, retenção de noventa dias e um limite diário de um
+
+16
+00:01:01.143 --> 00:01:04.836
+gigabyte, que é o nosso segundo freio de gastos.
+
+17
+00:01:05.781 --> 00:01:07.281
+Segundo recurso:
+
+18
+00:01:07.281 --> 00:01:09.062
+o onboardingStates.
+
+19
+00:01:09.062 --> 00:01:12.718
+É ele que liga o Sentinel no workspace.
+
+20
+00:01:12.718 --> 00:01:16.749
+Repare no scope apontando para o workspace.
+
+21
+00:01:17.449 --> 00:01:19.873
+Validação com o linter.
+
+22
+00:01:22.261 --> 00:01:26.869
+E vamos conferir os tipos de recurso que o template final contém.
+
+23
+00:01:27.730 --> 00:01:33.947
+Na sua conta, você aplica num grupo de recursos com az deployment group create.
+
+24
+00:01:33.947 --> 00:01:34.577
+De novo:
+
+25
+00:01:34.577 --> 00:01:39.142
+isso precisa de login, e eu não vou simular o portal aqui.
+
+26
+00:01:39.142 --> 00:01:43.234
+Na próxima aula, colocamos a empresa fictícia no ar.

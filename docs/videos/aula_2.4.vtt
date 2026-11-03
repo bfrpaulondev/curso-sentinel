@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:01.500 --> 00:00:04.546
+Logs de Linux são texto corrido.
+
+2
+00:00:04.546 --> 00:00:07.020
+Olhe esta mensagem do SSH.
+
+3
+00:00:07.720 --> 00:00:11.059
+O parse funciona como um molde de recorte:
+
+4
+00:00:11.059 --> 00:00:15.034
+as partes fixas ficam, e os buracos viram colunas.
+
+5
+00:00:15.034 --> 00:00:16.624
+Usuário, IP e porta.
+
+6
+00:00:17.324 --> 00:00:19.000
+Já a API grava JSON.
+
+7
+00:00:19.000 --> 00:00:26.121
+O parse_json abre o objeto, e o mv-expand transforma a lista de tags em uma linha por
+
+8
+00:00:26.121 --> 00:00:26.456
+tag.
+
+9
+00:00:28.266 --> 00:00:30.930
+Abrindo a consulta de parse.
+
+10
+00:00:32.398 --> 00:00:33.562
+Resultado:
+
+11
+00:00:33.562 --> 00:00:40.779
+o usuário admin, do IP 192.0.2.150, trinta e cinco tentativas.
+
+12
+00:00:40.779 --> 00:00:44.038
+Força bruta clássica no SSH.
+
+13
+00:00:44.936 --> 00:00:47.384
+Agora o JSON da API.
+
+14
+00:00:49.002 --> 00:00:51.758
+Cada pedido tem uma lista de tags.
+
+15
+00:00:51.758 --> 00:00:55.486
+Depois do mv-expand, contamos pedidos por tag:
+
+16
+00:00:55.486 --> 00:00:58.242
+web, mobile, promo e black-friday.
+
+17
+00:00:59.101 --> 00:01:01.526
+Um detalhe que pega muita gente:
+
+18
+00:01:01.526 --> 00:01:06.829
+depois do parse_json, converta o valor com tostring antes de comparar.
+
+19
+00:01:06.829 --> 00:01:08.269
+O valor é dinâmico.
